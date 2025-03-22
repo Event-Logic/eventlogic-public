@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "title": "Mollösunds Wärdshus | Luxury Hotel in Mollösund",
+    "description": "Experience luxury and comfort at Mollösunds Wärdshus, a premier hotel destination in Mollösund with stunning ocean views and exceptional service."
+  },
+  "navigation": {
+    "home": "Home",
+    "rooms": "Rooms",
+    "dining": "Dining",
+    "activities": "Activities",
+    "about": "About",
+    "contact": "Contact",
+    "book": "Book Now"
+  },
+  "home": {
+    "hero": {
+      "title": "Welcome to Mollösunds Wärdshus",
+      "subtitle": "Experience luxury by the sea",
+      "cta": "Book Your Stay"
+    },
+    "about": {
+      "title": "About Our Hotel",
+      "description": "Nestled in the charming coastal village of Mollösund, our hotel offers a perfect blend of traditional Swedish hospitality and modern luxury. With stunning views of the archipelago, comfortable accommodations, and exceptional dining, we provide an unforgettable experience for all our guests."
+    },
+    "features": {
+      "title": "Hotel Features",
+      "oceanView": {
+        "title": "Ocean Views",
+        "description": "Enjoy breathtaking views of the Swedish archipelago from your room"
+      },
+      "dining": {
+        "title": "Fine Dining",
+        "description": "Experience exquisite local cuisine prepared by our award-winning chefs"
+      },
+      "activities": {
+        "title": "Activities",
+        "description": "Explore the beautiful surroundings with our curated activities and excursions"
+      }
+    }
+  },
+  "footer": {
+    "address": "Kyrkvägen 9, 474 70 Mollösund, Sweden",
+    "phone": "Phone: +46 (0)304 211 08",
+    "email": "Email: info@wards.se",
+    "copyright": "© 2025 Mollösunds Wärdshus. All rights reserved."
+  },
+  "booking": {
+    "title": "Book Your Stay",
+    "subtitle": "Experience luxury and comfort at Mollösunds Wärdshus",
+    "poweredBy": "Booking powered by Sirvoy"
+  }
+}

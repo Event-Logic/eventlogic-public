@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "title": "Mollösunds Wärdshus | Lyxhotell i Mollösund",
+    "description": "Upplev lyx och komfort på Mollösunds Wärdshus, ett förstklassigt hotell i Mollösund med fantastisk havsutsikt och exceptionell service."
+  },
+  "navigation": {
+    "home": "Hem",
+    "rooms": "Rum",
+    "dining": "Restaurang",
+    "activities": "Aktiviteter",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "book": "Boka nu"
+  },
+  "home": {
+    "hero": {
+      "title": "Välkommen till Mollösunds Wärdshus",
+      "subtitle": "Upplev lyx vid havet",
+      "cta": "Boka din vistelse"
+    },
+    "about": {
+      "title": "Om vårt hotell",
+      "description": "Inbäddat i den charmiga kustbyn Mollösund erbjuder vårt hotell en perfekt blandning av traditionell svensk gästfrihet och modern lyx. Med fantastisk utsikt över skärgården, bekväma boenden och exceptionell matupplevelse ger vi en oförglömlig upplevelse för alla våra gäster."
+    },
+    "features": {
+      "title": "Hotellets faciliteter",
+      "oceanView": {
+        "title": "Havsutsikt",
+        "description": "Njut av hisnande vyer över den svenska skärgården från ditt rum"
+      },
+      "dining": {
+        "title": "Gourmetmat",
+        "description": "Upplev utsökt lokal mat tillagad av våra prisbelönta kockar"
+      },
+      "activities": {
+        "title": "Aktiviteter",
+        "description": "Utforska den vackra omgivningen med våra kurerade aktiviteter och utflykter"
+      }
+    }
+  },
+  "footer": {
+    "address": "Kyrkvägen 9, 474 70 Mollösund, Sverige",
+    "phone": "Telefon: +46 (0)304 211 08",
+    "email": "E-post: info@wards.se",
+    "copyright": "© 2025 Mollösunds Wärdshus. Alla rättigheter förbehållna."
+  },
+  "booking": {
+    "title": "Boka din vistelse",
+    "subtitle": "Upplev lyx och komfort på Mollösunds Wärdshus",
+    "poweredBy": "Bokning drivs av Sirvoy"
+  }
+}
