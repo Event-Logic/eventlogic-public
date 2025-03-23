@@ -1,5 +1,5 @@
-import { getDictionary } from "@/dictionaries";
-import type { Locale } from "@/dictionaries";
+import { getDictionary } from "../../../dictionaries";
+import type { Locale } from "../../../dictionaries";
 import { Metadata } from "next";
 import Script from "next/script";
 
