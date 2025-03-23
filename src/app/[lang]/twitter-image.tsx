@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/og';
-import type { Locale } from '@/dictionaries';
+import type { Locale } from '../../dictionaries';
 
 export const runtime = 'edge';
 

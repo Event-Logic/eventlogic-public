@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Locale } from "@/dictionaries";
+import { Locale } from "../dictionaries";
 
 type NavigationProps = {
   lang: Locale;

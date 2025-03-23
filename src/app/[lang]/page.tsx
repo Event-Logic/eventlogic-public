@@ -1,5 +1,5 @@
-import { getDictionary } from "@/dictionaries";
-import type { Locale } from "@/dictionaries";
+import { getDictionary } from "../../dictionaries";
+import type { Locale } from "../../dictionaries";
 import Link from "next/link";
 
 export default async function Home({
