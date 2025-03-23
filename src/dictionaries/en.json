@@ -47,6 +47,46 @@
   "booking": {
     "title": "Book Your Stay",
     "subtitle": "Experience luxury and comfort at Mollösunds Wärdshus",
-    "poweredBy": "Booking powered by Sirvoy"
+    "intro": "Reserve your perfect getaway at Mollösunds Wärdshus. Our booking system allows you to check availability, compare room types, and secure your stay with instant confirmation.",
+    "roomTypes": {
+      "title": "Our Room Types",
+      "standard": {
+        "title": "Standard Room",
+        "description": "Comfortable rooms with all essential amenities for a pleasant stay."
+      },
+      "deluxe": {
+        "title": "Deluxe Room",
+        "description": "Spacious rooms with premium furnishings and partial sea views."
+      },
+      "suite": {
+        "title": "Ocean Suite",
+        "description": "Luxurious suites with separate living areas and panoramic ocean views."
+      }
+    },
+    "policies": {
+      "title": "Booking Policies",
+      "checkIn": "Check-in: 3:00 PM",
+      "checkOut": "Check-out: 11:00 AM",
+      "cancellation": "Free cancellation up to 48 hours before arrival",
+      "pets": "Pet-friendly rooms available (additional fee may apply)",
+      "payment": "Secure payment options available"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": [
+        {
+          "question": "Is breakfast included?",
+          "answer": "Yes, all room rates include our gourmet breakfast buffet."
+        },
+        {
+          "question": "Do you offer airport transfers?",
+          "answer": "Yes, airport transfers can be arranged for an additional fee."
+        },
+        {
+          "question": "Is there parking available?",
+          "answer": "Yes, we offer complimentary parking for all guests."
+        }
+      ]
+    }
   }
 }

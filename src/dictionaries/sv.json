@@ -47,6 +47,46 @@
   "booking": {
     "title": "Boka din vistelse",
     "subtitle": "Upplev lyx och komfort på Mollösunds Wärdshus",
-    "poweredBy": "Bokning drivs av Sirvoy"
+    "intro": "Reservera din perfekta vistelse på Mollösunds Wärdshus. Vårt bokningssystem låter dig kontrollera tillgänglighet, jämföra rumstyper och säkra din vistelse med omedelbar bekräftelse.",
+    "roomTypes": {
+      "title": "Våra rumstyper",
+      "standard": {
+        "title": "Standardrum",
+        "description": "Bekväma rum med alla nödvändiga bekvämligheter för en trevlig vistelse."
+      },
+      "deluxe": {
+        "title": "Deluxerum",
+        "description": "Rymliga rum med förstklassig inredning och delvis havsutsikt."
+      },
+      "suite": {
+        "title": "Havssuite",
+        "description": "Lyxiga sviter med separat vardagsrum och panoramautsikt över havet."
+      }
+    },
+    "policies": {
+      "title": "Bokningsregler",
+      "checkIn": "Incheckning: 15:00",
+      "checkOut": "Utcheckning: 11:00",
+      "cancellation": "Gratis avbokning upp till 48 timmar före ankomst",
+      "pets": "Husdjursvänliga rum tillgängliga (extra avgift kan tillkomma)",
+      "payment": "Säkra betalningsalternativ tillgängliga"
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "questions": [
+        {
+          "question": "Ingår frukost?",
+          "answer": "Ja, alla rumspriser inkluderar vår gourmetfrukostbuffé."
+        },
+        {
+          "question": "Erbjuder ni flygplatstransfer?",
+          "answer": "Ja, flygplatstransfer kan ordnas mot en extra avgift."
+        },
+        {
+          "question": "Finns det parkering tillgänglig?",
+          "answer": "Ja, vi erbjuder gratis parkering för alla gäster."
+        }
+      ]
+    }
   }
 }
