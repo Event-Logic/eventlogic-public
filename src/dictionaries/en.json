@@ -1,40 +1,92 @@
 {
   "metadata": {
-    "title": "Mollösunds Wärdshus | Luxury Hotel in Mollösund",
-    "description": "Experience luxury and comfort at Mollösunds Wärdshus, a premier hotel destination in Mollösund with stunning ocean views and exceptional service."
+    "title": "Mollösunds Wärdshus | Historic Inn by the Sea",
+    "description": "Step into history at Mollösunds Wärdshus, a charming inn dating back to 1860 in one of Sweden's oldest fishing villages, where sea tales and modern comforts meet."
   },
   "navigation": {
     "home": "Home",
     "rooms": "Rooms",
-    "dining": "Dining",
+    "dining": "Restaurant",
+    "conference": "Conferences",
     "activities": "Activities",
     "about": "About",
     "contact": "Contact",
-    "book": "Book Now"
+    "book": "Book Now",
+    "information": "Information",
+    "events": "Events",
+    "weddings": "Weddings",
+    "celebrations": "Celebrations",
+    "retreats": "Retreats"
   },
   "home": {
     "hero": {
       "title": "Welcome to Mollösunds Wärdshus",
-      "subtitle": "Experience luxury by the sea",
+      "subtitle": "Where the Sea Whispers Stories Through Time",
       "cta": "Book Your Stay"
     },
     "about": {
-      "title": "About Our Hotel",
-      "description": "Nestled in the charming coastal village of Mollösund, our hotel offers a perfect blend of traditional Swedish hospitality and modern luxury. With stunning views of the archipelago, comfortable accommodations, and exceptional dining, we provide an unforgettable experience for all our guests."
+      "title": "Our Story",
+      "ingress": "A tale of sea, salt, and centuries of hospitality",
+      "description": "Since 1860, Mollösunds Wärdshus has stood proudly in one of Sweden's oldest fishing villages. Once a lively hub where weary seafarers sought warmth and shared tall tales that grew taller with each passing hour, our historic inn has witnessed the ebb and flow of Mollösund's fortunes through the herring boom and beyond. Today, while offering modern comforts, our creaking floorboards still whisper stories of the past, creating an authentic experience that connects you to the rich maritime heritage of the Swedish west coast."
+    },
+    "history": {
+      "title": "A Rich Maritime Heritage",
+      "ingress": "When herring was gold and the harbor was life itself",
+      "description": "For generations, Mollösund was synonymous with herring, its rise and fall dictating the fortunes of the village. Imagine the harbor in the late 19th century, teeming with life - a raucous symphony of fishermen hauling their catches, their voices booming with tales of the day's adventures. This wasn't a place of hushed luxury, but a vibrant community shaped by the rhythm of the sea. Our inn stands as a living testament to this heritage, its walls holding stories of sailors, local fishermen, and travelers finding respite from the sea."
+    },
+    "newGeneration": {
+      "title": "A New Chapter: Ellen and Wilma",
+      "ingress": "The hospitality rock stars with sensible shoes and wild ideas",
+      "description": "Now, a new generation is ready to chart the course for Mollösunds Wärdshus. Enter Ellen and Wilma! These aren't just any newcomers; they're the daughters of two legendary entrepreneurs from a nearby island – think of them as the Beyoncé and Taylor Swift of the local hospitality scene, but with slightly more sensible footwear. Growing up practically knee-high in their family's bustling restaurant, they've spent their lives immersed in the art of making people feel welcome. Armed with degrees in hotel and restaurant management from far-flung corners of the globe and a suitcase full of travel experiences, they've returned to their roots, ready to infuse Mollösunds Wärdshus with fresh energy. Their mission? To honor the inn's wonderful history while bringing it into the 21st century. Expect themed weekends involving seafood cooking classes that inevitably turn into impromptu dance parties, and maybe even a 'guess the age of the floorboard' contest."
+    },
+    "modernEra": {
+      "title": "The Windzer Brothers Era",
+      "ingress": "When two adventurers turned an old inn into their greatest expedition",
+      "description": "In the early 2010s, Mollösunds Wärdshus embarked on a new chapter with its acquisition by Ocean Group. At the helm of this era were the brothers Johan and Eric Windzer, two adventurers who approached the historic inn as if it were their most exciting expedition yet. While Johan took the role of CEO, there was nothing corporate about how either brother approached their venture. They were often spotted racing each other on RIB boats around the archipelago, competing to discover the most breathtaking hidden coves to share with guests. The brothers became famous for their 'archipelago safaris,' whisking visitors off on exhilarating boat rides that combined high-speed thrills with fascinating local history. One memorable summer, they established the 'Windzer Express' - a boat service that transported dinner guests from neighboring islands in style, often taking the scenic route that somehow always included at least one dramatic wave splash. Their infectious enthusiasm transformed the inn from a simple place to stay into a hub of joyful maritime adventure."
+    },
+    "presentDay": {
+      "title": "Today at Mollösunds Wärdshus",
+      "ingress": "Where avocado toast meets herring, and chaos meets charm",
+      "description": "Even today, as Mollösunds Wärdshus continues its legacy, you can still sense that vibrant, slightly unpredictable spirit. Mollösunds Wärdshus isn't just a place to stay; it's an experience, a place where the salty tales of the past get a hilarious, high-speed modern twist, now with a sprinkle of millennial magic and a dash of delightful chaos. It's an invitation to embrace the unexpected, to laugh at the little mishaps, and to create your own unforgettable stories in a place where history and humor go hand in hand. So, buckle up, the sea is calling, and Mollösunds Wärdshus is ready for your next adventure!"
+    },
+    "diyEvents": {
+      "title": "Your Event, Your Way",
+      "ingress": "Ditch the beige, embrace the brine!",
+      "description": "Tired of cookie-cutter events in windowless conference rooms? At Mollösunds Wärdshus, we believe in the power of DIY. You bring the vision, we provide the historic seaside venue and just the right amount of support to make it happen. From unconventional conferences to Pinterest-board-breaking weddings, legendary parties to wellness retreats - our quirky coastal escape is your canvas.",
+      "cta": "Create Your Coastal Event",
+      "eventTypes": [
+        {
+          "title": "Conferences",
+          "description": "Unleash creativity in a space where the sea breeze replaces stale air conditioning"
+        },
+        {
+          "title": "Weddings",
+          "description": "Say 'I do' your way with the beautiful Bohuslän archipelago as your witness"
+        },
+        {
+          "title": "Celebrations",
+          "description": "Host a party they'll talk about for years in our characterful historic venue"
+        },
+        {
+          "title": "Retreats & Wellness",
+          "description": "Escape the ordinary and craft your extraordinary wellness experience by the sea"
+        }
+      ]
     },
     "features": {
-      "title": "Hotel Features",
+      "title": "Experience Mollösunds Wärdshus",
+      "ingress": "A taste of coastal life with a side of quirky charm",
       "oceanView": {
-        "title": "Ocean Views",
-        "description": "Enjoy breathtaking views of the Swedish archipelago from your room"
+        "title": "Coastal Character",
+        "description": "Wake to the sound of gulls and the sight of the archipelago from windows that have framed this view for generations"
       },
       "dining": {
-        "title": "Fine Dining",
-        "description": "Experience exquisite local cuisine prepared by our award-winning chefs"
+        "title": "West Coast Flavors",
+        "description": "Savor simple yet authentic Swedish west coast cuisine, honoring local ingredients and fishing traditions"
       },
       "activities": {
-        "title": "Activities",
-        "description": "Explore the beautiful surroundings with our curated activities and excursions"
+        "title": "Maritime Adventures",
+        "description": "Discover the village's winding streets, try your hand at fishing, or explore the archipelago just as visitors have for centuries"
       }
     }
   },
@@ -44,23 +96,301 @@
     "email": "Email: info@wards.se",
     "copyright": "© 2025 Mollösunds Wärdshus. All rights reserved."
   },
+  "konferens": {
+    "title": "Conference",
+    "subtitle": "Tailored conference packages on the West Coast",
+    "intro": "Welcome to Mollösunds Wärdshus for a conference experience beyond the ordinary. With the sea as your closest neighbor, we offer an inspiring environment for your meetings.",
+    "packages": {
+      "title": "Conference Packages",
+      "included": "Our conference package includes:",
+      "items": [
+        "Accommodation in shared double room",
+        "Conference room",
+        "Lunch",
+        "Morning and afternoon coffee",
+        "Three-course dinner",
+        "Breakfast"
+      ],
+      "day": {
+        "title": "Day Conference",
+        "description": "Perfect for those who need a day to focus on important matters.",
+        "includes": [
+          "Conference room",
+          "Morning coffee",
+          "Lunch",
+          "Afternoon coffee"
+        ],
+        "price": "From 595 SEK per person"
+      },
+      "overnight": {
+        "title": "24-Hour Conference",
+        "description": "For those who want to combine effective meetings with team building and relaxation.",
+        "includes": [
+          "Accommodation in shared double room",
+          "Conference room",
+          "Morning and afternoon coffee",
+          "Lunch",
+          "Three-course dinner",
+          "Breakfast"
+        ],
+        "price": "From 2495 SEK per person"
+      }
+    },
+    "facilities": {
+      "title": "Our Conference Facilities",
+      "mainHall": {
+        "title": "Main Hall",
+        "description": "Our largest venue with space for up to 40 people in theater seating. Perfect for larger groups and presentations.",
+        "features": [
+          "Up to 40 people",
+          "Projector and screen",
+          "Sound system",
+          "WiFi"
+        ]
+      },
+      "seaRoom": {
+        "title": "Sea Room",
+        "description": "A smaller venue with sea views, perfect for smaller groups who want an inspiring environment.",
+        "features": [
+          "Up to 12 people",
+          "Sea view",
+          "Smart TV",
+          "Whiteboard",
+          "WiFi"
+        ]
+      }
+    },
+    "activities": {
+      "title": "Activities",
+      "description": "Complement your conference with one of our popular activities to strengthen team spirit and gain new perspectives.",
+      "options": [
+        {
+          "title": "Archipelago Safari",
+          "description": "Experience the beautiful Bohuslän archipelago with a guided tour in a RIB boat. An experience that guarantees memories."
+        },
+        {
+          "title": "Cooking Class",
+          "description": "Learn to cook the delicacies of the sea with our chef. Finish with a shared dinner of your creations."
+        },
+        {
+          "title": "Guided Walk",
+          "description": "Discover Mollösund's history and charm with a guided walk through the picturesque fishing village."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Book Your Conference",
+      "email": "konferens@wards.se",
+      "phone": "0304-211 08",
+      "note": "We are happy to tailor a package to your specific needs!"
+    }
+  },
+  
+  "restaurang": {
+    "title": "Restaurant",
+    "subtitle": "Welcome to our restaurant in Mollösund",
+    "status": "The restaurant is closed for the season",
+    "note": "We can help you realize your dream event!",
+    "about": {
+      "title": "About Our Restaurant",
+      "description1": "At Wärds Restaurant in Mollösund, we offer a culinary experience focusing on local ingredients and seafood delicacies. Our menu varies with the seasons to always offer the freshest ingredients.",
+      "description2": "With a view of Mollösund's charming harbor, you can enjoy good food and drinks in a relaxed and historic environment. Our kitchen combines traditional flavors with modern influences to create a unique dining experience."
+    },
+    "events": {
+      "title": "Private Events",
+      "description": "Even though our restaurant is closed for the season, we offer the possibility to book the entire restaurant for private events and parties.",
+      "options": [
+        {
+          "title": "Birthdays",
+          "description": "Celebrate your special day with family and friends in our beautiful restaurant."
+        },
+        {
+          "title": "Weddings",
+          "description": "Create unforgettable memories on your big day with the sea as a backdrop."
+        },
+        {
+          "title": "Corporate Events",
+          "description": "Impress your clients or reward your employees with an exclusive dinner."
+        }
+      ],
+      "note": "Contact us to discuss your wishes and get a tailored proposal."
+    },
+    "menu": {
+      "title": "Sample Menu",
+      "description": "Our menu varies with the seasons, but here are some examples of dishes we offer:",
+      "starters": {
+        "title": "Starters",
+        "items": [
+          {
+            "name": "Shrimp Toast",
+            "description": "Hand-peeled shrimp, mayonnaise, dill, lemon on homemade bread"
+          },
+          {
+            "name": "Bleak Roe with Accompaniments",
+            "description": "Served with red onion, crème fraîche, and homemade flatbread"
+          },
+          {
+            "name": "Blackened Salmon",
+            "description": "With dill mayonnaise, pickled cucumber, and trout roe"
+          }
+        ]
+      },
+      "mains": {
+        "title": "Main Courses",
+        "items": [
+          {
+            "name": "Catch of the Day",
+            "description": "Served with seasonal vegetables and butter sauce"
+          },
+          {
+            "name": "Lobster Soup",
+            "description": "With hand-peeled shrimp and aioli"
+          },
+          {
+            "name": "Grilled Beef Tenderloin",
+            "description": "With potato gratin, red wine sauce, and seasonal vegetables"
+          }
+        ]
+      },
+      "desserts": {
+        "title": "Desserts",
+        "items": [
+          {
+            "name": "Crème Brûlée",
+            "description": "With seasonal berries"
+          },
+          {
+            "name": "Chocolate Fondant",
+            "description": "With vanilla ice cream and raspberry coulis"
+          },
+          {
+            "name": "Cheese Platter",
+            "description": "Selected cheeses with marmalade and crackers"
+          }
+        ]
+      }
+    },
+    "contact": {
+      "title": "Book Your Event With Us",
+      "email": "restaurang@wards.se",
+      "phone": "0304-211 08",
+      "note": "We help you realize your dream party!"
+    }
+  },
+  
+  "kontakt": {
+    "title": "Contact Us",
+    "subtitle": "We'll help you with your booking or questions",
+    "info": {
+      "title": "Contact Information",
+      "address": {
+        "label": "Address",
+        "street": "Kyrkvägen 9",
+        "postal": "474 70 Mollösund",
+        "country": "Sweden"
+      },
+      "phone": {
+        "label": "Phone",
+        "number": "0304-211 08"
+      },
+      "email": {
+        "label": "Email",
+        "address": "info@wards.se"
+      },
+      "hours": {
+        "label": "Reception Hours",
+        "weekdays": "Monday-Friday: 09:00-17:00",
+        "weekend": "Saturday-Sunday: 10:00-16:00",
+        "note": "Hours may vary depending on season"
+      }
+    },
+    "departments": {
+      "title": "Contact Us For",
+      "hotel": {
+        "title": "Hotel Booking",
+        "description": "For questions about rooms and accommodation:",
+        "email": "hotell@wards.se",
+        "phone": "0304-211 08"
+      },
+      "restaurant": {
+        "title": "Restaurant & Events",
+        "description": "For bookings and inquiries about private events:",
+        "email": "restaurang@wards.se",
+        "phone": "0304-211 08"
+      },
+      "conference": {
+        "title": "Conference",
+        "description": "For conference inquiries and group bookings:",
+        "email": "konferens@wards.se",
+        "phone": "0304-211 08"
+      }
+    },
+    "directions": {
+      "title": "Find Us",
+      "car": {
+        "title": "By Car",
+        "from": "From Gothenburg:",
+        "steps": [
+          "Drive E6 north towards Oslo",
+          "Take exit 96 towards Stenungsund/Tjörn/Orust",
+          "Follow road 160 towards Orust",
+          "Continue on road 160 to Tegneby",
+          "Turn off towards Mollösund and follow the signs"
+        ],
+        "parking": "Parking is available near the inn."
+      },
+      "public": {
+        "title": "By Public Transport",
+        "from": "From Gothenburg:",
+        "steps": [
+          "Take a train or bus to Stenungsund",
+          "Change to a bus towards Orust",
+          "Take bus 375 towards Mollösund",
+          "Walk about 5 minutes from the bus stop to the inn"
+        ],
+        "note": "For current timetables, visit"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": [
+        {
+          "question": "What are the check-in and check-out times?",
+          "answer": "Check-in from 3:00 PM. Check-out by 11:00 AM."
+        },
+        {
+          "question": "Is breakfast included in the room price?",
+          "answer": "Yes, all room rates include breakfast."
+        },
+        {
+          "question": "Is there parking available?",
+          "answer": "Yes, there is parking near the inn."
+        },
+        {
+          "question": "Are pets allowed?",
+          "answer": "Yes, in certain rooms. Please inform us in advance if you plan to bring pets. An additional fee may apply."
+        }
+      ]
+    }
+  },
+  
   "booking": {
     "title": "Book Your Stay",
-    "subtitle": "Experience luxury and comfort at Mollösunds Wärdshus",
-    "intro": "Reserve your perfect getaway at Mollösunds Wärdshus. Our booking system allows you to check availability, compare room types, and secure your stay with instant confirmation.",
+    "subtitle": "Stay in a piece of living history at Mollösunds Wärdshus",
+    "intro": "Reserve your stay at historic Mollösunds Wärdshus, where each room has its own character and story. Our booking system allows you to check availability, compare room types, and secure your stay with instant confirmation.",
     "roomTypes": {
       "title": "Our Room Types",
       "standard": {
-        "title": "Standard Room",
-        "description": "Comfortable rooms with all essential amenities for a pleasant stay."
+        "title": "Fisherman's Quarters",
+        "description": "Cozy, comfortable rooms reminiscent of the simple quarters where fishermen once rested between voyages, updated with modern amenities."
       },
       "deluxe": {
-        "title": "Deluxe Room",
-        "description": "Spacious rooms with premium furnishings and partial sea views."
+        "title": "Captain's Cabin",
+        "description": "Spacious rooms with traditional touches and partial sea views, offering the comfort a ship's captain would have expected when coming ashore."
       },
       "suite": {
-        "title": "Ocean Suite",
-        "description": "Luxurious suites with separate living areas and panoramic ocean views."
+        "title": "Harbormaster's Suite",
+        "description": "Our finest accommodations with separate living areas and panoramic ocean views, named for those who once oversaw Mollösund's bustling harbor."
       }
     },
     "policies": {

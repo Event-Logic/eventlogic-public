@@ -1,40 +1,92 @@
 {
   "metadata": {
-    "title": "Mollösunds Wärdshus | Lyxhotell i Mollösund",
-    "description": "Upplev lyx och komfort på Mollösunds Wärdshus, ett förstklassigt hotell i Mollösund med fantastisk havsutsikt och exceptionell service."
+    "title": "Mollösunds Wärdshus | Historiskt värdshus vid havet",
+    "description": "Kliv in i historien på Mollösunds Wärdshus, ett charmigt värdshus från 1860 i en av Sveriges äldsta fiskebyar, där havets berättelser möter modern komfort."
   },
   "navigation": {
     "home": "Hem",
     "rooms": "Rum",
     "dining": "Restaurang",
+    "conference": "Konferenser",
     "activities": "Aktiviteter",
     "about": "Om oss",
     "contact": "Kontakt",
-    "book": "Boka nu"
+    "book": "Boka nu",
+    "information": "Information",
+    "events": "Event",
+    "weddings": "Bröllop",
+    "celebrations": "Fester",
+    "retreats": "Retreats"
   },
   "home": {
     "hero": {
       "title": "Välkommen till Mollösunds Wärdshus",
-      "subtitle": "Upplev lyx vid havet",
+      "subtitle": "Där havet viskar historier genom tiden",
       "cta": "Boka din vistelse"
     },
     "about": {
-      "title": "Om vårt hotell",
-      "description": "Inbäddat i den charmiga kustbyn Mollösund erbjuder vårt hotell en perfekt blandning av traditionell svensk gästfrihet och modern lyx. Med fantastisk utsikt över skärgården, bekväma boenden och exceptionell matupplevelse ger vi en oförglömlig upplevelse för alla våra gäster."
+      "title": "Vår historia",
+      "ingress": "En berättelse om hav, salt och århundraden av gästfrihet",
+      "description": "Sedan 1860 har Mollösunds Wärdshus stått stolt i en av Sveriges äldsta fiskebyar. En gång en livlig samlingsplats där trötta sjöfarare sökte värme och delade skrönor som växte med varje timme, har vårt historiska värdshus bevittnat Mollösunds skiftande öden genom sillperioderna och framåt. Idag, medan vi erbjuder moderna bekvämligheter, viskar våra knarrande golvplankor fortfarande historier från det förflutna och skapar en autentisk upplevelse som knyter an till den rika maritima traditionen på Sveriges västkust."
+    },
+    "history": {
+      "title": "Ett rikt maritimt arv",
+      "ingress": "När sill var guld och hamnen var själva livet",
+      "description": "I generationer var Mollösund synonymt med sill, vars upp- och nedgångar styrde byns öde. Föreställ dig hamnen i slutet av 1800-talet, full av liv - en högljudd symfoni av fiskare som drog in sina fångster, deras röster dånande med berättelser om dagens äventyr. Detta var inte en plats för dämpad lyx, utan ett livligt samhälle format av havets rytm. Vårt värdshus står som ett levande vittnesbörd om detta arv, dess väggar bär berättelser om sjömän, lokala fiskare och resenärer som funnit vila från havet."
+    },
+    "newGeneration": {
+      "title": "Ett nytt kapitel: Ellen och Wilma",
+      "ingress": "Hotellbranschens rockstjärnor med förnuftiga skor och vilda idéer",
+      "description": "Nu är en ny generation redo att styra kursen för Mollösunds Wärdshus. Välkomna Ellen och Wilma! Dessa är inte vilka nykomlingar som helst; de är döttrar till två legendariska entreprenörer från en närliggande ö – tänk dig dem som den lokala hotellscenens Beyoncé och Taylor Swift, fast med något mer förnuftiga skor. Uppvuxna praktiskt taget knähöga i familjens livliga restaurang, har de tillbringat sina liv omgivna av konsten att få människor att känna sig välkomna. Beväpnade med examina i hotell- och restaurangledning från avlägsna hörn av världen och en resväska full av reseerfarenheter, har de återvänt till sina rötter, redo att ge Mollösunds Wärdshus en fräsch energi. Deras uppdrag? Att hedra värdshusets underbara historia samtidigt som de för det in i 2000-talet. Förvänta dig temahelger med sjömatsmatlagningskurser som oundvikligen förvandlas till improviserade dansfester, och kanske till och med en 'gissa åldern på golvplankan'-tävling."
+    },
+    "modernEra": {
+      "title": "Bröderna Windzers era",
+      "ingress": "När två äventyrslystna entreprenörer förvandlade ett gammalt värdshus till sitt största äventyr",
+      "description": "I början av 2010-talet inledde Mollösunds Wärdshus ett nytt kapitel med förvärvet av Ocean Group. Vid rodret för denna era stod bröderna Johan och Eric Windzer, två äventyrslystna entreprenörer som närmade sig det historiska värdshuset som om det vore deras mest spännande äventyr hittills. Även om Johan tog rollen som VD, var det inget företagsmässigt över hur någon av bröderna närmade sig sitt projekt. De syntes ofta tävla med varandra i RIB-båtar runt skärgården, tävlande om att upptäcka de mest hisnande gömda vikarna att dela med gäster. Bröderna blev kända för sina 'skärgårdssafaris', där de tog med besökare på spännande båtturer som kombinerade höghastighetsäventyr med fascinerande lokalhistoria. En minnesvärd sommar etablerade de 'Windzer Express' - en båtservice som transporterade middagsgäster från närliggande öar med stil, ofta via en scenisk rutt som på något sätt alltid inkluderade åtminstone ett dramatiskt vågstänk. Deras smittsamma entusiasm förvandlade värdshuset från en enkel plats att bo på till ett nav för glada maritima äventyr."
+    },
+    "presentDay": {
+      "title": "Mollösunds Wärdshus idag",
+      "ingress": "Där avokadotoast möter sill, och kaos möter charm",
+      "description": "Även idag, när Mollösunds Wärdshus fortsätter sitt arv, kan du fortfarande känna den livliga, lite oförutsägbara andan. Mollösunds Wärdshus är inte bara ett ställe att bo på; det är en upplevelse, en plats där havets salta berättelser får en rolig, höghastighetsmässig modern twist, nu med en nypa millennial-magi och en skvätt härligt kaos. Det är en inbjudan att omfamna det oväntade, att skratta åt små missöden och att skapa dina egna oförglömliga berättelser på en plats där historia och humor går hand i hand. Så spänn fast säkerhetsbältet, havet kallar, och Mollösunds Wärdshus är redo för ditt nästa äventyr!"
+    },
+    "diyEvents": {
+      "title": "Ditt Event, Dina Regler",
+      "ingress": "Skippa det tråkiga, omfamna havet!",
+      "description": "Trött på standardevent i fönsterlösa konferensrum? På Mollösunds Wärdshus tror vi på kraften i DIY. Du tar med visionen, vi tillhandahåller den historiska havsnära platsen och precis rätt mängd stöd för att göra det möjligt. Från okonventionella konferenser till Pinterest-inspirerade bröllop, legendariska fester till wellness-retreats - vår unika kustplats är din canvas.",
+      "cta": "Skapa ditt kustevent",
+      "eventTypes": [
+        {
+          "title": "Konferenser",
+          "description": "Släpp loss kreativiteten i en miljö där havsbris ersätter instängd luftkonditionering"
+        },
+        {
+          "title": "Bröllop",
+          "description": "Säg 'ja' på ditt sätt med den vackra Bohusläns skärgård som vittne"
+        },
+        {
+          "title": "Fester",
+          "description": "Anordna en fest som de kommer att prata om i åratal i vår karaktärsfulla historiska miljö"
+        },
+        {
+          "title": "Retreats & Wellness",
+          "description": "Fly från det vanliga och skapa din extraordinära wellness-upplevelse vid havet"
+        }
+      ]
     },
     "features": {
-      "title": "Hotellets faciliteter",
+      "title": "Upplev Mollösunds Wärdshus",
+      "ingress": "En smak av kustliv med en dos av udda charm",
       "oceanView": {
-        "title": "Havsutsikt",
-        "description": "Njut av hisnande vyer över den svenska skärgården från ditt rum"
+        "title": "Kustkaraktär",
+        "description": "Vakna till ljudet av måsar och synen av skärgården från fönster som har inramat denna vy i generationer"
       },
       "dining": {
-        "title": "Gourmetmat",
-        "description": "Upplev utsökt lokal mat tillagad av våra prisbelönta kockar"
+        "title": "Västkustens smaker",
+        "description": "Njut av enkel men autentisk svensk västkustmat som hyllar lokala råvaror och fisketraditioner"
       },
       "activities": {
-        "title": "Aktiviteter",
-        "description": "Utforska den vackra omgivningen med våra kurerade aktiviteter och utflykter"
+        "title": "Maritima äventyr",
+        "description": "Upptäck byns slingrande gator, prova på fiske eller utforska skärgården precis som besökare har gjort i århundraden"
       }
     }
   },
@@ -46,21 +98,21 @@
   },
   "booking": {
     "title": "Boka din vistelse",
-    "subtitle": "Upplev lyx och komfort på Mollösunds Wärdshus",
-    "intro": "Reservera din perfekta vistelse på Mollösunds Wärdshus. Vårt bokningssystem låter dig kontrollera tillgänglighet, jämföra rumstyper och säkra din vistelse med omedelbar bekräftelse.",
+    "subtitle": "Bo i ett stycke levande historia på Mollösunds Wärdshus",
+    "intro": "Reservera din vistelse på historiska Mollösunds Wärdshus, där varje rum har sin egen karaktär och historia. Vårt bokningssystem låter dig kontrollera tillgänglighet, jämföra rumstyper och säkra din vistelse med omedelbar bekräftelse.",
     "roomTypes": {
       "title": "Våra rumstyper",
       "standard": {
-        "title": "Standardrum",
-        "description": "Bekväma rum med alla nödvändiga bekvämligheter för en trevlig vistelse."
+        "title": "Fiskarens kvarter",
+        "description": "Mysiga, bekväma rum som påminner om de enkla kvarter där fiskare en gång vilade mellan resorna, uppdaterade med moderna bekvämligheter."
       },
       "deluxe": {
-        "title": "Deluxerum",
-        "description": "Rymliga rum med förstklassig inredning och delvis havsutsikt."
+        "title": "Kaptenens hytt",
+        "description": "Rymliga rum med traditionella inslag och delvis havsutsikt, som erbjuder den komfort en skeppare skulle förväntat sig när han kom i land."
       },
       "suite": {
-        "title": "Havssuite",
-        "description": "Lyxiga sviter med separat vardagsrum och panoramautsikt över havet."
+        "title": "Hamnmästarens svit",
+        "description": "Våra finaste boenden med separat vardagsrum och panoramautsikt över havet, uppkallade efter dem som en gång övervakade Mollösunds livliga hamn."
       }
     },
     "policies": {
