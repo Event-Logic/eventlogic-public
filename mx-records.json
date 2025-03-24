@@ -1,0 +1,19 @@
+{
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "wards.se",
+        "Type": "MX",
+        "TTL": 3600,
+        "ResourceRecords": [
+          {"Value": "1 aspmx.l.google.com"},
+          {"Value": "5 alt1.aspmx.l.google.com"},
+          {"Value": "5 alt2.aspmx.l.google.com"},
+          {"Value": "10 alt3.aspmx.l.google.com"},
+          {"Value": "10 alt4.aspmx.l.google.com"}
+        ]
+      }
+    }
+  ]
+}

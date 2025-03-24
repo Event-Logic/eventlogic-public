@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Large video files
+public/videos/IMG_2276.MOV
+public/videos/IMG_2277.MOV

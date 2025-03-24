@@ -64,7 +64,40 @@ export default async function Home({
       />
       <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center text-white bg-gradient-to-b from-blue-900 to-blue-700">
+      <section className="relative h-screen flex items-center justify-center text-white">
+        {/* Video Background */}
+        <div className="absolute inset-0 w-full h-full overflow-hidden bg-blue-900">
+          <video 
+            autoPlay 
+            muted 
+            loop 
+            playsInline
+            className="absolute object-cover w-full h-full"
+            poster="/images/hero-background.jpg"
+          >
+            {/* High-quality version for desktop */}
+            <source 
+              src="/videos/aerial-compressed.mp4" 
+              type="video/mp4" 
+              media="(min-width: 768px)"
+            />
+            {/* WebM version for browsers that support it */}
+            <source 
+              src="/videos/aerial.webm" 
+              type="video/webm" 
+              media="(min-width: 768px)"
+            />
+            {/* Mobile-optimized version */}
+            <source 
+              src="/videos/aerial-mobile.mp4" 
+              type="video/mp4"
+            />
+            {/* Fallback text if video cannot be played */}
+            Your browser does not support the video tag.
+          </video>
+          {/* Overlay to ensure text is readable */}
+          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+        </div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             {dict.home.hero.title}

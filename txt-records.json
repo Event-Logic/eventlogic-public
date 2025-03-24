@@ -1,0 +1,59 @@
+{
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "wards.se",
+        "Type": "TXT",
+        "TTL": 3600,
+        "ResourceRecords": [
+          {"Value": "\"v=spf1 include:_spf.google.com ~all\""}
+        ]
+      }
+    },
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "wards.se",
+        "Type": "TXT",
+        "TTL": 3600,
+        "ResourceRecords": [
+          {"Value": "\"google-site-verification=4X49X5qUc3g8tSa_1aU5fcaT795RwCgDChd31FePyAs\""}
+        ]
+      }
+    },
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "wards.se",
+        "Type": "TXT",
+        "TTL": 3600,
+        "ResourceRecords": [
+          {"Value": "\"MS=ms90860880\""}
+        ]
+      }
+    },
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "wards.se",
+        "Type": "TXT",
+        "TTL": 3600,
+        "ResourceRecords": [
+          {"Value": "\"google-site-verification=0Q7gafSpGQiqj3G6KRL0k8BDOHtLimygefAGDHmsveS4\""}
+        ]
+      }
+    },
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "wards.se",
+        "Type": "TXT",
+        "TTL": 3600,
+        "ResourceRecords": [
+          {"Value": "\"google-site-verification=Kd7CpCFfp11A5phf-qE33ZEFq1TT4H46H5zgqe9Khvz8\""}
+        ]
+      }
+    }
+  ]
+}

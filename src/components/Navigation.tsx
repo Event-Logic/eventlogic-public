@@ -23,32 +23,32 @@ export default function Navigation({ lang, dictionary }: NavigationProps) {
   const alternateLanguage: Locale = lang === "en" ? "sv" : "en";
   
   return (
-    <header className="absolute top-0 left-0 right-0 z-20 text-white">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-blue-900 shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-6">
+        <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <Link href={`/${lang}`} className="font-bold text-xl">
+            <Link href={`/${lang}`} className="font-bold text-xl text-white">
               Mollösunds Wärdshus
             </Link>
           </div>
           
           <nav className="hidden md:flex space-x-8">
-            <Link href={`/${lang}`} className="hover:text-gray-300">
+            <Link href={`/${lang}`} className="text-white hover:text-gray-300 transition-colors">
               {navigation.home}
             </Link>
-            <Link href={`/${lang}/rooms`} className="hover:text-gray-300">
+            <Link href={`/${lang}/rooms`} className="text-white hover:text-gray-300 transition-colors">
               {navigation.rooms}
             </Link>
-            <Link href={`/${lang}/dining`} className="hover:text-gray-300">
+            <Link href={`/${lang}/dining`} className="text-white hover:text-gray-300 transition-colors">
               {navigation.dining}
             </Link>
-            <Link href={`/${lang}/activities`} className="hover:text-gray-300">
+            <Link href={`/${lang}/activities`} className="text-white hover:text-gray-300 transition-colors">
               {navigation.activities}
             </Link>
-            <Link href={`/${lang}/about`} className="hover:text-gray-300">
+            <Link href={`/${lang}/about`} className="text-white hover:text-gray-300 transition-colors">
               {navigation.about}
             </Link>
-            <Link href={`/${lang}/contact`} className="hover:text-gray-300">
+            <Link href={`/${lang}/contact`} className="text-white hover:text-gray-300 transition-colors">
               {navigation.contact}
             </Link>
           </nav>
@@ -60,14 +60,14 @@ export default function Navigation({ lang, dictionary }: NavigationProps) {
                   ? window.location.pathname.substring(3) 
                   : ""
               }`}
-              className="hover:text-gray-300"
+              className="text-white hover:text-gray-300 transition-colors"
             >
               {alternateLanguage.toUpperCase()}
             </Link>
             
             <Link
               href={`/${lang}/booking`}
-              className="bg-white text-gray-900 px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-100 transition-colors"
+              className="bg-white text-blue-900 px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-100 transition-colors"
             >
               {navigation.book}
             </Link>
