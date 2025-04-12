@@ -1,17 +1,18 @@
-import { Locale, getDictionary } from "@/dictionaries";
+import { Locale } from "@/dictionaries";
 import { getEventBuilderDictionary } from "@/features/event-builder/data/translations";
 import { Metadata } from "next";
 import Link from "next/link";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { EmbeddedCalculator } from "@/features/event-builder/components/EmbeddedCalculator";
 
 export async function generateMetadata({
   params
 }: {
-  params: { locale: Locale }
+  params: Promise<{ locale: Locale }>
 }): Promise<Metadata> {
-  const { locale } = params;
-  const dict = await getDictionary(locale);
+  const { locale } = await params;
+  // Dictionary will be used for future translations
+  // const dict = await getDictionary(locale);
 
   return {
     title: locale === 'en'
@@ -26,10 +27,11 @@ export async function generateMetadata({
 export default async function EventBuilderPage({
   params,
 }: {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 }) {
-  const { locale } = params;
-  const dict = await getDictionary(locale);
+  const { locale } = await params;
+  // Dictionary will be used for future translations
+  // const dict = await getDictionary(locale);
   const eventDict = await getEventBuilderDictionary(locale);
 
   // Event types with their descriptions and links

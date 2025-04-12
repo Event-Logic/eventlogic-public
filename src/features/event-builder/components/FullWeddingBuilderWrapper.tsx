@@ -1,7 +1,8 @@
 import { Locale } from "@/dictionaries";
 import { getEventBuilderDictionary } from "../data/translations";
-import { FullWeddingBuilder } from "./FullWeddingBuilder";
-import { CartProvider } from "../context/CartContext";
+// These imports will be used in future implementations
+// import { FullWeddingBuilder } from "./FullWeddingBuilder";
+// import { CartProvider } from "../context/CartContext";
 import ClientWeddingBuilderWrapper from "./ClientWeddingBuilderWrapper";
 
 interface FullWeddingBuilderWrapperProps {
@@ -13,8 +14,8 @@ interface FullWeddingBuilderWrapperProps {
   configId?: string;
 }
 
-export async function FullWeddingBuilderWrapper({ 
-  locale, 
+export async function FullWeddingBuilderWrapper({
+  locale,
   initialDate,
   initialDays,
   initialAttendees,
@@ -23,15 +24,15 @@ export async function FullWeddingBuilderWrapper({
 }: FullWeddingBuilderWrapperProps) {
   // Load translations
   const dictionary = await getEventBuilderDictionary(locale);
-  
+
   // Parse initial values
   const parsedDate = initialDate ? new Date(initialDate) : undefined;
   const parsedDays = initialDays ? parseInt(initialDays) : undefined;
   const parsedAttendees = initialAttendees ? parseInt(initialAttendees) : undefined;
-  
+
   return (
-    <ClientWeddingBuilderWrapper 
-      locale={locale} 
+    <ClientWeddingBuilderWrapper
+      locale={locale}
       dictionary={dictionary}
       initialDate={parsedDate}
       initialDays={parsedDays}

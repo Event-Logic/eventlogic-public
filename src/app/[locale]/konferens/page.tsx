@@ -10,7 +10,8 @@ export async function generateMetadata({
   params: Promise<{ locale: Locale }>
 }): Promise<Metadata> {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
+  // Dictionary will be used for future translations
+  // const dict = await getDictionary(locale);
 
   return {
     title: locale === 'en'
@@ -27,16 +28,17 @@ export default async function KonferensPage({
   searchParams,
 }: {
   params: Promise<{ locale: Locale }>;
-  searchParams: { [key: string]: string | string[] | undefined };
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
 
   // Get query parameters
-  const dateParam = searchParams.date as string | undefined;
-  const daysParam = searchParams.days as string | undefined;
-  const attendeesParam = searchParams.attendees as string | undefined;
-  const configId = searchParams.id as string | undefined;
+  const resolvedSearchParams = await searchParams;
+  const dateParam = resolvedSearchParams.date as string | undefined;
+  const daysParam = resolvedSearchParams.days as string | undefined;
+  const attendeesParam = resolvedSearchParams.attendees as string | undefined;
+  const configId = resolvedSearchParams.id as string | undefined;
   const t = dict.konferens || {
     title: locale === 'en' ? 'Conference' : 'Konferens',
     subtitle: locale === 'en' ? 'Tailored conference packages on the West Coast' : 'Skräddarsydda konferenspaket på Västkusten',

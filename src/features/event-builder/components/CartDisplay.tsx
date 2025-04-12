@@ -1,6 +1,6 @@
 "use client";
 
-import { useCart, EventConfiguration } from "../context/CartContext";
+import { useCart } from "../context/CartContext";
 import { EventBuilderDictionary } from "../data/translations";
 import { Locale } from "@/dictionaries";
 import { useState } from "react";
@@ -22,7 +22,7 @@ export function CartDisplay({ locale, dictionary }: CartDisplayProps) {
   const t = dictionary;
   const { configurations, removeConfiguration, generateShareableLink } = useCart();
   const [copiedId, setCopiedId] = useState<string | null>(null);
-  
+
   // Format currency
   const formatCurrency = (amount: number) => {
     return new Intl.NumberFormat(locale === 'en' ? 'en-US' : 'sv-SE', {
@@ -31,13 +31,13 @@ export function CartDisplay({ locale, dictionary }: CartDisplayProps) {
       maximumFractionDigits: 0,
     }).format(amount);
   };
-  
+
   // Format date
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
     return format(date, "PPP", { locale: locale === 'sv' ? sv : undefined });
   };
-  
+
   // Get event type name
   const getEventTypeName = (type: string) => {
     switch (type) {
@@ -53,11 +53,11 @@ export function CartDisplay({ locale, dictionary }: CartDisplayProps) {
         return type;
     }
   };
-  
+
   // Get event page URL based on event type
   const getEventPageUrl = (eventType: string, configId: string) => {
     const queryParams = `?id=${configId}`;
-    
+
     switch (eventType) {
       case 'conference':
         return `/${locale}/${locale === 'en' ? 'conference' : 'konferens'}${queryParams}`;
@@ -72,7 +72,7 @@ export function CartDisplay({ locale, dictionary }: CartDisplayProps) {
         return `/${locale}/event-builder/${eventType}${queryParams}`;
     }
   };
-  
+
   // Handle share button click
   const handleShare = (id: string) => {
     const link = generateShareableLink(id);
@@ -81,37 +81,37 @@ export function CartDisplay({ locale, dictionary }: CartDisplayProps) {
       setTimeout(() => setCopiedId(null), 3000);
     });
   };
-  
+
   if (configurations.length === 0) {
     return (
       <div className="text-center py-12">
         <h3 className="text-xl font-semibold mb-4">{t.cart.empty}</h3>
         <div className="space-y-4">
           <p className="text-gray-600">
-            {locale === 'en' 
-              ? 'Choose an event type to create a new configuration:' 
+            {locale === 'en'
+              ? 'Choose an event type to create a new configuration:'
               : 'Välj en evenemangstyp för att skapa en ny konfiguration:'}
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link 
+            <Link
               href={`/${locale}/${locale === 'en' ? 'conference' : 'konferens'}`}
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition duration-300"
             >
               {t.eventTypes.conference}
             </Link>
-            <Link 
+            <Link
               href={`/${locale}/${locale === 'en' ? 'weddings' : 'brollop'}`}
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition duration-300"
             >
               {t.eventTypes.wedding}
             </Link>
-            <Link 
+            <Link
               href={`/${locale}/${locale === 'en' ? 'celebrations' : 'fester'}`}
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition duration-300"
             >
               {t.eventTypes.celebration}
             </Link>
-            <Link 
+            <Link
               href={`/${locale}/${locale === 'en' ? 'retreats' : 'retreats'}`}
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition duration-300"
             >
@@ -122,7 +122,7 @@ export function CartDisplay({ locale, dictionary }: CartDisplayProps) {
       </div>
     );
   }
-  
+
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
@@ -130,7 +130,7 @@ export function CartDisplay({ locale, dictionary }: CartDisplayProps) {
           {configurations.length} {t.cart.items}
         </h3>
       </div>
-      
+
       {configurations.map((config) => (
         <Card key={config.id} className="shadow-md">
           <CardHeader className="bg-gray-50 pb-2">
@@ -144,7 +144,7 @@ export function CartDisplay({ locale, dictionary }: CartDisplayProps) {
               </span>
             </div>
           </CardHeader>
-          
+
           <CardContent className="pt-4">
             <div className="grid md:grid-cols-2 gap-4">
               <div>
@@ -166,7 +166,7 @@ export function CartDisplay({ locale, dictionary }: CartDisplayProps) {
                   </li>
                 </ul>
               </div>
-              
+
               <div>
                 <h4 className="font-semibold mb-2">
                   {t.summary.priceSummary}
@@ -175,7 +175,7 @@ export function CartDisplay({ locale, dictionary }: CartDisplayProps) {
                   {formatCurrency(config.totalPrice)}
                 </div>
                 <div className="mt-2">
-                  <Link 
+                  <Link
                     href={getEventPageUrl(config.eventType, config.id)}
                     className="text-blue-600 hover:underline text-sm"
                   >
@@ -185,9 +185,9 @@ export function CartDisplay({ locale, dictionary }: CartDisplayProps) {
               </div>
             </div>
           </CardContent>
-          
+
           <Separator />
-          
+
           <CardFooter className="flex justify-between py-3">
             <Button
               variant="outline"
@@ -196,22 +196,22 @@ export function CartDisplay({ locale, dictionary }: CartDisplayProps) {
             >
               {t.common.remove}
             </Button>
-            
+
             <Button
               variant="outline"
               size="sm"
               onClick={() => handleShare(config.id)}
             >
-              {copiedId === config.id 
-                ? (locale === 'en' ? 'Copied!' : 'Kopierad!') 
+              {copiedId === config.id
+                ? (locale === 'en' ? 'Copied!' : 'Kopierad!')
                 : t.common.share}
             </Button>
           </CardFooter>
         </Card>
       ))}
-      
+
       <div className="flex justify-end mt-6">
-        <Link 
+        <Link
           href={`/${locale}/kontakt`}
           className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition duration-300"
         >

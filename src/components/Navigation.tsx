@@ -27,8 +27,8 @@ type NavigationProps = {
 export default function Navigation({ lang, dictionary }: NavigationProps) {
   const { navigation } = dictionary;
 
-  // Define the alternate language
-  const alternateLanguage: Locale = lang === "en" ? "sv" : "en";
+  // Define the alternate language - will be used in future updates
+  // const alternateLanguage: Locale = lang === "en" ? "sv" : "en";
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-blue-900 shadow-md">

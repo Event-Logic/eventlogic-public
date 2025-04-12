@@ -516,27 +516,27 @@ export function calculateBasePrice(
   if (!selectedVenue) {
     return 0;
   }
-  
+
   // Find the selected venue option
   const venueCategory = weddingPricingData.addOnCategories.find(cat => cat.id === 'venue');
   if (!venueCategory) return 0;
-  
+
   const venueOption = venueCategory.options.find(opt => opt.id === selectedVenue.optionId);
   if (!venueOption) return 0;
-  
+
   // Get the base venue price
   const baseVenuePrice = typeof venueOption.price === 'number' ? venueOption.price : 0;
-  
+
   let totalPrice = 0;
-  
+
   // Calculate price for each day with seasonal adjustments
   for (let i = 0; i < days; i++) {
     const currentDate = new Date(date);
     currentDate.setDate(date.getDate() + i);
-    
+
     const currentSeason = determineSeasonForDate(currentDate, seasonalPeriods);
     const currentDayType = isWeekend(currentDate) ? 'weekend' : 'weekday';
-    
+
     // Apply appropriate multiplier based on season and day type
     let multiplier = 1.0;
     if (currentSeason === 'highSeason' && currentDayType === 'weekend') {
@@ -548,17 +548,17 @@ export function calculateBasePrice(
     } else {
       multiplier = baseRates.lowSeasonWeekday;
     }
-    
+
     // Add the adjusted price for this day
     totalPrice += baseVenuePrice * multiplier;
   }
-  
+
   // Apply multi-day discount if applicable
   if (days > 1) {
     // 25% discount on additional days (simplified version of the pricing model)
     totalPrice = totalPrice * (1 - (0.25 * (days - 1) / days));
   }
-  
+
   return totalPrice;
 }
 
@@ -568,14 +568,14 @@ function determineSeasonForDate(
   seasonalPeriods = weddingPricingData.seasonalPeriods
 ): Season {
   const dateStr = date.toISOString().split('T')[0]; // Format as YYYY-MM-DD
-  
+
   // Check if date falls within any high season period
   for (const period of seasonalPeriods.highSeason) {
     if (dateStr >= period.start && dateStr <= period.end) {
       return 'highSeason';
     }
   }
-  
+
   // Default to low season
   return 'lowSeason';
 }
@@ -594,20 +594,20 @@ export function calculateAddOnPrice(
   attendees: number = 1
 ): number {
   let price = 0;
-  
+
   if (typeof addOn.price === 'number') {
     price = addOn.price;
-    
+
     // Apply per person multiplier if applicable
     if (addOn.perPerson) {
       price *= attendees;
     }
-    
+
     // Apply per day multiplier if applicable
     if (addOn.perDay) {
       price *= days;
     }
-    
+
     // Apply quantity
     price *= quantity;
   } else if (typeof addOn.price === 'object') {
@@ -616,7 +616,7 @@ export function calculateAddOnPrice(
     const firstPriceKey = Object.keys(addOn.price)[0];
     price = addOn.price[firstPriceKey] * quantity;
   }
-  
+
   return price;
 }
 
@@ -636,23 +636,23 @@ export function calculateTotalPrice(
   // Get the venue selection
   const venueSelection = selectedAddOns['venue'] as SelectedAddOn | undefined;
   const isFullVenueSelected = venueSelection && venueSelection.optionId === 'full-venue';
-  
+
   // Calculate base price using the venue selection
   const basePrice = calculateBasePrice(date, days, venueSelection);
-  
+
   // Calculate add-ons price
   let addOnsPrice = 0;
-  
+
   Object.entries(selectedAddOns).forEach(([categoryId, selection]) => {
     // Skip venue category since it's already included in the base price
     // Skip accommodation category if full venue is selected
     if (categoryId === 'venue' || (isFullVenueSelected && categoryId === 'accommodation')) {
       return;
     }
-    
+
     const category = weddingPricingData.addOnCategories.find(cat => cat.id === categoryId);
     if (!category) return;
-    
+
     if (Array.isArray(selection)) {
       // Handle multiple selections
       selection.forEach(item => {
@@ -669,27 +669,27 @@ export function calculateTotalPrice(
       }
     }
   });
-  
+
   return basePrice + addOnsPrice;
 }
 
 // Helper function to calculate traditional wedding cost (for comparison)
 export function calculateTraditionalWeddingCost(
-  days: number = 1,
+  // days parameter is removed as it's not used
   attendees: number = 1
 ): number {
   // Average cost per person for a traditional wedding venue
   const averageCostPerPerson = 3000; // SEK
-  
+
   return averageCostPerPerson * attendees;
 }
 
 // Helper function to calculate potential savings
 export function calculatePotentialSavings(
   diyTotal: number,
-  days: number = 1,
+  // days parameter removed
   attendees: number = 1
 ): number {
-  const traditionalCost = calculateTraditionalWeddingCost(days, attendees);
+  const traditionalCost = calculateTraditionalWeddingCost(attendees);
   return traditionalCost - diyTotal;
 }

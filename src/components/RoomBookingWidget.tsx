@@ -5,16 +5,17 @@ import SirvoyBookingWidget from "./SirvoyBookingWidget";
 import Link from "next/link";
 
 // Function to generate a direct booking URL for a specific room type
-function getRoomBookingUrl(roomTypeId: string, locale: string) {
-  const baseUrl = "https://secured.sirvoy.com/engine/";
-  const formId = "bb53d65692fe7622"; // Updated Sirvoy form ID
-
-  return `${baseUrl}${formId}/?lang=${locale}&room_type=${roomTypeId}`;
-}
+// Currently not used but kept for future implementation
+// function getRoomBookingUrl(roomTypeId: string, locale: string) {
+//   const baseUrl = "https://secured.sirvoy.com/engine/";
+//   const formId = "bb53d65692fe7622"; // Updated Sirvoy form ID
+//
+//   return `${baseUrl}${formId}/?lang=${locale}&room_type=${roomTypeId}`;
+// }
 
 export default function RoomBookingWidget({
   lang, // Keep as lang for backward compatibility
-  roomType,
+  // roomType, // Currently not used but kept for future implementation
   roomName,
   useDirectLink = false
 }: {

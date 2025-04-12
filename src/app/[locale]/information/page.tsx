@@ -3,14 +3,8 @@ import type { Locale } from "../../../dictionaries";
 import { Metadata } from "next";
 import Link from "next/link";
 
-export async function generateMetadata({ 
-  params 
-}: { 
-  params: Promise<{ locale: Locale }> 
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const dict = await getDictionary(locale);
-  
+export async function generateMetadata(): Promise<Metadata> {
+
   return {
     title: `Hotel Information | Mollösunds Wärdshus`,
     description: "Information about our hotel, policies, and frequently asked questions.",
@@ -52,12 +46,12 @@ export default async function InformationPage({
         {/* Hotel Description */}
         <div className="mb-16 text-center">
           <p className="text-center text-gray-700 mb-8 max-w-3xl mx-auto">
-            {locale === 'en' 
+            {locale === 'en'
               ? 'Reserve your perfect stay at Mollösunds Wärdshus. Our booking system allows you to check availability, compare room types and secure your stay with immediate confirmation.'
               : 'Reservera din perfekta vistelse på Mollösunds Wärdshus. Vårt bokningssystem låter dig kontrollera tillgänglighet, jämföra rumstyper och säkra din vistelse med omedelbar bekräftelse.'}
           </p>
           <div className="mt-8">
-            <Link 
+            <Link
               href={`/${locale}/booking`}
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300"
             >

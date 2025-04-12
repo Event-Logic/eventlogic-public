@@ -1,4 +1,4 @@
-import { getDictionary } from "../../../dictionaries";
+// import { getDictionary } from "../../../dictionaries";
 import type { Locale } from "../../../dictionaries";
 import { Metadata } from "next";
 import Link from "next/link";
@@ -10,7 +10,8 @@ export async function generateMetadata({
   params: Promise<{ locale: Locale }>
 }): Promise<Metadata> {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
+  // Dictionary will be used for future translations
+  // const dict = await getDictionary(locale);
 
   // Define the canonical URL based on the locale
   const canonicalPath = locale === 'en' ? '/weddings' : '/brollop';
@@ -38,7 +39,8 @@ export default async function BrollopPage({
   params: Promise<{ locale: Locale }>;
 }) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
+  // Dictionary will be used for future translations
+  // const dict = await getDictionary(locale);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">

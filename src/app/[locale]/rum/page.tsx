@@ -35,7 +35,8 @@ export default async function RoomsPage({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'rooms' });
-  const tNav = await getTranslations({ locale, namespace: 'navigation' });
+  // Navigation translations will be used in future updates
+  // const tNav = await getTranslations({ locale, namespace: 'navigation' });
 
   // Room data
   const rooms = [

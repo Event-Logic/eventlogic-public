@@ -15,7 +15,7 @@ interface RoomCardProps {
 }
 
 export default function RoomCard({
-  id,
+  // id, // Currently not used but kept for future implementation
   lang,
   title,
   description,

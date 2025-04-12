@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import { routing } from "../../i18n";
+import { routing } from "../../../i18n";
 
 // Define a basic product interface (adjust based on your actual data model)
 export interface Product {

@@ -40,7 +40,7 @@ const nextConfig: NextConfig = {
         destination: "/sv/rum",
         permanent: true,
       },
-      
+
       // Handle www versions as well
       {
         source: "/www.wards.se/konferens",

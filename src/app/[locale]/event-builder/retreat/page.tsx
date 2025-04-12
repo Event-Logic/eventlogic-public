@@ -2,13 +2,12 @@ import { Locale } from "@/dictionaries";
 import { getEventBuilderDictionary } from "@/features/event-builder/data/translations";
 import { RetreatCalculator } from "@/features/event-builder/components/RetreatCalculator";
 
-interface RetreatPageProps {
-  params: {
-    locale: Locale;
-  };
-}
-
-export default async function RetreatPage({ params: { locale } }: RetreatPageProps) {
+export default async function RetreatPage({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}) {
+  const { locale } = await params;
   // Load translations
   const dictionary = await getEventBuilderDictionary(locale);
 

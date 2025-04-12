@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Locale } from "@/dictionaries";
-import { useCart } from "@/features/event-builder/context/CartContext";
+// import { useCart } from "@/features/event-builder/context/CartContext";
 import { useEffect, useState } from "react";
 
 interface CartIconProps {

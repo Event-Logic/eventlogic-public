@@ -3,13 +3,7 @@ import type { Locale } from "../../../dictionaries";
 import { Metadata } from "next";
 import Link from "next/link";
 
-export async function generateMetadata({
-  params
-}: {
-  params: Promise<{ locale: Locale }>
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const dict = await getDictionary(locale);
+export async function generateMetadata(): Promise<Metadata> {
 
   return {
     title: `Restaurang | Mollösunds Wärdshus`,

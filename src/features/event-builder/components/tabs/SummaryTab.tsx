@@ -2,10 +2,10 @@
 
 import { Locale } from "@/dictionaries";
 import { EventBuilderDictionary } from "../../data/translations";
-import { 
-  calculateBasePrice, 
-  calculateTotalPrice, 
-  calculateTraditionalConferenceCost, 
+import {
+  calculateBasePrice,
+  calculateTotalPrice,
+  calculateTraditionalConferenceCost,
   calculatePotentialSavings,
   conferencePricingData,
   SelectedAddOn
@@ -30,8 +30,8 @@ interface SummaryTabProps {
   onBack: () => void;
 }
 
-export function SummaryTab({ 
-  locale, 
+export function SummaryTab({
+  locale,
   dictionary,
   date,
   days,
@@ -42,7 +42,7 @@ export function SummaryTab({
   onBack
 }: SummaryTabProps) {
   const t = dictionary;
-  
+
   // Calculate prices
   const venueSelection = selectedAddOns['venue'] as SelectedAddOn | undefined;
   const basePrice = date ? calculateBasePrice(date, days, venueSelection) : 0;
@@ -50,7 +50,7 @@ export function SummaryTab({
   const traditionalCost = calculateTraditionalConferenceCost(days, attendees);
   const savings = calculatePotentialSavings(totalPrice, days, attendees);
   const savingsPercentage = traditionalCost > 0 ? Math.round((savings / traditionalCost) * 100) : 0;
-  
+
   // Format currency
   const formatCurrency = (amount: number) => {
     return new Intl.NumberFormat(locale === 'en' ? 'en-US' : 'sv-SE', {
@@ -59,14 +59,14 @@ export function SummaryTab({
       maximumFractionDigits: 0,
     }).format(amount);
   };
-  
+
   return (
     <Card>
       <CardHeader>
         <CardTitle>{t.summary.title}</CardTitle>
         <CardDescription>{t.summary.subtitle}</CardDescription>
       </CardHeader>
-      
+
       <CardContent className="space-y-6">
         {/* Event Details Summary */}
         <div>
@@ -90,7 +90,7 @@ export function SummaryTab({
             </div>
           </div>
         </div>
-        
+
         {/* Selected Add-ons Summary */}
         <div>
           <h3 className="text-lg font-semibold mb-3">{t.summary.selectedAddOns}</h3>
@@ -99,16 +99,16 @@ export function SummaryTab({
               {Object.entries(selectedAddOns).map(([categoryId, selection]) => {
                 const category = conferencePricingData.addOnCategories.find(cat => cat.id === categoryId);
                 if (!category) return null;
-                
+
                 if (Array.isArray(selection)) {
                   // Handle multiple selections
                   return (
                     <div key={categoryId} className="bg-gray-50 p-4 rounded-md">
                       <p className="font-medium mb-2">{category.name[locale]}</p>
-                      {selection.map((item, index) => {
+                      {selection.map((item) => {
                         const option = category.options.find(opt => opt.id === item.optionId);
                         if (!option) return null;
-                        
+
                         return (
                           <div key={`${categoryId}-${item.optionId}`} className="ml-4 mb-2 border-b border-gray-200 pb-2 last:border-0 last:pb-0">
                             <div className="flex justify-between">
@@ -143,7 +143,7 @@ export function SummaryTab({
                   // Handle single selection
                   const option = category.options.find(opt => opt.id === selection.optionId);
                   if (!option) return null;
-                  
+
                   return (
                     <div key={categoryId} className="bg-gray-50 p-4 rounded-md">
                       <div className="flex justify-between">
@@ -181,7 +181,7 @@ export function SummaryTab({
             </p>
           )}
         </div>
-        
+
         {/* Price Summary */}
         <div>
           <h3 className="text-lg font-semibold mb-3">{t.summary.priceSummary}</h3>
@@ -203,29 +203,29 @@ export function SummaryTab({
             </div>
           </div>
         </div>
-        
+
         {/* Cost Comparison */}
         <div>
           <h3 className="text-lg font-semibold mb-3">{t.summary.comparisonTitle}</h3>
           <p className="text-sm text-gray-500 mb-4">{t.summary.comparisonSubtitle}</p>
-          
+
           <div className="bg-gray-50 p-4 rounded-md">
             <div className="space-y-4">
               <div className="flex justify-between items-center">
                 <span>{t.calculator.traditionalCost}:</span>
                 <span className="font-semibold">{formatCurrency(traditionalCost)}</span>
               </div>
-              
+
               <div className="flex justify-between items-center">
                 <span>DIY {t.calculator.totalPrice}:</span>
                 <span className="font-semibold">{formatCurrency(totalPrice)}</span>
               </div>
-              
+
               <div className="flex justify-between items-center text-green-600">
                 <span>{t.calculator.potentialSavings}:</span>
                 <span className="font-semibold">{formatCurrency(savings)} ({savingsPercentage}%)</span>
               </div>
-              
+
               {/* Savings Visualization */}
               <div className="pt-2">
                 <div className="flex justify-between text-sm mb-1">
@@ -233,7 +233,7 @@ export function SummaryTab({
                   <span>{locale === 'en' ? 'Traditional Cost' : 'Traditionell kostnad'}</span>
                 </div>
                 <div className="relative h-8 bg-gray-200 rounded-full overflow-hidden">
-                  <div 
+                  <div
                     className="absolute top-0 left-0 h-full bg-blue-600 rounded-full"
                     style={{ width: `${Math.min(100, (totalPrice / traditionalCost) * 100)}%` }}
                   ></div>
@@ -247,17 +247,17 @@ export function SummaryTab({
           </div>
         </div>
       </CardContent>
-      
+
       <CardFooter className="flex justify-between">
         <Button variant="outline" onClick={onBack}>
           {t.common.back}
         </Button>
-        <Button 
+        <Button
           onClick={onSave}
           className={isSaved ? "bg-green-600 hover:bg-green-700" : ""}
         >
-          {isSaved 
-            ? (locale === 'en' ? 'Saved to Cart!' : 'Sparad i kundvagnen!') 
+          {isSaved
+            ? (locale === 'en' ? 'Saved to Cart!' : 'Sparad i kundvagnen!')
             : t.common.save}
         </Button>
       </CardFooter>

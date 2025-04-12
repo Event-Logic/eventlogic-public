@@ -1,4 +1,4 @@
-import { Locale, getDictionary } from "@/dictionaries";
+import { Locale } from "@/dictionaries";
 import { getEventBuilderDictionary } from "@/features/event-builder/data/translations";
 import { Metadata } from "next";
 import Link from "next/link";
@@ -10,7 +10,8 @@ export async function generateMetadata({
   params: Promise<{ locale: Locale }>
 }): Promise<Metadata> {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
+  // Dictionary will be used for future translations
+  // const dict = await getDictionary(locale);
 
   return {
     title: locale === 'en'
@@ -28,7 +29,8 @@ export default async function CartPage({
   params: Promise<{ locale: Locale }>;
 }) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
+  // Dictionary will be used for future translations
+  // const dict = await getDictionary(locale);
   const eventDict = await getEventBuilderDictionary(locale);
 
   return (

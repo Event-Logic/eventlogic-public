@@ -2,13 +2,12 @@ import { Locale } from "@/dictionaries";
 import { getEventBuilderDictionary } from "@/features/event-builder/data/translations";
 import { CelebrationCalculator } from "@/features/event-builder/components/CelebrationCalculator";
 
-interface CelebrationPageProps {
-  params: {
-    locale: Locale;
-  };
-}
-
-export default async function CelebrationPage({ params: { locale } }: CelebrationPageProps) {
+export default async function CelebrationPage({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}) {
+  const { locale } = await params;
   // Load translations
   const dictionary = await getEventBuilderDictionary(locale);
 

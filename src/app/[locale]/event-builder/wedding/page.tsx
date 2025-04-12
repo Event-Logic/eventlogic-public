@@ -2,13 +2,12 @@ import { Locale } from "@/dictionaries";
 import { getEventBuilderDictionary } from "@/features/event-builder/data/translations";
 import { WeddingCalculator } from "@/features/event-builder/components/WeddingCalculator";
 
-interface WeddingPageProps {
-  params: {
-    locale: Locale;
-  };
-}
-
-export default async function WeddingPage({ params: { locale } }: WeddingPageProps) {
+export default async function WeddingPage({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}) {
+  const { locale } = await params;
   // Load translations
   const dictionary = await getEventBuilderDictionary(locale);
 

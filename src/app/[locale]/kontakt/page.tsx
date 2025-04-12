@@ -1,16 +1,10 @@
 import { getDictionary } from "../../../dictionaries";
 import type { Locale } from "../../../dictionaries";
 import { Metadata } from "next";
-import Link from "next/link";
+// import Link from "next/link";
 
-export async function generateMetadata({ 
-  params 
-}: { 
-  params: Promise<{ locale: Locale }> 
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const dict = await getDictionary(locale);
-  
+export async function generateMetadata(): Promise<Metadata> {
+
   return {
     title: `Kontakt | Mollösunds Wärdshus`,
     description: "Kontakta Mollösunds Wärdshus för bokning, frågor eller information. Vi hjälper dig gärna med din vistelse eller ditt event.",
@@ -76,7 +70,7 @@ export default async function KontaktPage({
       car: {
         title: locale === 'en' ? 'By Car' : 'Med bil',
         from: locale === 'en' ? 'From Gothenburg:' : 'Från Göteborg:',
-        steps: locale === 'en' 
+        steps: locale === 'en'
           ? [
               'Drive E6 north towards Oslo',
               'Take exit 96 towards Stenungsund/Tjörn/Orust',
@@ -129,8 +123,8 @@ export default async function KontaktPage({
         },
         {
           question: locale === 'en' ? 'Are pets allowed?' : 'Är husdjur tillåtna?',
-          answer: locale === 'en' 
-            ? 'Yes, in certain rooms. Please inform us in advance if you plan to bring pets. An additional fee may apply.' 
+          answer: locale === 'en'
+            ? 'Yes, in certain rooms. Please inform us in advance if you plan to bring pets. An additional fee may apply.'
             : 'Ja, i vissa rum. Vänligen meddela oss i förväg om du planerar att ta med husdjur. En extra avgift kan tillkomma.'
         }
       ]
@@ -159,7 +153,7 @@ export default async function KontaktPage({
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-white rounded-lg shadow-lg p-8">
               <h2 className="text-2xl font-bold mb-6">{t.info.title}</h2>
-              
+
               <div className="space-y-4">
                 <div className="flex items-start">
                   <svg className="h-6 w-6 text-blue-600 mt-1 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -173,7 +167,7 @@ export default async function KontaktPage({
                     <p>{t.info.address.country}</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <svg className="h-6 w-6 text-blue-600 mt-1 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -183,7 +177,7 @@ export default async function KontaktPage({
                     <p><a href={`tel:${t.info.phone.number}`} className="text-blue-600 hover:underline">{t.info.phone.number}</a></p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <svg className="h-6 w-6 text-blue-600 mt-1 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -193,7 +187,7 @@ export default async function KontaktPage({
                     <p><a href={`mailto:${t.info.email.address}`} className="text-blue-600 hover:underline">{t.info.email.address}</a></p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <svg className="h-6 w-6 text-blue-600 mt-1 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -206,7 +200,7 @@ export default async function KontaktPage({
                   </div>
                 </div>
               </div>
-              
+
               <div className="mt-8">
                 <h3 className="text-xl font-semibold mb-4">{locale === 'en' ? 'Follow Us' : 'Följ oss'}</h3>
                 <div className="flex space-x-4">
@@ -223,10 +217,10 @@ export default async function KontaktPage({
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-white rounded-lg shadow-lg p-8">
               <h2 className="text-2xl font-bold mb-6">{t.departments.title}</h2>
-              
+
               <div className="space-y-6">
                 <div>
                   <h3 className="text-xl font-semibold mb-2">{t.departments.hotel.title}</h3>
@@ -234,14 +228,14 @@ export default async function KontaktPage({
                   <p><a href={`mailto:${t.departments.hotel.email}`} className="text-blue-600 hover:underline">{t.departments.hotel.email}</a></p>
                   <p><a href={`tel:${t.departments.hotel.phone}`} className="text-blue-600 hover:underline">{t.departments.hotel.phone}</a></p>
                 </div>
-                
+
                 <div>
                   <h3 className="text-xl font-semibold mb-2">{t.departments.restaurant.title}</h3>
                   <p className="mb-2">{t.departments.restaurant.description}</p>
                   <p><a href={`mailto:${t.departments.restaurant.email}`} className="text-blue-600 hover:underline">{t.departments.restaurant.email}</a></p>
                   <p><a href={`tel:${t.departments.restaurant.phone}`} className="text-blue-600 hover:underline">{t.departments.restaurant.phone}</a></p>
                 </div>
-                
+
                 <div>
                   <h3 className="text-xl font-semibold mb-2">{t.departments.conference.title}</h3>
                   <p className="mb-2">{t.departments.conference.description}</p>
@@ -252,16 +246,16 @@ export default async function KontaktPage({
             </div>
           </div>
         </div>
-        
+
         {/* Map Section */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold mb-8 text-center">{t.directions.title}</h2>
-          
+
           <div className="bg-white rounded-lg shadow-lg p-8">
             <div className="h-96 bg-gray-300 mb-6 rounded-lg flex items-center justify-center">
               <p className="text-gray-600 font-semibold">Karta över Mollösund</p>
             </div>
-            
+
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold mb-4">{t.directions.car.title}</h3>
@@ -273,7 +267,7 @@ export default async function KontaktPage({
                 </ol>
                 <p className="mt-4">{t.directions.car.parking}</p>
               </div>
-              
+
               <div>
                 <h3 className="text-xl font-semibold mb-4">{t.directions.public.title}</h3>
                 <p className="mb-2">{t.directions.public.from}</p>
@@ -287,11 +281,11 @@ export default async function KontaktPage({
             </div>
           </div>
         </div>
-        
+
         {/* FAQ Section */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold mb-8 text-center">{t.faq.title}</h2>
-          
+
           <div className="space-y-4">
             {t.faq.questions.map((faq, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6">
