@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "title": "Mollösunds Wärdshus | Historiskt värdshus vid havet",
+    "description": "Kliv in i historien på Mollösunds Wärdshus, ett charmigt värdshus från 1860 i en av Sveriges äldsta fiskebyar, där havets berättelser möter modern komfort."
+  },
+  "navigation": {
+    "home": "Hem",
+    "rooms": "Rum",
+    "dining": "Restaurang",
+    "conference": "Konferenser",
+    "activities": "Aktiviteter",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "book": "Boka nu",
+    "information": "Information",
+    "events": "Event",
+    "weddings": "Bröllop",
+    "celebrations": "Fester",
+    "retreats": "Retreats"
+  },
+  "metadataProduct": {
+    "siteTitle": "Mollösunds Wärdshus",
+    "manufacturedBy": "Tillverkad av",
+    "checkPrice": "Kontrollera pris och tillgänglighet",
+    "price": "pris",
+    "stock": "lager",
+    "products": "produkter",
+    "keywords": "Mollösunds Wärdshus, historiskt värdshus, havsutsikt, Bohuslän, svenska västkusten, boende, hotell, restaurang"
+  },
+  "rooms": {
+    "title": "Våra rum",
+    "subtitle": "Bo bekvämt på vårt hotell beläget vid havet i Mollösund",
+    "intro": "Må bra och sov gott i ett av våra tio smakligt inredda rum. Vakna upp till en oslagbar utsikt och njut av god frukost på vår terrass.",
+    "history": "Wärds Mollösund kom till på 1850-talet och kallades då \"Gäschivan\", alla rum ser olika ut med sin egen charm.",
+    "location": "Hotellet är beläget i hjärtat av Mollösund med några meter ner till hamnen.",
+    "noTV": "Vi har valt att inte ha TV på våra rum för att skapa en lugn och avkopplande miljö.",
+    "bookNow": "Boka nu",
+    "breakfast": {
+      "title": "Frukost Information",
+      "note": "Observera att under lågsäsong serveras frukost som frukostpaket istället för på buffé.",
+      "dates": "Dessa datum serveras frukostpaket:",
+      "period1": "30 september – 28 mars",
+      "period2": "Samt under vardagar 29 mars – 21 juni & 1 september – 29 september",
+      "groups": "Är ni ett större gäng så går det att öppna hela hotellet för både frukost samt middag."
+    },
+    "amenities": {
+      "title": "Hotellets faciliteter",
+      "wifi": "WiFi inkluderat",
+      "breakfast": "Frukost ingår alltid",
+      "restaurant": "Restaurang",
+      "meeting": "Mötesanläggning"
+    },
+    "contact": {
+      "title": "Kontakta oss",
+      "email": "Har du frågor kontakta oss på hotell@wards.se",
+      "phone": "Telefon: 0304-211 08",
+      "address": "Adress: Kyrkvägen 9, 474 70 Mollösund"
+    }
+  }
+}

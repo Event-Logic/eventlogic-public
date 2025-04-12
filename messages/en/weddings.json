@@ -1,0 +1,36 @@
+{
+  "title": "Weddings",
+  "subtitle": "Create your dream wedding by the sea",
+  "intro": "Mollösunds Wärdshus offers a unique and romantic setting for your special day. With stunning views of the sea and a charming historic building, we provide the perfect backdrop for your wedding.",
+  "packages": {
+    "title": "Wedding Packages",
+    "description": "We offer a range of wedding packages to suit your needs and budget.",
+    "custom": "We can also create a custom package tailored to your specific requirements."
+  },
+  "venues": {
+    "title": "Wedding Venues",
+    "description": "Choose from our beautiful indoor and outdoor venues for your ceremony and reception.",
+    "indoor": "Our indoor venue can accommodate up to 80 guests.",
+    "outdoor": "Our outdoor venue offers stunning views of the sea and can accommodate up to 120 guests."
+  },
+  "food": {
+    "title": "Wedding Menu",
+    "description": "Our chef will work with you to create a custom menu for your wedding day.",
+    "options": "We offer a range of options from buffet-style to plated dinners."
+  },
+  "accommodation": {
+    "title": "Accommodation",
+    "description": "We have 10 beautifully decorated rooms for you and your guests.",
+    "note": "Special rates are available for wedding guests."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "For more information or to book your wedding, please contact us at:",
+    "email": "events@wards.se",
+    "phone": "0304-211 08"
+  },
+  "builder": {
+    "title": "Wedding Builder",
+    "description": "Use our interactive wedding builder to create your own custom package. Choose your date, number of guests, and customize with add-ons that suit your needs."
+  }
+}

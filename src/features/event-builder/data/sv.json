@@ -1,0 +1,121 @@
+{
+  "common": {
+    "next": "Nästa",
+    "back": "Tillbaka",
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "add": "Lägg till",
+    "remove": "Ta bort",
+    "total": "Totalt",
+    "perPerson": "per person",
+    "perDay": "per dag",
+    "included": "Ingår",
+    "optional": "Valfritt",
+    "quantity": "Antal",
+    "continue": "Fortsätt",
+    "submit": "Skicka",
+    "share": "Dela",
+    "edit": "Redigera",
+    "compare": "Jämför"
+  },
+  "calculator": {
+    "title": "Skapa din DIY-konferens",
+    "subtitle": "Anpassa ditt event och se potentiella besparingar",
+    "basePrice": "Grundpris",
+    "addOns": "Tillägg",
+    "totalPrice": "Totalpris",
+    "savings": "Besparingar",
+    "traditionalCost": "Kostnad för traditionell konferens",
+    "potentialSavings": "Dina potentiella besparingar",
+    "savingsPercentage": "Besparingsprocent",
+    "date": "Evenemangsdatum",
+    "duration": "Varaktighet",
+    "day": "dag",
+    "days": "dagar",
+    "attendees": "Antal deltagare",
+    "venue": "Lokalval",
+    "selectDuration": "Välj varaktighet",
+    "selectVenue": "Välj lokal",
+    "savingsComparison": "Kostnadsjämförelse",
+    "addToCart": "Lägg till i kundvagnen",
+    "weddingTitle": "Skapa ditt DIY-bröllop",
+    "weddingDescription": "Anpassa ditt bröllop och se potentiella besparingar",
+    "celebrationTitle": "Skapa din DIY-fest",
+    "celebrationDescription": "Anpassa din fest och se potentiella besparingar",
+    "retreatTitle": "Skapa din DIY-retreat",
+    "retreatDescription": "Anpassa din retreat och se potentiella besparingar"
+  },
+  "steps": {
+    "eventType": "Evenemangstyp",
+    "basicDetails": "Grundläggande detaljer",
+    "addOns": "Tillägg",
+    "summary": "Sammanfattning",
+    "complete": "Slutför"
+  },
+  "eventTypes": {
+    "conference": "Konferens",
+    "wedding": "Bröllop",
+    "celebration": "Fest",
+    "retreat": "Retreat"
+  },
+  "basicDetails": {
+    "title": "Evenemangsdetaljer",
+    "subtitle": "Berätta om ditt evenemang",
+    "date": "Evenemangsdatum",
+    "selectDate": "Välj ett datum",
+    "duration": "Varaktighet",
+    "days": "dagar",
+    "attendees": "Antal deltagare",
+    "selectAttendees": "Välj antal deltagare"
+  },
+  "addOns": {
+    "title": "Anpassa ditt evenemang",
+    "subtitle": "Välj ytterligare tjänster och bekvämligheter",
+    "selectAddOns": "Välj tillägg",
+    "categoryTitle": "Kategori",
+    "optionTitle": "Alternativ"
+  },
+  "summary": {
+    "title": "Evenemangssammanfattning",
+    "subtitle": "Granska ditt anpassade evenemang",
+    "eventDetails": "Evenemangsdetaljer",
+    "selectedAddOns": "Valda tillägg",
+    "priceSummary": "Prissammanfattning",
+    "comparisonTitle": "Kostnadsjämförelse",
+    "comparisonSubtitle": "Se hur mycket du sparar med vår DIY-approach",
+    "contactInfo": "Kontaktinformation",
+    "name": "Fullständigt namn",
+    "email": "E-postadress",
+    "phone": "Telefonnummer",
+    "message": "Ytterligare information",
+    "termsAndConditions": "Villkor",
+    "termsText": "Jag godkänner villkoren",
+    "submitRequest": "Skicka förfrågan"
+  },
+  "cart": {
+    "title": "Dina sparade konfigurationer",
+    "empty": "Din kundvagn är tom",
+    "items": "objekt",
+    "checkout": "Till kassan",
+    "remove": "Ta bort",
+    "saveForLater": "Spara till senare",
+    "shareConfiguration": "Dela konfiguration",
+    "configurationsCount": "Sparade konfigurationer"
+  },
+  "seasons": {
+    "highSeason": "Högsäsong",
+    "lowSeason": "Lågsäsong"
+  },
+  "dayTypes": {
+    "weekday": "Vardag",
+    "weekend": "Helg"
+  },
+  "notifications": {
+    "addedToCart": "Konfiguration tillagd i kundvagnen",
+    "removedFromCart": "Konfiguration borttagen från kundvagnen",
+    "configurationSaved": "Konfiguration sparad",
+    "configurationShared": "Konfiguration delad",
+    "requestSubmitted": "Förfrågan skickad",
+    "errorOccurred": "Ett fel uppstod"
+  }
+}

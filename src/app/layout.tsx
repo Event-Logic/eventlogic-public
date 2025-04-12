@@ -1,10 +1,16 @@
 // This file is needed for Next.js but we're using the [lang] layout as our actual root layout
-// to support internationalization. This file should not render html or body elements.
+// to support internationalization. However, we'll include html and body tags as a fallback.
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return children;
+  return (
+    <html lang="en">
+      <body>
+        {children}
+      </body>
+    </html>
+  );
 }

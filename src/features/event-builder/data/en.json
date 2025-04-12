@@ -1,0 +1,121 @@
+{
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "add": "Add",
+    "remove": "Remove",
+    "total": "Total",
+    "perPerson": "per person",
+    "perDay": "per day",
+    "included": "Included",
+    "optional": "Optional",
+    "quantity": "Quantity",
+    "continue": "Continue",
+    "submit": "Submit",
+    "share": "Share",
+    "edit": "Edit",
+    "compare": "Compare"
+  },
+  "calculator": {
+    "title": "Create Your DIY Conference",
+    "subtitle": "Customize your event and see potential savings",
+    "basePrice": "Base Price",
+    "addOns": "Add-ons",
+    "totalPrice": "Total Price",
+    "savings": "Savings",
+    "traditionalCost": "Traditional Conference Cost",
+    "potentialSavings": "Your Potential Savings",
+    "savingsPercentage": "Savings Percentage",
+    "date": "Event Date",
+    "duration": "Duration",
+    "day": "day",
+    "days": "days",
+    "attendees": "Number of Attendees",
+    "venue": "Venue Option",
+    "selectDuration": "Select duration",
+    "selectVenue": "Select venue option",
+    "savingsComparison": "Cost Comparison",
+    "addToCart": "Add to Cart",
+    "weddingTitle": "Create Your DIY Wedding",
+    "weddingDescription": "Customize your wedding and see potential savings",
+    "celebrationTitle": "Create Your DIY Celebration",
+    "celebrationDescription": "Customize your celebration and see potential savings",
+    "retreatTitle": "Create Your DIY Retreat",
+    "retreatDescription": "Customize your retreat and see potential savings"
+  },
+  "steps": {
+    "eventType": "Event Type",
+    "basicDetails": "Basic Details",
+    "addOns": "Add-ons",
+    "summary": "Summary",
+    "complete": "Complete"
+  },
+  "eventTypes": {
+    "conference": "Conference",
+    "wedding": "Wedding",
+    "celebration": "Celebration",
+    "retreat": "Retreat"
+  },
+  "basicDetails": {
+    "title": "Event Details",
+    "subtitle": "Tell us about your event",
+    "date": "Event Date",
+    "selectDate": "Select a date",
+    "duration": "Duration",
+    "days": "days",
+    "attendees": "Number of Attendees",
+    "selectAttendees": "Select number of attendees"
+  },
+  "addOns": {
+    "title": "Customize Your Event",
+    "subtitle": "Select additional services and amenities",
+    "selectAddOns": "Select add-ons",
+    "categoryTitle": "Category",
+    "optionTitle": "Option"
+  },
+  "summary": {
+    "title": "Event Summary",
+    "subtitle": "Review your customized event",
+    "eventDetails": "Event Details",
+    "selectedAddOns": "Selected Add-ons",
+    "priceSummary": "Price Summary",
+    "comparisonTitle": "Cost Comparison",
+    "comparisonSubtitle": "See how much you save with our DIY approach",
+    "contactInfo": "Contact Information",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Additional Information",
+    "termsAndConditions": "Terms and Conditions",
+    "termsText": "I agree to the terms and conditions",
+    "submitRequest": "Submit Request"
+  },
+  "cart": {
+    "title": "Your Saved Configurations",
+    "empty": "Your cart is empty",
+    "items": "items",
+    "checkout": "Checkout",
+    "remove": "Remove",
+    "saveForLater": "Save for Later",
+    "shareConfiguration": "Share Configuration",
+    "configurationsCount": "Saved Configurations"
+  },
+  "seasons": {
+    "highSeason": "High Season",
+    "lowSeason": "Low Season"
+  },
+  "dayTypes": {
+    "weekday": "Weekday",
+    "weekend": "Weekend"
+  },
+  "notifications": {
+    "addedToCart": "Configuration added to cart",
+    "removedFromCart": "Configuration removed from cart",
+    "configurationSaved": "Configuration saved",
+    "configurationShared": "Configuration shared",
+    "requestSubmitted": "Request submitted successfully",
+    "errorOccurred": "An error occurred"
+  }
+}
