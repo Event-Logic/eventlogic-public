@@ -1,23 +1,53 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import Link from 'next/link';
 import type { PotentialSupplier } from '@/types/supplier';
-import { MapPin, Globe, Image as ImageIcon } from 'lucide-react';
+import { MapPin, Globe } from 'lucide-react';
+
+interface FlatSupplierResponse {
+  id: number;
+  name?: string;
+  location?: string;
+  website?: string;
+  status?: string;
+  rating?: number;
+  email?: string;
+  phone?: string;
+}
+
+type SupplierData = PotentialSupplier | FlatSupplierResponse;
 
 interface SupplierCardProps {
-  supplier: PotentialSupplier;
+  supplier: SupplierData;
   locale: string;
+}
+
+function isFlatSupplier(supplier: SupplierData): supplier is FlatSupplierResponse {
+  return 'name' in supplier;
 }
 
 export function SupplierCard({ supplier, locale }: SupplierCardProps) {
   // Handle both nested structure (PotentialSupplier) and flat API response
-  const name = (supplier as any).name || supplier.business?.supplier_name || 'Unnamed Supplier';
-  const location = (supplier as any).location || `${supplier.location?.town || ''}, ${supplier.location?.country || ''}`.trim();
-  const website = (supplier as any).website || supplier.urls?.supplier_url;
-  const status = (supplier as any).status || supplier.status;
-  const rating = (supplier as any).rating || supplier.business?.google_rating;
-  const email = (supplier as any).email;
-  const phone = (supplier as any).phone;
+  const name = isFlatSupplier(supplier)
+    ? supplier.name || 'Unnamed Supplier'
+    : supplier.business?.supplier_name || 'Unnamed Supplier';
+
+  const location = isFlatSupplier(supplier)
+    ? supplier.location
+    : `${supplier.location?.town || ''}, ${supplier.location?.country || ''}`.trim();
+
+  const website = isFlatSupplier(supplier)
+    ? supplier.website
+    : supplier.urls?.supplier_url;
+
+  const status = supplier.status;
+
+  const rating = isFlatSupplier(supplier)
+    ? supplier.rating
+    : supplier.business?.google_rating;
+
+  const email = isFlatSupplier(supplier) ? supplier.email : undefined;
+  const phone = isFlatSupplier(supplier) ? supplier.phone : undefined;
 
   return (
     <Link href={`/${locale}/admin/suppliers/${supplier.id}`}>

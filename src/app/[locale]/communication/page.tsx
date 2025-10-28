@@ -79,7 +79,7 @@ export default async function CommunicationPage({
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-gray-50 p-8 rounded-lg">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <img src="/images/el/header-icon/communicate.svg" alt={t('features.centralizedCommunication.title')} className="w-8 h-8" />
+                  <Image src="/images/el/header-icon/communicate.svg" alt={t('features.centralizedCommunication.title')} width={32} height={32} />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-center">
                   {t('features.centralizedCommunication.title')}
@@ -134,12 +134,12 @@ export default async function CommunicationPage({
                     {t('communicationTypes.participant.description')}
                   </p>
                   <ul className="space-y-2">
-                    {t('communicationTypes.participant.items', { returnObjects: true }).map((item: string, index: number) => (
+                    {[0, 1, 2, 3].map((index) => (
                       <li key={index} className="flex items-start">
                         <svg className="w-5 h-5 text-blue-600 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span>{item}</span>
+                        <span>{t(`communicationTypes.participant.items.${index}`)}</span>
                       </li>
                     ))}
                   </ul>
@@ -163,12 +163,12 @@ export default async function CommunicationPage({
                     {t('communicationTypes.supplier.description')}
                   </p>
                   <ul className="space-y-2">
-                    {t('communicationTypes.supplier.items', { returnObjects: true }).map((item: string, index: number) => (
+                    {[0, 1, 2, 3].map((index) => (
                       <li key={index} className="flex items-start">
                         <svg className="w-5 h-5 text-blue-600 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span>{item}</span>
+                        <span>{t(`communicationTypes.supplier.items.${index}`)}</span>
                       </li>
                     ))}
                   </ul>
@@ -192,12 +192,12 @@ export default async function CommunicationPage({
                     {t('communicationTypes.team.description')}
                   </p>
                   <ul className="space-y-2">
-                    {t('communicationTypes.team.items', { returnObjects: true }).map((item: string, index: number) => (
+                    {[0, 1, 2, 3].map((index) => (
                       <li key={index} className="flex items-start">
                         <svg className="w-5 h-5 text-blue-600 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span>{item}</span>
+                        <span>{t(`communicationTypes.team.items.${index}`)}</span>
                       </li>
                     ))}
                   </ul>

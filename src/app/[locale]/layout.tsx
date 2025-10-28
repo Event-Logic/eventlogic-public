@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
-import { getDictionary } from "../../dictionaries";
 import { Locale } from "../../dictionaries";
 import NavigationClient from "../../components/NavigationClient";
 import { Toaster } from "@/components/ui/toaster";
@@ -26,11 +25,10 @@ export async function generateMetadata({
   params: Promise<{ locale: Locale }>
 }): Promise<Metadata> {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
 
   return {
-    title: dict.metadata.title,
-    description: dict.metadata.description,
+    title: 'Event Logic',
+    description: 'Event Logic - Event Management Platform',
     keywords: [], // Add default keywords here
     authors: [{ name: "Your Company" }],
     creator: "Your Company",
@@ -51,8 +49,8 @@ export async function generateMetadata({
       },
     },
     openGraph: {
-      title: dict.metadata.title,
-      description: dict.metadata.description,
+      title: 'Event Logic',
+      description: 'Event Logic - Event Management Platform',
       url: `https://example.com/${locale}`,
       siteName: "Your Site Name",
       images: [
@@ -68,8 +66,8 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: dict.metadata.title,
-      description: dict.metadata.description,
+      title: 'Event Logic',
+      description: 'Event Logic - Event Management Platform',
       images: ["/images/twitter-image.jpg"],
     },
     robots: {
@@ -94,7 +92,6 @@ export default async function RootLayout({
   params: Promise<{ locale: Locale }>;
 }>) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
   const messages = await getMessages({ locale });
 
   return (

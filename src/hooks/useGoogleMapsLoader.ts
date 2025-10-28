@@ -18,7 +18,7 @@ export function useGoogleMapsLoader({
 
   useEffect(() => {
     // Check if already loaded
-    if (typeof google !== 'undefined' && google.maps) {
+    if (typeof (window as { google?: unknown }).google !== 'undefined' && (window as { google?: { maps?: unknown } }).google?.maps) {
       setIsLoaded(true);
       return;
     }
@@ -27,6 +27,7 @@ export function useGoogleMapsLoader({
     const callbackName = 'initGoogleMapsApi';
 
     // Set up callback
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (window as any)[callbackName] = () => {
       console.log('Google Maps API loaded successfully');
       setIsLoaded(true);

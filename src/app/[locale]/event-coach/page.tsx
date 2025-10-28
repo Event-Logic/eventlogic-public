@@ -327,7 +327,7 @@ export default async function EventCoachPage({
                   </div>
                 </div>
                 <p className="text-gray-700 mb-4">
-                  "{t('testimonials.testimonial1.quote')}"
+                  &quot;{t('testimonials.testimonial1.quote')}&quot;
                 </p>
                 <div className="font-medium">
                   <p>{t('testimonials.testimonial1.name')}</p>
@@ -345,7 +345,7 @@ export default async function EventCoachPage({
                   </div>
                 </div>
                 <p className="text-gray-700 mb-4">
-                  "{t('testimonials.testimonial2.quote')}"
+                  &quot;{t('testimonials.testimonial2.quote')}&quot;
                 </p>
                 <div className="font-medium">
                   <p>{t('testimonials.testimonial2.name')}</p>
@@ -363,7 +363,7 @@ export default async function EventCoachPage({
                   </div>
                 </div>
                 <p className="text-gray-700 mb-4">
-                  "{t('testimonials.testimonial3.quote')}"
+                  &quot;{t('testimonials.testimonial3.quote')}&quot;
                 </p>
                 <div className="font-medium">
                   <p>{t('testimonials.testimonial3.name')}</p>

@@ -144,8 +144,7 @@ export default function ThreeGlobeAnimation() {
       // Orange glowing dot
       const dotGeometry = new THREE.SphereGeometry(2, 16, 16);
       const dotMaterial = new THREE.MeshBasicMaterial({
-        color: 0xff6600,
-        emissive: 0xff6600
+        color: 0xff6600
       });
       
       const dot = new THREE.Mesh(dotGeometry, dotMaterial);

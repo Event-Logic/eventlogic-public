@@ -36,7 +36,7 @@ type EventLogicStepsProps = {
   };
 };
 
-export default function EventLogicSteps({ lang, dictionary }: EventLogicStepsProps) {
+export default function EventLogicSteps({ dictionary }: EventLogicStepsProps) {
   const { steps } = dictionary.home;
 
   const stepsData = [

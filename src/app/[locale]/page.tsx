@@ -2,8 +2,6 @@ import { getTranslations } from "next-intl/server";
 import type { Locale } from "../../dictionaries";
 import { Metadata } from "next";
 import { getDictionary } from "../../dictionaries";
-import Link from "next/link";
-import HomepageBanner from "../../components/HomepageBanner";
 import ForTypesSection from "../../components/ForTypesSection";
 import EventTypesSection from "../../components/EventTypesSection";
 import EventLogicSteps from "../../components/EventLogicSteps";

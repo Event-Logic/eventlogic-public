@@ -2,7 +2,6 @@
 
 import { Star, MapPin, Globe, ExternalLink } from 'lucide-react';
 import { CompleteSupplierResponse } from '@/types/supplier';
-import { Locale } from '@/dictionaries';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
@@ -11,7 +10,6 @@ import { useRouter } from 'next/navigation';
 
 interface SupplierHeaderProps {
   supplier: CompleteSupplierResponse;
-  locale: Locale;
 }
 
 // Status color mapping
@@ -27,7 +25,7 @@ const statusColors: Record<string, string> = {
   pending: 'bg-blue-500',
 };
 
-export function SupplierHeader({ supplier, locale }: SupplierHeaderProps) {
+export function SupplierHeader({ supplier }: SupplierHeaderProps) {
   const router = useRouter();
   const [isProcessing, setIsProcessing] = useState(false);
 

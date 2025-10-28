@@ -223,7 +223,8 @@ export default function WorldSphereAnimationV2() {
       // Animate dashed arcs
       animatedArcs.forEach((arc) => {
         arc.dashOffset -= arc.speed;
-        arc.material.dashOffset = arc.dashOffset;
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        (arc.material as any).dashOffset = arc.dashOffset;
       });
 
       // Camera follows mouse smoothly

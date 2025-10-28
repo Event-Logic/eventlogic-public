@@ -6,10 +6,16 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Sparkles, Loader2 } from 'lucide-react';
 
-export default function AICanvasPage({ params }: { params: { locale: string } }) {
+interface GeneratedUIComponent {
+  id: string;
+  type: string;
+  props?: Record<string, string | number | boolean>;
+}
+
+export default function AICanvasPage() {
   const [intent, setIntent] = useState('');
   const [loading, setLoading] = useState(false);
-  const [generatedUI, setGeneratedUI] = useState<any>(null);
+  const [generatedUI, setGeneratedUI] = useState<{ layout: string; components: GeneratedUIComponent[] } | null>(null);
   const [chatHistory, setChatHistory] = useState<Array<{ role: 'user' | 'assistant'; content: string }>>([]);
 
   async function generateUI() {

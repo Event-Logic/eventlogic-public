@@ -28,10 +28,11 @@ export async function generateMetadata({
 export default async function ExamplePage({
   params,
 }: {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 }) {
-  const t = await getTranslations('example');
-  
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'example' });
+
   return (
     <main>
       <h1>{t('title')}</h1>

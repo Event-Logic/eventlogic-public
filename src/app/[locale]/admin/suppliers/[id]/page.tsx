@@ -35,11 +35,11 @@ export default async function AdminSupplierDetailPage({ params }: PageProps) {
   return (
     <div className="space-y-6">
       {/* Header with name, status, and quick actions */}
-      <SupplierHeader supplier={supplier} locale={locale} />
+      <SupplierHeader supplier={supplier} />
 
       {/* AI Suggestions at the top for visibility */}
       {supplier.suggestions && supplier.suggestions.length > 0 && (
-        <AISuggestionsPanel suggestions={supplier.suggestions} supplierId={supplier.id} />
+        <AISuggestionsPanel suggestions={supplier.suggestions} />
       )}
 
       {/* Main content tabs */}
@@ -68,7 +68,6 @@ export default async function AdminSupplierDetailPage({ params }: PageProps) {
           <SupplierImages
             supplierId={supplier.id}
             images={supplier.images}
-            locale={locale}
           />
         </TabsContent>
 

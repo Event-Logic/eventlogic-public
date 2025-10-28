@@ -71,7 +71,7 @@ export default function LogoSphereAnimation() {
     scene.add(pointCloud);
 
     /* -------------- Pre‑compute sphere positions -------------- */
-    const sphereTargets = new Array(TOTAL_POINTS).fill().map(() => {
+    const sphereTargets = new Array(TOTAL_POINTS).fill(0).map(() => {
       const u = Math.random();
       const v = Math.random();
       const theta = 2 * Math.PI * u;
@@ -100,7 +100,7 @@ export default function LogoSphereAnimation() {
         });
 
         // resample to TOTAL_POINTS
-        const sampled = new Array(TOTAL_POINTS).fill().map((_, i) =>
+        const sampled = new Array(TOTAL_POINTS).fill(0).map((_, i) =>
           pts[Math.floor((i / TOTAL_POINTS) * pts.length)] || pts[0]
         );
 
@@ -171,7 +171,7 @@ export default function LogoSphereAnimation() {
     const clock = new THREE.Clock();
 
     function animate() {
-      const animationId = requestAnimationFrame(animate);
+      requestAnimationFrame(animate);
       const dt = clock.getDelta();
 
       if (morphProgress < 1) {

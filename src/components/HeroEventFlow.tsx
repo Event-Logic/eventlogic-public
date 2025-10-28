@@ -123,7 +123,7 @@ export default function HeroEventFlow({
     geometry.setAttribute('aSeed', new THREE.BufferAttribute(seeds, 3));
 
     // --- Uniforms ---
-    const uniforms: Record<string, { value: any }> = {
+    const uniforms: Record<string, { value: number | THREE.Vector2 | THREE.Color }> = {
       u_time: { value: 0 },
       u_morph: { value: 0 }, // 0 → chaos, 1 → order
       u_mouse: { value: new THREE.Vector2(9999, 9999) },
@@ -284,10 +284,10 @@ export default function HeroEventFlow({
     // Fade helpers for structural lines
     const setAuxOpacity = (alpha: number) => {
       auxGroup.traverse(obj => {
-        const mat = (obj as any).material as THREE.Material | undefined;
+        const mat = (obj as THREE.Mesh).material as THREE.Material | undefined;
         if (mat && 'opacity' in mat) {
           (mat as THREE.MeshBasicMaterial | THREE.LineBasicMaterial).opacity = alpha;
-          (mat as any).transparent = true;
+          (mat as THREE.MeshBasicMaterial | THREE.LineBasicMaterial).transparent = true;
         }
       });
     };
@@ -320,7 +320,7 @@ export default function HeroEventFlow({
       camera.position.z = THREE.MathUtils.lerp(CAM_START_Z, CAM_END_Z, morph);
 
       // decay mouse pulse smoothly
-      uniforms.u_mousePulse.value *= 0.92;
+      uniforms.u_mousePulse.value = (uniforms.u_mousePulse.value as number) * 0.92;
 
       uniforms.u_time.value = clock.getElapsedTime();
       renderer.render(scene, camera);
@@ -343,9 +343,9 @@ export default function HeroEventFlow({
 
       // dispose aux objects
       auxGroup.traverse(obj => {
-        if ((obj as any).geometry) (obj as any).geometry.dispose?.();
-        const mat = (obj as any).material as THREE.Material | undefined;
-        if (mat && 'dispose' in mat) (mat as any).dispose();
+        if ((obj as THREE.Mesh).geometry) (obj as THREE.Mesh).geometry.dispose?.();
+        const mat = (obj as THREE.Mesh).material as THREE.Material | undefined;
+        if (mat && 'dispose' in mat) mat.dispose();
       });
       scene.clear();
     };

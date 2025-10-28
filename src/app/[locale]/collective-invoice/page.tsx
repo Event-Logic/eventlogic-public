@@ -1,10 +1,10 @@
 import { getTranslations } from "next-intl/server";
 import type { Locale } from "../../../dictionaries";
+import { getDictionary } from "../../../dictionaries";
 import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "../../../components/Footer";
-import { getDictionary } from "../../../dictionaries";
 
 export async function generateMetadata({
   params
@@ -136,14 +136,14 @@ export default async function CollectiveInvoicePage({
               {t('process.title')}
             </h2>
             <div className="space-y-8">
-              {t('process.steps').map((step, index) => (
+              {[0, 1, 2, 3, 4].map((index) => (
                 <div key={index} className="flex flex-col md:flex-row items-center gap-8">
                   <div className="flex-shrink-0 w-16 h-16 bg-green-600 text-white rounded-full flex items-center justify-center text-xl font-bold">
-                    {step.number}
+                    {t(`process.steps.${index}.number`)}
                   </div>
                   <div className="flex-1 text-center md:text-left">
-                    <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
-                    <p className="text-gray-700">{step.description}</p>
+                    <h3 className="text-xl font-semibold mb-2">{t(`process.steps.${index}.title`)}</h3>
+                    <p className="text-gray-700">{t(`process.steps.${index}.description`)}</p>
                   </div>
                 </div>
               ))}
@@ -196,10 +196,10 @@ export default async function CollectiveInvoicePage({
               {t('savings.description')}
             </p>
             <div className="grid md:grid-cols-3 gap-8">
-              {t('savings.stats').map((stat, index) => (
+              {[0, 1, 2].map((index) => (
                 <div key={index} className="text-center">
-                  <div className="text-4xl font-bold text-green-600 mb-2">{stat.value}</div>
-                  <div className="text-gray-700">{stat.label}</div>
+                  <div className="text-4xl font-bold text-green-600 mb-2">{t(`savings.stats.${index}.value`)}</div>
+                  <div className="text-gray-700">{t(`savings.stats.${index}.label`)}</div>
                 </div>
               ))}
             </div>
@@ -233,7 +233,7 @@ export default async function CollectiveInvoicePage({
         </section>
 
         {/* Footer */}
-        <Footer lang={locale} />
+        <Footer lang={locale} dictionary={dict} />
       </div>
     </>
   );

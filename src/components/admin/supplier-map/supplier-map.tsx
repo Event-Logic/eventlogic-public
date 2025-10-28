@@ -1,5 +1,6 @@
 'use client';
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { useGoogleMapsLoader } from '@/hooks/useGoogleMapsLoader';
 import { suppliersAPI } from '@/lib/api/suppliers';
@@ -9,6 +10,12 @@ import { MapControls } from './map-controls';
 import { MapStats } from './map-stats';
 import { SupplierInfoWindow } from './supplier-info-window';
 
+// Type declaration for Google Maps API loaded dynamically
+declare global {
+  // eslint-disable-next-line no-var
+  var google: any;
+}
+
 const GOOGLE_MAPS_API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || '';
 
 interface SupplierMapProps {
@@ -17,7 +24,7 @@ interface SupplierMapProps {
 
 export function SupplierMap({ locale }: SupplierMapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
-  const map = useRef<google.maps.Map | null>(null);
+  const map = useRef<any | null>(null);
   const markers = useRef<Map<number, any>>(new Map());
 
   const [suppliers, setSuppliers] = useState<MapSupplierData[]>([]);
@@ -59,7 +66,7 @@ export function SupplierMap({ locale }: SupplierMapProps) {
     setLoading(true);
     try {
       const bounds = map.current?.getBounds();
-      const params: any = {};
+      const params: Record<string, string | number> = {};
 
       if (statusFilter) params.status = statusFilter;
       if (categoryFilter) params.category = categoryFilter;
@@ -106,7 +113,7 @@ export function SupplierMap({ locale }: SupplierMapProps) {
 
     const updateMarkers = async () => {
       // Import AdvancedMarkerElement
-      const { AdvancedMarkerElement } = await google.maps.importLibrary('marker') as google.maps.MarkerLibrary;
+      const { AdvancedMarkerElement } = await google.maps.importLibrary('marker') as any;
 
       // Remove markers not in current supplier list
       markers.current.forEach((marker, id) => {
@@ -240,9 +247,9 @@ export function SupplierMap({ locale }: SupplierMapProps) {
 }
 
 // Simple debounce utility
-function debounce<T extends (...args: any[]) => void>(func: T, wait: number): T {
+function debounce<T extends (...args: unknown[]) => void>(func: T, wait: number): T {
   let timeout: NodeJS.Timeout;
-  return ((...args: any[]) => {
+  return ((...args: Parameters<T>) => {
     clearTimeout(timeout);
     timeout = setTimeout(() => func(...args), wait);
   }) as T;

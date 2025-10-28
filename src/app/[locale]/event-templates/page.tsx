@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import Link from 'next/link';
 import HeroSection from '@/components/HeroSection';
 import ClientLogos from '@/components/ClientLogos';
 
@@ -8,13 +9,13 @@ const locales = ['en', 'sv'] as const;
 type Locale = (typeof locales)[number];
 
 interface PageProps {
-  params: {
+  params: Promise<{
     locale: Locale;
-  };
+  }>;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { locale } = params;
+  const { locale } = await params;
   
   if (!locales.includes(locale)) {
     notFound();
@@ -56,13 +57,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function EventTemplatesPage({ params }: PageProps) {
-  const { locale } = params;
-  
+  const { locale } = await params;
+
   if (!locales.includes(locale)) {
     notFound();
   }
 
   const t = await getTranslations({ locale, namespace: 'event-templates' });
+  const tHome = await getTranslations({ locale, namespace: 'home' });
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-indigo-50">
@@ -70,10 +72,15 @@ export default async function EventTemplatesPage({ params }: PageProps) {
       <HeroSection
         title={t('hero.title')}
         subtitle={t('hero.subtitle')}
-        primaryCta={t('hero.cta')}
-        secondaryCta={t('hero.secondaryCta')}
-        primaryCtaLink="/register"
-        secondaryCtaLink="#templates"
+        ctaText={t('hero.cta')}
+        ctaLink="/register"
+        lang={locale}
+        features={{
+          planning: tHome('hero.features.planning'),
+          network: tHome('hero.features.network'),
+          analytics: tHome('hero.features.analytics'),
+          integration: tHome('hero.features.integration'),
+        }}
       />
 
       {/* Client Logos */}
@@ -325,18 +332,18 @@ export default async function EventTemplatesPage({ params }: PageProps) {
             {t('cta.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
+            <Link
               href="/register"
               className="bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
               {t('cta.primaryButton')}
-            </a>
-            <a
+            </Link>
+            <Link
               href="/register"
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors"
             >
               {t('cta.secondaryButton')}
-            </a>
+            </Link>
           </div>
           <p className="text-purple-200 mt-4 text-sm">
             {t('cta.demo')}

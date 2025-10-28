@@ -3,19 +3,21 @@ import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "../../../components/Footer";
+import { Locale, getDictionary } from "@/dictionaries";
 
 type Props = {
-  params: { locale: string };
+  params: Promise<{ locale: Locale }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const t = await getTranslations({ locale: params.locale, namespace: "strategic-meeting" });
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "strategic-meeting" });
   
   return {
     title: t("metadata.title"),
     description: t("metadata.description"),
     alternates: {
-      canonical: `/${params.locale}/strategic-meeting`,
+      canonical: `/${locale}/strategic-meeting`,
       languages: {
         en: "/en/strategic-meeting",
         sv: "/sv/strategic-meeting",
@@ -25,9 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function StrategicMeetingPage({ params }: Props) {
-  const { locale } = params;
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "strategic-meeting" });
-  const commonT = await getTranslations({ locale, namespace: "common" });
+  const dict = await getDictionary(locale);
 
   return (
     <>
@@ -127,7 +129,7 @@ export default async function StrategicMeetingPage({ params }: Props) {
                 <div>
                   <h3 className="text-2xl font-bold mb-4">Centralized Meeting Management</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    Manage all your organization's meetings and events in one centralized platform. Gain visibility into all event activities across departments, locations, and business units.
+                    Manage all your organization&apos;s meetings and events in one centralized platform. Gain visibility into all event activities across departments, locations, and business units.
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start">
@@ -164,7 +166,7 @@ export default async function StrategicMeetingPage({ params }: Props) {
                 <div className="md:order-2">
                   <h3 className="text-2xl font-bold mb-4">Supplier Management</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    Build and maintain a preferred supplier network. Negotiate better rates through volume discounts and leverage your organization's buying power.
+                    Build and maintain a preferred supplier network. Negotiate better rates through volume discounts and leverage your organization&apos;s buying power.
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start">
@@ -201,7 +203,7 @@ export default async function StrategicMeetingPage({ params }: Props) {
                 <div>
                   <h3 className="text-2xl font-bold mb-4">Budget Control & Approval Workflows</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    Implement standardized approval processes and budget controls to ensure compliance with your organization's policies and procedures.
+                    Implement standardized approval processes and budget controls to ensure compliance with your organization&apos;s policies and procedures.
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start">
@@ -238,7 +240,7 @@ export default async function StrategicMeetingPage({ params }: Props) {
                 <div className="md:order-2">
                   <h3 className="text-2xl font-bold mb-4">Comprehensive Reporting & Analytics</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    Gain valuable insights into your organization's meeting and event spend with detailed reports and analytics. Identify trends, track KPIs, and make data-driven decisions.
+                    Gain valuable insights into your organization&apos;s meeting and event spend with detailed reports and analytics. Identify trends, track KPIs, and make data-driven decisions.
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start">
@@ -292,7 +294,7 @@ export default async function StrategicMeetingPage({ params }: Props) {
                 <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg mb-4 mx-auto">2</div>
                 <h3 className="text-xl font-semibold mb-2">Strategy</h3>
                 <p className="text-gray-700">
-                  We develop a customized SMM strategy aligned with your organization's objectives and requirements.
+                  We develop a customized SMM strategy aligned with your organization&apos;s objectives and requirements.
                 </p>
               </div>
               <div className="bg-gray-50 p-6 rounded-lg text-center">
@@ -324,7 +326,7 @@ export default async function StrategicMeetingPage({ params }: Props) {
                 <div className="md:col-span-2">
                   <h3 className="text-2xl font-bold mb-4">Global Technology Company</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    A global technology company with over 10,000 employees implemented Event Logic's Strategic Meeting Management solution to gain control over their meeting and event spend.
+                    A global technology company with over 10,000 employees implemented Event Logic&apos;s Strategic Meeting Management solution to gain control over their meeting and event spend.
                   </p>
                   <h4 className="text-xl font-semibold mb-2">Challenges:</h4>
                   <ul className="space-y-2 mb-4">
@@ -418,7 +420,7 @@ export default async function StrategicMeetingPage({ params }: Props) {
         </section>
 
         {/* Footer */}
-        <Footer lang={locale} />
+        <Footer lang={locale} dictionary={dict} />
       </div>
     </>
   );

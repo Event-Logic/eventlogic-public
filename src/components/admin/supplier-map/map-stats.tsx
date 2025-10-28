@@ -14,15 +14,15 @@ export function MapStats({ suppliers, loading }: MapStatsProps) {
 
   const readyCount = Object.entries(statusCounts)
     .filter(([status]) => status.includes('ready') || status.includes('auto-approved'))
-    .reduce((sum, [_, count]) => sum + count, 0);
+    .reduce((sum, [, count]) => sum + count, 0);
 
   const processingCount = Object.entries(statusCounts)
     .filter(([status]) => status.includes('scraped') || status.includes('processing'))
-    .reduce((sum, [_, count]) => sum + count, 0);
+    .reduce((sum, [, count]) => sum + count, 0);
 
   const failedCount = Object.entries(statusCounts)
     .filter(([status]) => status.includes('failed') || status.includes('error'))
-    .reduce((sum, [_, count]) => sum + count, 0);
+    .reduce((sum, [, count]) => sum + count, 0);
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

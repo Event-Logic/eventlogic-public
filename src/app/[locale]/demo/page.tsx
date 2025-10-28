@@ -1,6 +1,5 @@
 import { getTranslations } from "next-intl/server";
 import type { Locale } from "../../../dictionaries";
-import Link from "next/link";
 import Image from "next/image";
 import Footer from "../../../components/Footer";
 import { Metadata } from "next";
@@ -252,7 +251,7 @@ export default async function DemoPage({
                   </div>
                 </div>
                 <p className="text-gray-700 mb-4">
-                  "{t('testimonials.testimonial1.quote')}"
+                  &quot;{t('testimonials.testimonial1.quote')}&quot;
                 </p>
                 <div className="flex items-center">
                   <div className="font-medium">
@@ -272,7 +271,7 @@ export default async function DemoPage({
                   </div>
                 </div>
                 <p className="text-gray-700 mb-4">
-                  "{t('testimonials.testimonial2.quote')}"
+                  &quot;{t('testimonials.testimonial2.quote')}&quot;
                 </p>
                 <div className="flex items-center">
                   <div className="font-medium">
@@ -292,7 +291,7 @@ export default async function DemoPage({
                   </div>
                 </div>
                 <p className="text-gray-700 mb-4">
-                  "{t('testimonials.testimonial3.quote')}"
+                  &quot;{t('testimonials.testimonial3.quote')}&quot;
                 </p>
                 <div className="flex items-center">
                   <div className="font-medium">

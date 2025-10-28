@@ -2,17 +2,15 @@
 
 import { useState } from 'react';
 import { ImageData } from '@/types/supplier';
-import { Locale } from '@/dictionaries';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Sparkles, Check, X, Copy } from 'lucide-react';
+import { Sparkles, Check, Copy } from 'lucide-react';
 import { suppliersAPI } from '@/lib/api/suppliers';
 import { useRouter } from 'next/navigation';
 
 interface SupplierImagesProps {
   supplierId: number;
   images: ImageData[];
-  locale: Locale;
 }
 
 // Classification label colors (from classification_data.labels array)
@@ -27,7 +25,7 @@ const classificationColors: Record<string, string> = {
   other_of_value: 'bg-gray-100 text-gray-800',
 };
 
-export function SupplierImages({ supplierId, images, locale }: SupplierImagesProps) {
+export function SupplierImages({ supplierId, images }: SupplierImagesProps) {
   const router = useRouter();
   const [isAISelecting, setIsAISelecting] = useState(false);
   const [selectedView, setSelectedView] = useState<'all' | 'selected' | 'unselected'>('all');

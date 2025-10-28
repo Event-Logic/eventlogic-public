@@ -12,7 +12,7 @@ interface SupplierResourcesProps {
   locale: Locale;
 }
 
-export function SupplierResources({ supplierId, resources, locale }: SupplierResourcesProps) {
+export function SupplierResources({ resources }: SupplierResourcesProps) {
   return (
     <div className="grid gap-6">
       {/* Summary Cards */}

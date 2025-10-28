@@ -3,8 +3,6 @@ import type { Locale } from "../../../dictionaries";
 import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import Footer from "../../../components/Footer";
-import { getDictionary } from "../../../dictionaries";
 
 export async function generateMetadata({
   params
@@ -35,7 +33,6 @@ export default async function NegotiateBookPage({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'negotiate-book' });
   const tNav = await getTranslations({ locale, namespace: 'navigation' });
-  const dict = await getDictionary(locale);
 
   return (
     <>
@@ -136,14 +133,14 @@ export default async function NegotiateBookPage({
               {t('process.title')}
             </h2>
             <div className="space-y-8">
-              {t('process.steps').map((step, index) => (
+              {[0, 1, 2, 3, 4].map((index) => (
                 <div key={index} className="flex flex-col md:flex-row items-center gap-8">
                   <div className="flex-shrink-0 w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold">
-                    {step.number}
+                    {t(`process.steps.${index}.number`)}
                   </div>
                   <div className="flex-1 text-center md:text-left">
-                    <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
-                    <p className="text-gray-700">{step.description}</p>
+                    <h3 className="text-xl font-semibold mb-2">{t(`process.steps.${index}.title`)}</h3>
+                    <p className="text-gray-700">{t(`process.steps.${index}.description`)}</p>
                   </div>
                 </div>
               ))}
@@ -211,9 +208,6 @@ export default async function NegotiateBookPage({
             </div>
           </div>
         </section>
-
-        {/* Footer */}
-        <Footer lang={locale} />
       </div>
     </>
   );

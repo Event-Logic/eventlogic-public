@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Locale } from "../dictionaries";
-import { CartIcon } from "./CartIcon";
 import LanguageSwitcher from "./LanguageSwitcher";
 import DarkModeToggle from "./DarkModeToggle";
 

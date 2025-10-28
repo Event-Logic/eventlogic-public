@@ -252,12 +252,12 @@ export default async function ParticipantManagementPage({
                   {t('benefits.saveTime.description')}
                 </p>
                 <ul className="space-y-2">
-                  {t('benefits.saveTime.items', { returnObjects: true }).map((item: string, index: number) => (
+                  {[0, 1, 2].map((index) => (
                     <li key={index} className="flex items-start">
                       <svg className="w-5 h-5 text-blue-600 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>{item}</span>
+                      <span>{t(`benefits.saveTime.items.${index}`)}</span>
                     </li>
                   ))}
                 </ul>
@@ -268,12 +268,12 @@ export default async function ParticipantManagementPage({
                   {t('benefits.reduceErrors.description')}
                 </p>
                 <ul className="space-y-2">
-                  {t('benefits.reduceErrors.items', { returnObjects: true }).map((item: string, index: number) => (
+                  {[0, 1, 2].map((index) => (
                     <li key={index} className="flex items-start">
                       <svg className="w-5 h-5 text-blue-600 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>{item}</span>
+                      <span>{t(`benefits.reduceErrors.items.${index}`)}</span>
                     </li>
                   ))}
                 </ul>
@@ -284,12 +284,12 @@ export default async function ParticipantManagementPage({
                   {t('benefits.improveCommunication.description')}
                 </p>
                 <ul className="space-y-2">
-                  {t('benefits.improveCommunication.items', { returnObjects: true }).map((item: string, index: number) => (
+                  {[0, 1, 2].map((index) => (
                     <li key={index} className="flex items-start">
                       <svg className="w-5 h-5 text-blue-600 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>{item}</span>
+                      <span>{t(`benefits.improveCommunication.items.${index}`)}</span>
                     </li>
                   ))}
                 </ul>
@@ -300,12 +300,12 @@ export default async function ParticipantManagementPage({
                   {t('benefits.enhanceExperience.description')}
                 </p>
                 <ul className="space-y-2">
-                  {t('benefits.enhanceExperience.items', { returnObjects: true }).map((item: string, index: number) => (
+                  {[0, 1, 2].map((index) => (
                     <li key={index} className="flex items-start">
                       <svg className="w-5 h-5 text-blue-600 mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>{item}</span>
+                      <span>{t(`benefits.enhanceExperience.items.${index}`)}</span>
                     </li>
                   ))}
                 </ul>

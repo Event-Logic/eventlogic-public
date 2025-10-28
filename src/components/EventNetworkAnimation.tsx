@@ -88,7 +88,7 @@ export default function EventNetworkAnimation() {
 
     // Node meshes
     const nodeMeshes: THREE.Mesh[] = [];
-    nodes.forEach((node, i) => {
+    nodes.forEach((node) => {
       const size = node.type === 'event' ? 4 : 2.5;
       const geometry = new THREE.SphereGeometry(size, 16, 16);
       const material = new THREE.MeshPhongMaterial({
@@ -113,8 +113,8 @@ export default function EventNetworkAnimation() {
     });
 
     const connections: THREE.Line[] = [];
-    nodes.forEach((node, i) => {
-      node.connections.forEach(targetIndex => {
+    nodes.forEach((node) => {
+      node.connections.forEach(() => {
         const geometry = new THREE.BufferGeometry();
         const positions = new Float32Array(6);
         geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
@@ -177,18 +177,18 @@ export default function EventNetworkAnimation() {
     const animate = () => {
       requestAnimationFrame(animate);
       const elapsedTime = clock.getElapsedTime();
-      const deltaTime = clock.getDelta();
+      clock.getDelta();
 
       // Update node positions with physics
       nodes.forEach((node, i) => {
         // Apply forces
         const force = new THREE.Vector3(0, 0, 0);
-        
+
         // Attraction to center
         const toCenter = new THREE.Vector3().subVectors(new THREE.Vector3(0, 0, 0), node.position);
         toCenter.multiplyScalar(0.001);
         force.add(toCenter);
-        
+
         // Repulsion from other nodes
         nodes.forEach((other, j) => {
           if (i !== j) {
@@ -241,9 +241,8 @@ export default function EventNetworkAnimation() {
             positions[4] = nodes[targetIndex].position.y;
             positions[5] = nodes[targetIndex].position.z;
             connections[connectionIndex].geometry.attributes.position.needsUpdate = true;
-            
+
             // Pulse connections
-            const distance = node.position.distanceTo(nodes[targetIndex].position);
             const material = connections[connectionIndex].material as THREE.LineBasicMaterial;
             material.opacity = 0.2 + Math.sin(elapsedTime * 2 + i) * 0.1;
           }

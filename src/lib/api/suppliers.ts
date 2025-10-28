@@ -6,7 +6,6 @@
 import { apiClient } from './client';
 import type {
   PotentialSupplier,
-  SupplierListResponse,
   Category,
   QueueStatus,
   PipelineStats,
@@ -17,6 +16,10 @@ import type {
   ProcessSupplierResponse,
   AIImageSelectRequest,
   AIImageSelectResponse,
+  ConferenceRoom,
+  Restaurant,
+  Accommodation,
+  ActivityResource,
 } from '@/types/supplier';
 
 export interface SearchSuppliersParams {
@@ -45,15 +48,22 @@ export interface SupplierStatusResponse {
   last_updated: string;
 }
 
+export interface Website {
+  url: string;
+  content?: string;
+  summary?: string;
+  last_crawled?: string;
+}
+
 export interface SupplierDetailsResponse {
   supplier: PotentialSupplier;
-  websites: any[];
-  images: any[];
+  websites: Website[];
+  images: ImageData[];
   resources: {
-    conference_rooms: any[];
-    restaurants: any[];
-    accommodations: any[];
-    activities: any[];
+    conference_rooms: ConferenceRoom[];
+    restaurants: Restaurant[];
+    accommodations: Accommodation[];
+    activities: ActivityResource[];
   };
 }
 
@@ -62,7 +72,11 @@ export const suppliersAPI = {
    * Search suppliers with filters
    */
   async search(params: SearchSuppliersParams): Promise<SearchSuppliersResponse> {
-    const response = await apiClient.post<any>('/api/suppliers/search', params);
+    interface SearchAPIResponse {
+      results: PotentialSupplier[];
+      total: number;
+    }
+    const response = await apiClient.post<SearchAPIResponse>('/api/suppliers/search', params);
     // API returns 'results' but we need 'suppliers'
     return {
       suppliers: response.results || [],
@@ -121,8 +135,8 @@ export const suppliersAPI = {
    */
   async enrich(
     supplierId: number,
-    updates: Record<string, any>,
-    resources?: any
+    updates: Record<string, unknown>,
+    resources?: Record<string, unknown>
   ): Promise<{ success: boolean; message: string }> {
     return apiClient.post('/api/suppliers/enrich', {
       supplier_id: supplierId,
@@ -135,7 +149,14 @@ export const suppliersAPI = {
    * Get queue status from monitoring endpoint
    */
   async getQueueStatus(): Promise<QueueStatus> {
-    const stats = await apiClient.get<any>('/api/monitor/system');
+    interface SystemStatsResponse {
+      pending_count?: number;
+      active_workers?: number;
+      completed_count?: number;
+      failed_count?: number;
+      total_queue_size?: number;
+    }
+    const stats = await apiClient.get<SystemStatsResponse>('/api/monitor/system');
     return {
       pending: stats.pending_count || 0,
       in_progress: stats.active_workers || 0,
@@ -149,8 +170,8 @@ export const suppliersAPI = {
   /**
    * Get detailed queue stats
    */
-  async getQueueStats(): Promise<any> {
-    return apiClient.get('/api/monitor/stats');
+  async getQueueStats(): Promise<Record<string, unknown>> {
+    return apiClient.get<Record<string, unknown>>('/api/monitor/stats');
   },
 
   /**

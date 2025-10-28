@@ -97,10 +97,10 @@ export interface TransportationDistances {
 }
 
 export interface ProcessingInfo {
-  ai_prediction?: Record<string, any> | null;
-  supplier_descriptions?: Record<string, any> | null;
-  reviews_summaries?: Record<string, any> | null;
-  sitemap?: Record<string, any> | null;
+  ai_prediction?: Record<string, unknown> | null;
+  supplier_descriptions?: Record<string, unknown> | null;
+  reviews_summaries?: Record<string, unknown> | null;
+  sitemap?: Record<string, unknown> | null;
   main_content?: string | null;
   types?: string | null;
   amenities?: string | null;

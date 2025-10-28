@@ -23,7 +23,7 @@ type TestimonialsProps = {
   };
 };
 
-export default function Testimonials({ lang, dictionary }: TestimonialsProps) {
+export default function Testimonials({ dictionary }: TestimonialsProps) {
   const { testimonials } = dictionary.home;
 
   const testimonialsList = [
@@ -55,7 +55,7 @@ export default function Testimonials({ lang, dictionary }: TestimonialsProps) {
           {testimonialsList.map((testimonial) => (
             <div key={testimonial.id} className="bg-purple-800 dark:bg-purple-950 p-8 rounded-lg relative shadow-lg transform transition-transform hover:scale-105">
               {/* Quote icon */}
-              <div className="absolute -top-6 left-8 text-purple-400 text-6xl">"</div>
+              <div className="absolute -top-6 left-8 text-purple-400 text-6xl">&ldquo;</div>
 
               <p className="text-lg mb-6 relative z-10">{testimonial.text}</p>
 

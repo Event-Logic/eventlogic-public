@@ -3,19 +3,21 @@ import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "../../../components/Footer";
+import { Locale, getDictionary } from "@/dictionaries";
 
 type Props = {
-  params: { locale: string };
+  params: Promise<{ locale: Locale }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const t = await getTranslations({ locale: params.locale, namespace: "schedule" });
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "schedule" });
   
   return {
     title: t("metadata.title"),
     description: t("metadata.description"),
     alternates: {
-      canonical: `/${params.locale}/schedule`,
+      canonical: `/${locale}/schedule`,
       languages: {
         en: "/en/schedule",
         sv: "/sv/schedule",
@@ -25,9 +27,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function SchedulePage({ params }: Props) {
-  const { locale } = params;
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "schedule" });
   const commonT = await getTranslations({ locale, namespace: "common" });
+  const dict = await getDictionary(locale);
 
   return (
     <>
@@ -71,7 +74,7 @@ export default async function SchedulePage({ params }: Props) {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-gray-50 p-8 rounded-lg">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <img src="/images/el/header-icon/schedule.svg" alt="Schedule" className="w-8 h-8" />
+                  <Image src="/images/el/header-icon/schedule.svg" alt="Schedule" width={32} height={32} />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-center">
                   {t("features.timeline.title")}
@@ -82,7 +85,7 @@ export default async function SchedulePage({ params }: Props) {
               </div>
               <div className="bg-gray-50 p-8 rounded-lg">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <img src="/images/el/header-icon/communicate.svg" alt="Share" className="w-8 h-8" />
+                  <Image src="/images/el/header-icon/communicate.svg" alt="Share" width={32} height={32} />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-center">
                   {t("features.sharing.title")}
@@ -93,7 +96,7 @@ export default async function SchedulePage({ params }: Props) {
               </div>
               <div className="bg-gray-50 p-8 rounded-lg">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <img src="/images/el/header-icon/templates.svg" alt="Templates" className="w-8 h-8" />
+                  <Image src="/images/el/header-icon/templates.svg" alt="Templates" width={32} height={32} />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-center">
                   {t("features.templates.title")}
@@ -231,7 +234,7 @@ export default async function SchedulePage({ params }: Props) {
         </section>
 
         {/* Footer */}
-        <Footer lang={locale} />
+        <Footer lang={locale} dictionary={dict} />
       </div>
     </>
   );

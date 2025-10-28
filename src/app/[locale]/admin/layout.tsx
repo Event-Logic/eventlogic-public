@@ -1,6 +1,8 @@
 import { AdminNav } from '@/components/admin/admin-nav';
 import { Locale } from '@/dictionaries';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * Admin Layout - Protected Section
  *
@@ -13,7 +15,7 @@ export default async function AdminLayout({
   children,
   params,
 }: {
-  children: React.Node;
+  children: React.ReactNode;
   params: Promise<{ locale: Locale }>;
 }) {
   const { locale } = await params;

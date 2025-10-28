@@ -2,19 +2,21 @@ import { getTranslations } from "next-intl/server";
 import { Metadata } from "next";
 import Link from "next/link";
 import Footer from "../../../../components/Footer";
+import { Locale, getDictionary } from "@/dictionaries";
 
 type Props = {
-  params: { locale: string };
+  params: Promise<{ locale: Locale }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const t = await getTranslations({ locale: params.locale, namespace: "data-protection" });
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "data-protection" });
   
   return {
     title: t("metadata.title"),
     description: t("metadata.description"),
     alternates: {
-      canonical: `/${params.locale}/about/data-protection`,
+      canonical: `/${locale}/about/data-protection`,
       languages: {
         en: "/en/about/data-protection",
         sv: "/sv/about/data-protection",
@@ -24,8 +26,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function DataProtectionPage({ params }: Props) {
-  const { locale } = params;
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "data-protection" });
+  const dict = await getDictionary(locale);
 
   return (
     <>
@@ -305,7 +308,7 @@ export default async function DataProtectionPage({ params }: Props) {
         </section>
 
         {/* Footer */}
-        <Footer lang={locale} />
+        <Footer lang={locale} dictionary={dict} />
       </div>
     </>
   );

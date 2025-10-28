@@ -3,19 +3,21 @@ import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "../../../components/Footer";
+import { Locale, getDictionary } from "@/dictionaries";
 
 type Props = {
-  params: { locale: string };
+  params: Promise<{ locale: Locale }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const t = await getTranslations({ locale: params.locale, namespace: "strategic-meeting-management" });
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "strategic-meeting-management" });
   
   return {
     title: t("metadata.title"),
     description: t("metadata.description"),
     alternates: {
-      canonical: `/${params.locale}/strategic-meeting-management`,
+      canonical: `/${locale}/strategic-meeting-management`,
       languages: {
         en: "/en/strategic-meeting-management",
         sv: "/sv/strategic-meeting-management",
@@ -25,9 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function StrategicMeetingManagementPage({ params }: Props) {
-  const { locale } = params;
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "strategic-meeting-management" });
-  const commonT = await getTranslations({ locale, namespace: "common" });
+  const dict = await getDictionary(locale);
 
   return (
     <>
@@ -357,7 +359,7 @@ export default async function StrategicMeetingManagementPage({ params }: Props) 
                 </div>
               </div>
               <p className="text-gray-700 italic">
-                "{t("caseStudy.quote")}"
+                &ldquo;{t("caseStudy.quote")}&rdquo;
               </p>
               <p className="text-gray-700 font-medium mt-4">
                 {t("caseStudy.attribution")}
@@ -393,7 +395,7 @@ export default async function StrategicMeetingManagementPage({ params }: Props) 
         </section>
 
         {/* Footer */}
-        <Footer lang={locale} />
+        <Footer lang={locale} dictionary={dict} />
       </div>
     </>
   );

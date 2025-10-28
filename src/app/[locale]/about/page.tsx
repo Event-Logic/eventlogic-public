@@ -3,7 +3,6 @@ import type { Locale } from "../../../dictionaries";
 import { Metadata } from "next";
 import { getDictionary } from "../../../dictionaries";
 import Link from "next/link";
-import Image from "next/image";
 import Footer from "../../../components/Footer";
 
 export async function generateMetadata({

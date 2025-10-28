@@ -215,7 +215,7 @@ export default function EventCubeAnimation() {
       }
 
       // Animate cubes
-      cubes.forEach((cube, index) => {
+      cubes.forEach((cube) => {
         // Gentle floating
         const floatY = Math.sin(elapsedTime + cube.userData.floatOffset) * 0.1;
         cube.position.y = cube.userData.originalY + floatY;

@@ -62,7 +62,7 @@ export function SupplierInfoWindow({ supplier, onClose, locale }: SupplierInfoWi
 
         {/* Image count */}
         <div className="flex items-center gap-2 text-sm text-gray-600">
-          <Image className="w-4 h-4" />
+          <Image className="w-4 h-4" aria-label="Images" />
           <span>{supplier.image_count} images</span>
         </div>
 

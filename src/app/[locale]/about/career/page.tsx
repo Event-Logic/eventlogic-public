@@ -1,21 +1,22 @@
 import { getTranslations } from "next-intl/server";
 import { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import Footer from "../../../../components/Footer";
+import { Locale, getDictionary } from "@/dictionaries";
 
 type Props = {
-  params: { locale: string };
+  params: Promise<{ locale: Locale }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const t = await getTranslations({ locale: params.locale, namespace: "career" });
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "career" });
   
   return {
     title: t("metadata.title"),
     description: t("metadata.description"),
     alternates: {
-      canonical: `/${params.locale}/about/career`,
+      canonical: `/${locale}/about/career`,
       languages: {
         en: "/en/about/career",
         sv: "/sv/about/career",
@@ -25,8 +26,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function CareerPage({ params }: Props) {
-  const { locale } = params;
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "career" });
+  const dict = await getDictionary(locale);
 
   // Sample job listings
   const jobListings = [
@@ -375,7 +377,7 @@ export default async function CareerPage({ params }: Props) {
         </section>
 
         {/* Footer */}
-        <Footer lang={locale} />
+        <Footer lang={locale} dictionary={dict} />
       </div>
     </>
   );

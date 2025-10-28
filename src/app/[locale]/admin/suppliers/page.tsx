@@ -2,6 +2,9 @@
 
 import { useState, useEffect, use } from 'react';
 import { useSearchParams } from 'next/navigation';
+
+export const dynamic = 'force-dynamic';
+export const runtime = 'edge';
 import { SupplierCard } from '@/components/suppliers/supplier-card';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';

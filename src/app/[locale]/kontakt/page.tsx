@@ -2,7 +2,6 @@ import { getTranslations } from "next-intl/server";
 import type { Locale } from "../../../dictionaries";
 import { Metadata } from "next";
 import { getDictionary } from "../../../dictionaries";
-import Link from "next/link";
 import Footer from "../../../components/Footer";
 
 export async function generateMetadata({

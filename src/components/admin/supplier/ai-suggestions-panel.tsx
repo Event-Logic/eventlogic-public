@@ -6,7 +6,6 @@ import { Button } from '@/components/ui/button';
 
 interface AISuggestionsPanelProps {
   suggestions: AISuggestion[];
-  supplierId: number;
 }
 
 const priorityColors = {
@@ -28,7 +27,7 @@ const typeLabels = {
   categorization: 'Categorization',
 };
 
-export function AISuggestionsPanel({ suggestions, supplierId }: AISuggestionsPanelProps) {
+export function AISuggestionsPanel({ suggestions }: AISuggestionsPanelProps) {
   if (suggestions.length === 0) return null;
 
   return (
