@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "For Business Travel Agencies",
+    "description": "Digitize your event management process and expand your service offering with Event Logic's white label solution."
+  },
+  "hero": {
+    "title": "For Business Travel Agencies",
+    "subtitle": "Digitize your event management process and expand your service offering with Event Logic's white label solution."
+  },
+  "benefits": {
+    "title": "Benefits for Business Travel Agencies",
+    "digitalTransformation": {
+      "title": "Digital Transformation",
+      "description": "Digitize your entire event management process from planning to invoicing."
+    },
+    "expandedService": {
+      "title": "Expanded Service Offering",
+      "description": "Offer comprehensive meeting and event management services to your clients."
+    },
+    "operationalEfficiency": {
+      "title": "Operational Efficiency",
+      "description": "Streamline your operations with automated processes and integrated tools."
+    }
+  },
+  "features": {
+    "title": "Key Features for Business Travel Agencies",
+    "whiteLabel": {
+      "title": "White Label Solution",
+      "description": "Offer Event Logic as your own branded solution to your clients, with your logo and colors.",
+      "learnMore": "Learn more"
+    },
+    "clientManagement": {
+      "title": "Client Management",
+      "description": "Manage all your clients' events in one place, with detailed reporting and analytics.",
+      "learnMore": "Learn more"
+    },
+    "integratedInvoicing": {
+      "title": "Integrated Invoicing",
+      "description": "Simplify your billing process with integrated invoicing for all event-related expenses.",
+      "learnMore": "Learn more"
+    }
+  },
+  "cta": {
+    "title": "Ready to digitize your event management process?",
+    "description": "Join travel agencies that have expanded their service offering with Event Logic."
+  }
+}

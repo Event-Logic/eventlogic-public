@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "title": "Boka en Demo",
+    "description": "Se hur Event Logic kan förvandla din eventplaneringsprocess. Boka en personlig demo med en av våra experter."
+  },
+  "hero": {
+    "title": "Boka en Demo",
+    "subtitle": "Se hur Event Logic kan förvandla din eventplaneringsprocess. Boka en personlig demo med en av våra experter."
+  },
+  "form": {
+    "title": "Boka Din Demo",
+    "description": "Fyll i formuläret så kontaktar en av våra experter dig för att boka en personlig demo av Event Logic. Vi visar dig hur vår plattform kan hjälpa dig att:",
+    "benefits": [
+      "Spara tid genom att effektivisera din eventplaneringsprocess",
+      "Minska kostnaderna genom att jämföra offerter från flera leverantörer",
+      "Förenkla deltagarhantering med automatiserade inbjudningar och registreringar",
+      "Få omfattande rapportering och analys av dina evenemang"
+    ],
+    "demoTime": "Demon tar vanligtvis 30-45 minuter och kan bokas vid en tid som passar dig.",
+    "fields": {
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "email": "E-post",
+      "phone": "Telefonnummer",
+      "company": "Företag",
+      "jobTitle": "Jobbtitel",
+      "interest": "Jag är intresserad av",
+      "message": "Ytterligare Information",
+      "messagePlaceholder": "Berätta om dina specifika behov eller frågor",
+      "privacy": "Jag godkänner Integritetspolicyn",
+      "required": "*"
+    },
+    "interestOptions": {
+      "select": "Välj ett alternativ",
+      "meetingPlanner": "Event Logic för Mötesplanerare",
+      "buyer": "Event Logic för Köpare",
+      "travelAgency": "Event Logic för Affärsresearrangörer",
+      "supplier": "Event Logic för Leverantörer",
+      "other": "Annat"
+    },
+    "submitButton": "Begär Demo"
+  },
+  "testimonials": {
+    "title": "Vad Våra Kunder Säger Om Våra Demos",
+    "testimonial1": {
+      "quote": "Demon var otroligt hjälpsam. Event Logic-teamet tog sig tid att förstå våra specifika behov och visade oss exakt hur plattformen kunde hantera våra utmaningar.",
+      "name": "Sarah Johnson",
+      "title": "Eventansvarig, ABC Company"
+    },
+    "testimonial2": {
+      "quote": "Jag var imponerad av hur användarvänlig plattformen är. Efter demon kände jag mig säker på att vårt team kunde implementera Event Logic med minimal utbildning.",
+      "name": "Michael Chen",
+      "title": "Inköpschef, XYZ Corp"
+    },
+    "testimonial3": {
+      "quote": "ROI-beräkningen de visade under demon gjorde det till ett enkelt beslut att gå vidare med Event Logic. Vi har redan sett betydande tids- och kostnadsbesparingar.",
+      "name": "Anna Pettersson",
+      "title": "VD, Nordic Events"
+    }
+  },
+  "faq": {
+    "title": "Vanliga Frågor Om Våra Demos",
+    "q1": {
+      "question": "Hur lång tid tar en demo vanligtvis?",
+      "answer": "Våra demos tar vanligtvis 30-45 minuter, men vi kan anpassa längden baserat på dina behov och frågor."
+    },
+    "q2": {
+      "question": "Behöver jag förbereda något för demon?",
+      "answer": "Ingen förberedelse krävs. Men om du har specifika frågor eller scenarier du vill att vi ska behandla, är du välkommen att nämna dem när du bokar demon."
+    },
+    "q3": {
+      "question": "Kan jag bjuda in kollegor att delta i demon?",
+      "answer": "Absolut! Vi uppmuntrar dig att bjuda in alla från ditt team som skulle vara involverade i att använda plattformen eller fatta köpbeslutet."
+    },
+    "q4": {
+      "question": "Finns det en kostnad för demon?",
+      "answer": "Nej, våra demos är helt kostnadsfria och kommer utan skyldighet att köpa."
+    }
+  }
+}

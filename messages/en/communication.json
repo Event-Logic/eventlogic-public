@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "title": "Communication",
+    "description": "Streamline communication with participants, suppliers, and team members. Keep everyone informed and engaged throughout your event planning process."
+  },
+  "title": "Communication",
+  "subtitle": "Streamline communication with participants, suppliers, and team members. Keep everyone informed and engaged throughout your event planning process.",
+  "features": {
+    "title": "Key Features",
+    "centralizedCommunication": {
+      "title": "Centralized Communication",
+      "description": "Keep all your event-related communication in one place. No more searching through emails or messages across different platforms."
+    },
+    "automatedNotifications": {
+      "title": "Automated Notifications", 
+      "description": "Set up automated notifications for important updates, deadlines, and changes. Ensure everyone stays informed without manual effort."
+    },
+    "multiChannelDelivery": {
+      "title": "Multi-Channel Delivery",
+      "description": "Reach your audience through their preferred channels - email, SMS, or in-app notifications. Ensure your messages are seen and acted upon."
+    }
+  },
+  "communicationTypes": {
+    "title": "Communication Types",
+    "participant": {
+      "title": "Participant Communication",
+      "description": "Keep your event participants informed and engaged with personalized communications:",
+      "items": [
+        "Event invitations and registration confirmations",
+        "Pre-event information and reminders",
+        "Schedule updates and changes",
+        "Post-event surveys and thank you messages"
+      ]
+    },
+    "supplier": {
+      "title": "Supplier Communication",
+      "description": "Streamline communication with your event suppliers and vendors:",
+      "items": [
+        "RFP distribution and quote requests",
+        "Contract negotiations and confirmations",
+        "Setup instructions and logistics coordination",
+        "Post-event feedback and payment processing"
+      ]
+    },
+    "team": {
+      "title": "Team Communication",
+      "description": "Keep your event planning team aligned and productive:",
+      "items": [
+        "Task assignments and deadline reminders",
+        "Progress updates and status reports",
+        "Collaborative decision making",
+        "Real-time event day coordination"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Ready to streamline your event communication?",
+    "description": "Join thousands of event planners who use Event Logic to communicate effectively with all stakeholders."
+  }
+}

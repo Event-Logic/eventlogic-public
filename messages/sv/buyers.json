@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "title": "För Inköpare",
+    "description": "För dig som vill effektivisera och ta kontroll över företagets bokningar"
+  },
+  "title": "För Inköpare",
+  "subtitle": "För dig som vill effektivisera och ta kontroll över företagets bokningar",
+  "benefits": {
+    "title": "Fördelar för Inköpare",
+    "costControl": {
+      "title": "Kostnadskontroll",
+      "description": "Få fullständig insyn i alla eventutgifter i hela organisationen."
+    },
+    "streamlinedProcesses": {
+      "title": "Effektiviserade Processer",
+      "description": "Digitalisera hela eventhanteringsprocessen från planering till fakturering."
+    },
+    "comprehensiveReporting": {
+      "title": "Omfattande Rapportering",
+      "description": "Få tillgång till detaljerade rapporter och statistik över alla eventrelaterade utgifter."
+    }
+  },
+  "features": {
+    "title": "Viktiga Funktioner för Inköpare",
+    "strategicMeeting": {
+      "title": "Strategisk Möteshantering",
+      "description": "Ta kontroll över företagets mötes- och eventutgifter med omfattande översikts- och hanteringsverktyg.",
+      "learnMore": "Läs mer"
+    },
+    "reports": {
+      "title": "Rapporter & Statistik",
+      "description": "Få detaljerade insikter i organisationens eventutgifter med omfattande rapporter och analyser.",
+      "learnMore": "Läs mer"
+    },
+    "oneInvoice": {
+      "title": "En Faktura",
+      "description": "Förenkla din redovisning med en enda faktura för alla eventrelaterade utgifter, oavsett hur många leverantörer som är inblandade.",
+      "learnMore": "Läs mer"
+    }
+  },
+  "cta": {
+    "title": "Redo att ta kontroll över dina eventutgifter?",
+    "description": "Gå med organisationer som har effektiviserat sin eventhanteringsprocess med Event Logic."
+  }
+}

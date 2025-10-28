@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "title": "Expressbokning",
+    "description": "Boka dina eventlokaler och tjänster snabbt och effektivt med vår effektiviserade expressbokningsprocess."
+  },
+  "hero": {
+    "title": "Expressbokning",
+    "subtitle": "Boka dina eventlokaler och tjänster snabbt och effektivt med vår effektiviserade expressbokningsprocess.",
+    "cta": "Kom igång"
+  },
+  "features": {
+    "title": "Huvudfunktioner",
+    "quickBooking": {
+      "title": "Snabb bokning",
+      "description": "Boka lokaler och tjänster med bara några klick. Vår effektiviserade process sparar tid och ansträngning."
+    },
+    "preApproved": {
+      "title": "Förgodkända leverantörer",
+      "description": "Få tillgång till vårt nätverk av förgodkända leverantörer av hög kvalitet. Alla granskade för att säkerställa utmärkt service."
+    },
+    "transparent": {
+      "title": "Transparent prissättning",
+      "description": "Se alla kostnader i förväg utan dolda avgifter. Jämför alternativ enkelt för att hitta det bästa värdet för din budget."
+    }
+  },
+  "howItWorks": {
+    "title": "Hur det fungerar",
+    "step1": {
+      "title": "Ange dina krav",
+      "description": "Berätta vad du behöver - plats, datum, antal deltagare och eventuella specifika krav för ditt event."
+    },
+    "step2": {
+      "title": "Bläddra bland tillgängliga alternativ",
+      "description": "Se omedelbart tillgängliga lokaler och tjänster som matchar dina kriterier. Filtrera efter pris, kapacitet, bekvämligheter och mer."
+    },
+    "step3": {
+      "title": "Välj och boka",
+      "description": "Välj dina föredragna alternativ och boka direkt. Säkra din lokal och tjänster med omedelbar bekräftelse."
+    },
+    "step4": {
+      "title": "Hantera din bokning",
+      "description": "Få tillgång till alla dina bokningsdetaljer på ett ställe. Gör ändringar, lägg till tjänster eller kommunicera med leverantörer efter behov."
+    }
+  },
+  "benefits": {
+    "title": "Fördelar",
+    "forPlanners": {
+      "title": "För eventplanerare",
+      "item1": "Spara upp till 70% av planeringstiden",
+      "item2": "Få tillgång till exklusiva priser och tillgänglighet",
+      "item3": "Boka med förtroende - alla leverantörer är granskade",
+      "item4": "Hantera alla bokningar i en central instrumentpanel"
+    },
+    "forOrganizations": {
+      "title": "För organisationer",
+      "item1": "Säkerställ policyefterlevnad med förgodkända leverantörer",
+      "item2": "Spåra utgifter och håll dig inom budget",
+      "item3": "Standardiserade kontrakt och villkor",
+      "item4": "Omfattande rapportering och analys"
+    }
+  },
+  "cta": {
+    "title": "Redo att effektivisera din bokningsprocess?",
+    "subtitle": "Gå med tusentals eventplanerare som använder Event Logic Expressbokning för att spara tid och minska stress.",
+    "getStarted": "Kom igång",
+    "requestDemo": "Boka demo"
+  }
+}

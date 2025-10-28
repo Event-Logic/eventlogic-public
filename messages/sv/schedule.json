@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Skapa körschema - Event Logic",
+    "description": "Skapa detaljerade körscheman för dina event med vårt intuitiva schemaläggningsverktyg. Håll alla uppdaterade med tydliga tidslinjer och aktiviteter."
+  },
+  "hero": {
+    "title": "Skapa körschema",
+    "subtitle": "Skapa detaljerade körscheman för dina event med vårt intuitiva schemaläggningsverktyg. Håll alla uppdaterade med tydliga tidslinjer och aktiviteter.",
+    "cta": "Kom igång"
+  },
+  "features": {
+    "title": "Huvudfunktioner",
+    "timeline": {
+      "title": "Intuitiv tidslinje",
+      "description": "Skapa visuella tidslinjer för dina event med drag-and-drop-enkelhet. Justera enkelt tider och aktiviteter när dina planer utvecklas."
+    },
+    "sharing": {
+      "title": "Enkel delning",
+      "description": "Dela scheman med ditt team, leverantörer och deltagare. Alla hålls informerade med realtidsuppdateringar."
+    },
+    "templates": {
+      "title": "Mallar & Automatisering",
+      "description": "Spara tid med anpassningsbara mallar för olika eventtyper. Automatisera meddelanden och påminnelser för viktiga schemalagda milstolpar."
+    }
+  },
+  "howItWorks": {
+    "title": "Hur det fungerar",
+    "step1": {
+      "title": "Skapa ditt event",
+      "description": "Börja med att ange dina eventdetaljer, inklusive datum, plats och eventtyp. Vårt system kommer att föreslå en schemamall baserad på din eventtyp."
+    },
+    "step2": {
+      "title": "Anpassa ditt schema",
+      "description": "Anpassa schemat genom att lägga till, ta bort eller omorganisera aktiviteter. Ställ in tider, varaktighet och tilldela ansvar till teammedlemmar eller leverantörer."
+    },
+    "step3": {
+      "title": "Dela och samarbeta",
+      "description": "Dela ditt schema med teammedlemmar, leverantörer och andra intressenter. Samarbeta i realtid med kommentarer och ändringshantering."
+    },
+    "step4": {
+      "title": "Övervaka och uppdatera",
+      "description": "Spåra framsteg under ditt event och gör realtidsjusteringar vid behov. Skicka automatiska meddelanden för att hålla alla informerade om ändringar."
+    }
+  },
+  "cta": {
+    "title": "Redo att skapa ditt eventschema?",
+    "subtitle": "Gå med tusentals eventplanerare som använder Event Logic för att skapa och hantera sina eventscheman.",
+    "getStarted": "Kom igång"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "title": "Strategisk möteshantering - Event Logic",
+    "description": "Ta kontroll över din organisations mötes- och eventutgifter med vår omfattande strategiska möteshanteringslösning."
+  },
+  "hero": {
+    "title": "Strategisk möteshantering",
+    "subtitle": "Ta kontroll över din organisations mötes- och eventutgifter med vår omfattande strategiska möteshanteringslösning.",
+    "cta": "Kom igång"
+  },
+  "whatIsSMM": {
+    "title": "Vad är strategisk möteshantering?",
+    "description1": "Strategisk möteshantering (SMM) är ett disciplinerat tillvägagångssätt för att hantera företagsövergripande mötes- och eventaktiviteter. Det hjälper organisationer att få synlighet över sina mötesutgifter, effektivisera processer och uppnå mätbara affärsmål.",
+    "description2": "Med Event Logics SMM-lösning kan du centralisera alla dina mötes- och eventplaneringsaktiviteter, standardisera processer, utnyttja din köpkraft och få värdefulla insikter genom omfattande rapporter och analyser.",
+    "benefitsTitle": "Huvudfördelar",
+    "benefits": [
+      "Minska mötes- och eventkostnader med 10-25%",
+      "Få fullständig synlighet över mötesutgifter",
+      "Standardisera processer i hela organisationen",
+      "Minska risker och säkerställa efterlevnad",
+      "Förbättra deltagarupplevelse och tillfredsställelse"
+    ]
+  },
+  "features": {
+    "title": "Huvudfunktioner",
+    "centralized": {
+      "title": "Centraliserad möteshantering",
+      "description": "Hantera alla din organisations möten och event i en centraliserad plattform. Få synlighet över alla eventaktiviteter över avdelningar, platser och affärsenheter.",
+      "items": [
+        "En plattform för alla mötestyper",
+        "Anpassningsbara godkännandearbetsflöden",
+        "Rollbaserad åtkomstkontroll"
+      ]
+    },
+    "supplier": {
+      "title": "Leverantörshantering",
+      "description": "Bygg och underhåll ett föredraget leverantörsnätverk. Förhandla bättre priser genom volymrabatter och utnyttja din organisations köpkraft.",
+      "items": [
+        "Föredragen leverantörskatalog",
+        "Kontraktshantering",
+        "Prestationsspårning och betyg"
+      ]
+    },
+    "budget": {
+      "title": "Budgetkontroll och godkännandearbetsflöden",
+      "description": "Implementera standardiserade godkännandeprocesser och budgetkontroller för att säkerställa efterlevnad av din organisations policyer och procedurer.",
+      "items": [
+        "Flernivågodkännandearbetsflöden",
+        "Budgetallokering och spårning",
+        "Policyefterlevnadskontroller"
+      ]
+    },
+    "reporting": {
+      "title": "Omfattande rapporter och analyser",
+      "description": "Få värdefulla insikter i din organisations mötes- och eventutgifter med detaljerade rapporter och analyser. Identifiera trender, spåra KPI:er och fatta datadrivna beslut.",
+      "items": [
+        "Anpassningsbara instrumentpaneler",
+        "Utgiftsanalys per avdelning, eventtyp, etc.",
+        "Besparings- och ROI-spårning"
+      ]
+    }
+  },
+  "implementation": {
+    "title": "Implementationsprocess",
+    "assessment": {
+      "title": "Bedömning",
+      "description": "Vi analyserar dina nuvarande möteshanteringsprocesser, identifierar smärtpunkter och definierar dina SMM-mål."
+    },
+    "strategy": {
+      "title": "Strategi",
+      "description": "Vi utvecklar en anpassad SMM-strategi som är anpassad till din organisations mål och krav."
+    },
+    "implementation": {
+      "title": "Implementation",
+      "description": "Vi konfigurerar plattformen, sätter upp arbetsflöden och integrerar med dina befintliga system."
+    },
+    "adoption": {
+      "title": "Adoption",
+      "description": "Vi tillhandahåller utbildning, support och förändringsledning för att säkerställa framgångsrik adoption i hela din organisation."
+    }
+  },
+  "caseStudy": {
+    "title": "Framgångshistoria",
+    "companyName": "Globalt teknikföretag",
+    "description": "Ett globalt teknikföretag med över 10 000 anställda implementerade Event Logics strategiska möteshanteringslösning för att få kontroll över sina mötes- och eventutgifter.",
+    "challengesTitle": "Utmaningar:",
+    "challenges": [
+      "Decentraliserad mötesplanering över 15 länder",
+      "Ingen synlighet över totala mötesutgifter",
+      "Inkonsekvent leverantörsval och kontraktering"
+    ],
+    "resultsTitle": "Resultat:",
+    "results": [
+      "22% minskning av totala mötesutgifter",
+      "35% tidsbesparingar i mötesplaneringsprocessen",
+      "100% efterlevnad av företagspolicyer",
+      "Fullständig synlighet över mötesutgifter i alla regioner"
+    ],
+    "costReduction": "Kostnadsminskning",
+    "timeSavings": "Tidsbesparingar"
+  },
+  "cta": {
+    "title": "Redo att förvandla din möteshantering?",
+    "subtitle": "Gå med organisationer som har implementerat strategisk möteshantering med Event Logic och uppnått betydande kostnadsbesparingar och processförbättringar.",
+    "getStarted": "Kom igång",
+    "demo": "Boka en demo"
+  }
+}

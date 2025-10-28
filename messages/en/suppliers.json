@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "title": "For Suppliers - Join Event Logic Network",
+    "description": "Join thousands of suppliers in Event Logic's network. Get more bookings and grow your business with our event management platform."
+  },
+  "hero": {
+    "title": "For Suppliers",
+    "subtitle": "For those who provide services within events, meetings, and conferences",
+    "cta": "Join as a Supplier"
+  },
+  "benefits": {
+    "title": "Benefits for Suppliers",
+    "moreBusiness": {
+      "title": "More Business",
+      "description": "Get exposure to thousands of meeting planners and event organizers looking for suppliers."
+    },
+    "simplifiedCommunication": {
+      "title": "Simplified Communication",
+      "description": "Communicate with clients directly through the platform, with all information in one place."
+    },
+    "noUpfrontCosts": {
+      "title": "No Upfront Costs",
+      "description": "It's free to be listed in our database. You only pay a small commission when you get a booking."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works for Suppliers",
+    "createProfile": {
+      "title": "1. Create Your Profile",
+      "description": "Sign up and create a detailed profile showcasing your venue or services, with photos, descriptions, and pricing information."
+    },
+    "receiveRequests": {
+      "title": "2. Receive Quote Requests",
+      "description": "Get notified when meeting planners request quotes for events that match your services."
+    },
+    "submitQuotes": {
+      "title": "3. Submit Quotes",
+      "description": "Respond to quote requests with detailed offers, including pricing, availability, and any special conditions."
+    },
+    "getBookings": {
+      "title": "4. Get Bookings",
+      "description": "When your quote is accepted, you'll receive a booking confirmation and can start planning the details."
+    },
+    "manageEvents": {
+      "title": "5. Manage Events",
+      "description": "Use the platform to communicate with clients, access participant information, and manage all aspects of the event."
+    }
+  },
+  "pricing": {
+    "title": "Supplier Pricing",
+    "subtitle": "It's free to join Event Logic as a supplier. You only pay a small commission when you get a booking through the platform.",
+    "commission": "Commission: 8%",
+    "description": "We charge an 8% commission on the total booking value when you receive a booking through Event Logic.",
+    "learnMore": "Learn more about pricing"
+  },
+  "cta": {
+    "title": "Ready to grow your business?",
+    "subtitle": "Join thousands of suppliers who are getting more bookings through Event Logic.",
+    "join": "Join as a Supplier"
+  }
+}

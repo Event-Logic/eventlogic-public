@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "title": "Hitta Leverantörer",
+    "description": "Hitta snabbt och enkelt de perfekta leverantörerna för ditt nästa evenemang."
+  },
+  "title": "Hitta Leverantörer",
+  "subtitle": "Hitta snabbt och enkelt de perfekta leverantörerna för ditt nästa evenemang.",
+  "howItWorks": {
+    "title": "Hur Det Fungerar",
+    "defineNeeds": {
+      "title": "Definiera Dina Behov",
+      "description": "Specificera dina evenemangsinformation, inklusive plats, datum, antal deltagare och vilken typ av leverantörer du behöver."
+    },
+    "browseSuppliers": {
+      "title": "Bläddra Bland Leverantörer",
+      "description": "Bläddra genom vår databas med tusentals leverantörer, filtrera efter plats, kapacitet, tjänster och mer."
+    },
+    "requestQuotes": {
+      "title": "Begär Offerter",
+      "description": "Välj de leverantörer du är intresserad av och begär offerter med bara ett klick. Ingen anledning att ringa eller maila var och en individuellt."
+    }
+  },
+  "supplierDatabase": {
+    "title": "Vår Leverantörsdatabas",
+    "verifiedSuppliers": {
+      "title": "Tusentals Verifierade Leverantörer",
+      "description": "Vår databas inkluderar över 3 500 leverantörer inom olika kategorier:",
+      "categories": [
+        "Lokaler (hotell, konferenscentra, restauranger)",
+        "Cateringtjänster",
+        "Underhållningsleverantörer",
+        "Transporttjänster",
+        "Och många fler..."
+      ],
+      "verification": "Alla leverantörer i vår databas är verifierade för att säkerställa kvalitet och tillförlitlighet."
+    }
+  },
+  "searchFeatures": {
+    "title": "Avancerade Sökfunktioner",
+    "filterCriteria": {
+      "title": "Filtrera Efter Flera Kriterier",
+      "description": "Begränsa din sökning efter plats, kapacitet, prisintervall, erbjudna tjänster och mer för att hitta den perfekta matchningen för ditt evenemang."
+    },
+    "compareSuppliers": {
+      "title": "Jämför Leverantörer Sida Vid Sida",
+      "description": "Välj flera leverantörer och jämför deras erbjudanden, priser och recensioner sida vid sida för att fatta ett välgrundat beslut."
+    },
+    "saveFavorites": {
+      "title": "Spara Favoriter",
+      "description": "Spara dina favoritleverantörer för att återkomma till senare eller dela med kollegor när ni fattar beslut."
+    },
+    "readReviews": {
+      "title": "Läs Recensioner",
+      "description": "Se betyg och recensioner från andra eventplanerare som har arbetat med leverantörerna du överväger."
+    }
+  },
+  "cta": {
+    "title": "Redo att hitta de perfekta leverantörerna för ditt evenemang?",
+    "description": "Gå med tusentals eventplanerare som använder Event Logic för att hitta och boka leverantörer."
+  }
+}

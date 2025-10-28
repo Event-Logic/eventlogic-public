@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "title": "Deltagarhantering",
+    "description": "Förenkla din deltagarhantering med Event Logics omfattande verktyg för inbjudningar, registreringar och kommunikation."
+  },
+  "title": "Deltagarhantering",
+  "subtitle": "Förenkla din deltagarhantering med Event Logics omfattande verktyg för inbjudningar, registreringar och kommunikation.",
+  "features": {
+    "title": "Huvudfunktioner",
+    "customInvitations": {
+      "title": "Anpassade Inbjudningar",
+      "description": "Skapa vackra, märkesanpassade inbjudningar med vår lättanvända editor. Inkludera all viktig information om ditt evenemang och anpassa designen för att matcha ditt varumärke."
+    },
+    "registrationForms": {
+      "title": "Registreringsformulär",
+      "description": "Skapa anpassade registreringsformulär för att samla exakt den information du behöver från deltagare. Lägg till frågor om kostrestriktioner, resönskemål, workshopval och mer."
+    },
+    "automatedReminders": {
+      "title": "Automatiserade Påminnelser",
+      "description": "Ställ in automatiserade påminnelser som skickas till deltagare före evenemanget. Minska uteblivanden och säkerställ att alla har den senaste informationen om ditt evenemang."
+    }
+  },
+  "howItWorks": {
+    "title": "Hur Det Fungerar",
+    "createInvitation": {
+      "title": "Skapa Din Inbjudan",
+      "description1": "Designa din inbjudan med vår intuitiva editor. Välj från mallar eller skapa din egen design. Inkludera all viktig information om ditt evenemang, såsom datum, tid, plats och agenda.",
+      "description2": "Du kan också lägga till bilder, logotyper och anpassade färger för att matcha din varumärkesidentitet."
+    },
+    "buildForm": {
+      "title": "Bygg Ditt Registreringsformulär",
+      "description1": "Skapa ett anpassat registreringsformulär för att samla den information du behöver från deltagare. Lägg till standardfält som namn och e-post, samt anpassade frågor specifika för ditt evenemang.",
+      "description2": "Du kan inkludera frågor om kostrestriktioner, resönskemål, workshopval och mer. Gör fält obligatoriska eller valfria vid behov."
+    },
+    "sendInvitations": {
+      "title": "Skicka Inbjudningar",
+      "description1": "Skicka dina inbjudningar till deltagare via e-post. Du kan importera din kontaktlista eller ange e-postadresser manuellt. Varje inbjudan inkluderar en unik länk till registreringsformuläret.",
+      "description2": "Du kan också schemalägga när inbjudningarna ska skickas och ställa in påminnelsee-post för de som inte har svarat."
+    },
+    "trackResponses": {
+      "title": "Spåra Svar",
+      "description1": "Övervaka svar i realtid genom din instrumentpanel. Se vem som har accepterat, avböjt eller ännu inte svarat på din inbjudan. Visa all registreringsinformation på ett ställe.",
+      "description2": "Du kan exportera deltagardata till Excel eller CSV för vidare analys eller för att dela med leverantörer och teammedlemmar."
+    },
+    "communicate": {
+      "title": "Kommunicera med Deltagare",
+      "description1": "Skicka uppdateringar, påminnelser och ytterligare information till deltagare före, under och efter evenemanget. Du kan skicka meddelanden till alla deltagare eller filtrera efter specifika kriterier.",
+      "description2": "Deltagare kan också uppdatera sin information om deras planer ändras, vilket säkerställer att du alltid har den mest uppdaterade informationen."
+    }
+  },
+  "benefits": {
+    "title": "Fördelar med Vår Deltagarhantering",
+    "saveTime": {
+      "title": "Spara Tid",
+      "description": "Automatisera inbjudnings- och registreringsprocessen, vilket eliminerar behovet av manuell spårning och uppföljning. Vårt system hanterar allt från att skicka inbjudningar till att samla svar.",
+      "items": [
+        "Automatiserad e-postsändning och påminnelser",
+        "Realtidsspårning av svar",
+        "Självbetjäningsregistrering för deltagare"
+      ]
+    },
+    "reduceErrors": {
+      "title": "Minska Fel",
+      "description": "Eliminera manuell datainmatning och risken för fel. Deltagare anger sin egen information, som automatiskt lagras i din evenemangsdatabas.",
+      "items": [
+        "Ingen manuell datainmatning krävs",
+        "Validering av e-postadresser och obligatoriska fält",
+        "Deltagare kan uppdatera sin egen information"
+      ]
+    },
+    "improveCommunication": {
+      "title": "Förbättra Kommunikation",
+      "description": "Håll deltagare informerade med vältimanpassade uppdateringar och påminnelser. Säkerställ att alla har den information de behöver för en framgångsrik evenmangsupplevelse.",
+      "items": [
+        "Schemalagda påminnelser före evenemanget",
+        "Riktade meddelanden till specifika deltagargrupper",
+        "Uppföljning efter evenemang och feedback-insamling"
+      ]
+    },
+    "enhanceExperience": {
+      "title": "Förbättra Deltagarupplevelsen",
+      "description": "Tillhandahåll en sömlös och professionell upplevelse för dina deltagare från inbjudan till uppföljning efter evenemanget.",
+      "items": [
+        "Professionell, märkesanpassad kommunikation",
+        "Enkel registreringsprocess",
+        "Vältimanpassade uppdateringar och information"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Redo att förenkla din deltagarhantering?",
+    "description": "Gå med tusentals eventplanerare som använder Event Logic för att hantera sina deltagare effektivt."
+  }
+}

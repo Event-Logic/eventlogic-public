@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "title": "Contact Event Logic - Get Help with Your Events",
+    "description": "Contact Event Logic for information about our event management platform. We're here to help you with your events and meetings."
+  },
+  "hero": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you! Reach out to us with any questions, feedback, or inquiries."
+  },
+  "getInTouch": {
+    "title": "Get in Touch",
+    "address": {
+      "label": "Address"
+    },
+    "phone": {
+      "label": "Phone"
+    },
+    "email": {
+      "label": "Email"
+    },
+    "hours": {
+      "label": "Office Hours",
+      "value": "Monday - Friday: 9:00 AM - 5:00 PM"
+    },
+    "followUs": "Follow Us"
+  },
+  "form": {
+    "title": "Send Us a Message",
+    "name": {
+      "label": "Name",
+      "placeholder": "Your name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Your email"
+    },
+    "subject": {
+      "label": "Subject",
+      "placeholder": "Subject"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Your message"
+    },
+    "submit": "Send Message"
+  },
+  "map": {
+    "title": "Find Us"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "question1": {
+      "question": "How quickly can I expect a response?",
+      "answer": "We aim to respond to all inquiries within 24 hours during business days. For urgent matters, please call us directly."
+    },
+    "question2": {
+      "question": "I'm interested in a demo. How do I schedule one?",
+      "answer": "You can schedule a demo by clicking the \"Book Demo\" button in the navigation menu, or by contacting us directly through this form."
+    },
+    "question3": {
+      "question": "Do you offer support in languages other than English and Swedish?",
+      "answer": "Currently, our platform and support are available in English and Swedish. We're working on adding more languages in the future."
+    }
+  }
+}

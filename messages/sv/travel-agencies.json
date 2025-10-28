@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "För Affärsresearrangörer",
+    "description": "Digitalisera din eventhanteringsprocess och utöka ditt tjänsteutbud med Event Logics white label-lösning."
+  },
+  "hero": {
+    "title": "För Affärsresearrangörer",
+    "subtitle": "Digitalisera din eventhanteringsprocess och utöka ditt tjänsteutbud med Event Logics white label-lösning."
+  },
+  "benefits": {
+    "title": "Fördelar för Affärsresearrangörer",
+    "digitalTransformation": {
+      "title": "Digital Transformation",
+      "description": "Digitalisera hela din eventhanteringsprocess från planering till fakturering."
+    },
+    "expandedService": {
+      "title": "Utökat Tjänsteutbud",
+      "description": "Erbjud omfattande mötes- och eventhanteringstjänster till dina kunder."
+    },
+    "operationalEfficiency": {
+      "title": "Operativ Effektivitet",
+      "description": "Effektivisera din verksamhet med automatiserade processer och integrerade verktyg."
+    }
+  },
+  "features": {
+    "title": "Nyckelfunktioner för Affärsresearrangörer",
+    "whiteLabel": {
+      "title": "White Label-lösning",
+      "description": "Erbjud Event Logic som din egen märkta lösning till dina kunder, med din logotyp och färger.",
+      "learnMore": "Läs mer"
+    },
+    "clientManagement": {
+      "title": "Kundhantering",
+      "description": "Hantera alla dina kunders evenemang på ett ställe, med detaljerad rapportering och analys.",
+      "learnMore": "Läs mer"
+    },
+    "integratedInvoicing": {
+      "title": "Integrerad Fakturering",
+      "description": "Förenkla din faktureringsprocess med integrerad fakturering för alla eventrelaterade utgifter.",
+      "learnMore": "Läs mer"
+    }
+  },
+  "cta": {
+    "title": "Redo att digitalisera din eventhanteringsprocess?",
+    "description": "Gå med researrangörer som har utökat sitt tjänsteutbud med Event Logic."
+  }
+}

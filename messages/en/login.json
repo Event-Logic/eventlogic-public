@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "title": "Sign In",
+    "description": "Sign in to your Event Logic account to manage your events and bookings."
+  },
+  "title": "Sign In",
+  "subtitle": "Sign in to your Event Logic account",
+  "form": {
+    "email": "Email",
+    "emailPlaceholder": "Your email",
+    "password": "Password",
+    "passwordPlaceholder": "Your password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "signInButton": "Sign In"
+  },
+  "socialLogin": {
+    "orContinueWith": "Or continue with",
+    "google": "Google",
+    "facebook": "Facebook"
+  },
+  "footer": {
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up"
+  }
+}

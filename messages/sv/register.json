@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "title": "Skapa Konto",
+    "description": "Gå med Event Logic och börja planera dina evenemang med vår omfattande eventhanteringsplattform."
+  },
+  "title": "Skapa Konto",
+  "subtitle": "Gå med Event Logic och börja planera dina evenemang",
+  "form": {
+    "firstName": "Förnamn",
+    "firstNamePlaceholder": "Förnamn",
+    "lastName": "Efternamn",
+    "lastNamePlaceholder": "Efternamn",
+    "email": "E-post",
+    "emailPlaceholder": "Din e-post",
+    "company": "Företag",
+    "companyPlaceholder": "Ditt företag",
+    "password": "Lösenord",
+    "passwordPlaceholder": "Skapa ett lösenord",
+    "passwordRequirements": "Lösenordet måste vara minst 8 tecken långt och innehålla en siffra och ett specialtecken.",
+    "confirmPassword": "Bekräfta Lösenord",
+    "confirmPasswordPlaceholder": "Bekräfta ditt lösenord",
+    "termsAgreement": "Jag godkänner Användarvillkoren och Integritetspolicyn",
+    "createAccountButton": "Skapa Konto"
+  },
+  "socialLogin": {
+    "orSignUpWith": "Eller registrera dig med",
+    "google": "Google",
+    "facebook": "Facebook"
+  },
+  "footer": {
+    "alreadyHaveAccount": "Har du redan ett konto?",
+    "signIn": "Logga in"
+  }
+}

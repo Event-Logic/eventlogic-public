@@ -2,139 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- English URLs -->
   <url>
-    <loc>https://wards.se/en</loc>
-    <lastmod>2025-03-24</lastmod>
+    <loc>https://example.com/en</loc>
+    <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/en/booking</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/en/rooms</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/en/conference</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/en/restaurant</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/en/contact</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/en/brollop</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/en/fester</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/en/retreats</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   
   <!-- Swedish URLs -->
   <url>
-    <loc>https://wards.se/sv</loc>
-    <lastmod>2025-03-24</lastmod>
+    <loc>https://example.com/sv</loc>
+    <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/sv/booking</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/sv/rum</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/sv/konferens</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/sv/restaurang</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/sv/kontakt</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/sv/brollop</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/sv/fester</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/sv/retreats</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Legacy URLs for SEO (301 redirects) -->
-  <url>
-    <loc>https://wards.se/konferens</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/restaurang</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/kontakt</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wards.se/hotell</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>

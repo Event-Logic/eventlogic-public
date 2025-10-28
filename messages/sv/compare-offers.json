@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "title": "Jämför Offerter",
+    "description": "Jämför enkelt offerter från flera leverantörer för att hitta det bästa alternativet för ditt evenemang."
+  },
+  "title": "Jämför Offerter",
+  "subtitle": "Jämför enkelt offerter från flera leverantörer för att hitta det bästa alternativet för ditt evenemang.",
+  "howItWorks": {
+    "title": "Hur Det Fungerar",
+    "requestQuotes": {
+      "title": "Begär Offerter",
+      "description": "Skicka dina evenemangskrav till flera leverantörer med bara några klick."
+    },
+    "receiveOffers": {
+      "title": "Ta Emot Offerter",
+      "description": "Leverantörer svarar med detaljerade offerter som automatiskt organiseras i ditt konto."
+    },
+    "compareSideBySide": {
+      "title": "Jämför Sida Vid Sida",
+      "description": "Visa alla offerter i ett standardiserat format som gör det enkelt att jämföra priser, tjänster och villkor."
+    }
+  },
+  "features": {
+    "title": "Huvudfunktioner",
+    "standardizedFormat": {
+      "title": "Standardiserat Format",
+      "description": "Alla offerter presenteras i ett standardiserat format, vilket gör det enkelt att jämföra lika med lika. Slut på att gräva genom e-postmeddelanden eller kalkylblad för att hitta informationen du behöver."
+    },
+    "budgetBreakdown": {
+      "title": "Budgetuppdelning",
+      "description": "Se en detaljerad kostnadsuppdelning för varje offert, inklusive lokal, catering, utrustning och andra tjänster. Identifiera var du kan spara pengar eller var en leverantör erbjuder bättre värde."
+    },
+    "negotiationTools": {
+      "title": "Förhandlingsverktyg",
+      "description": "Kommunicera direkt med leverantörer genom plattformen för att förhandla bättre villkor eller begära ändringar av deras offerter."
+    },
+    "collaborativeDecision": {
+      "title": "Samarbetsbaserat Beslutsfattande",
+      "description": "Dela offerter med kollegor eller kunder för att få deras input innan du fattar ett slutgiltigt beslut. Alla kan se samma information och ge feedback."
+    }
+  },
+  "benefits": {
+    "title": "Fördelar med att Jämföra Offerter med Event Logic",
+    "saveTime": {
+      "title": "Spara Tid",
+      "description": "Slut på att manuellt sammanställa offerter från olika leverantörer. Event Logic gör jobbet åt dig och presenterar all information i ett tydligt, jämförbart format."
+    },
+    "betterDecisions": {
+      "title": "Fatta Bättre Beslut",
+      "description": "Med all information tydligt presenterad kan du fatta mer välgrundade beslut baserat på värde, inte bara pris."
+    },
+    "negotiateDeals": {
+      "title": "Förhandla Bättre Avtal",
+      "description": "Beväpnad med flera offerter är du i en starkare position att förhandla bättre villkor med dina föredragna leverantörer."
+    }
+  },
+  "cta": {
+    "title": "Redo att fatta smartare beslut för dina evenemang?",
+    "description": "Gå med tusentals eventplanerare som använder Event Logic för att jämföra offerter och få bästa värde."
+  }
+}

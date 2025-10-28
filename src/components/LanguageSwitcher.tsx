@@ -1,31 +1,8 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import Link from "next/link";
 import { Locale } from "../dictionaries";
-
-// Mapping between localized routes and actual page paths
-// This maps SEO-friendly URLs to the actual page files
-const routeMapping = {
-  en: {
-    // English SEO routes to actual page paths
-    'rooms': 'rum',
-    'restaurant': 'restaurang',
-    'contact': 'kontakt',
-    'conference': 'konferens',
-    'weddings': 'brollop',
-    'celebrations': 'fester'
-  },
-  sv: {
-    // Swedish routes (these match the actual page paths)
-    'rum': 'rum',
-    'restaurang': 'restaurang',
-    'kontakt': 'kontakt',
-    'konferens': 'konferens',
-    'brollop': 'brollop',
-    'fester': 'fester'
-  }
-};
+import Link from "next/link";
 
 export default function LanguageSwitcher({
   currentLang
@@ -35,52 +12,65 @@ export default function LanguageSwitcher({
   const pathname = usePathname();
   const alternateLanguage: Locale = currentLang === "en" ? "sv" : "en";
 
-  // Function to translate the path for the alternate language
-  const getTranslatedPath = () => {
-    // If we're on the home page, just return the alternate language
-    if (pathname === `/${currentLang}`) {
+  // Map of Swedish to English page names
+  const pageMap: Record<string, string> = {
+    'kopare': 'buyers',
+    'leverantorer': 'suppliers',
+    'motesplanerare': 'meeting-planners',
+    'resebyraer': 'travel-agencies',
+    'priser': 'pricing',
+    'kontakt': 'contact',
+    'om-oss': 'about',
+    'karriar': 'career',
+    'dataskydd': 'data-protection',
+    'logga-in': 'login',
+    'registrera': 'register',
+    'expressbokning': 'express-booking',
+    'hitta-leverantorer': 'find-suppliers',
+    'jamfor-offerter': 'compare-offers',
+    'forhandla-boka': 'negotiate-book',
+    'schema': 'schedule',
+    'samlingsfaktura': 'collective-invoice',
+    'rapporter': 'reports',
+    'deltagarhantering': 'participant-management',
+    'namnskyltar': 'name-badges',
+    'eventmallar': 'event-templates',
+    'strategisk-moteshantering': 'strategic-meeting-management',
+    'strategiska-moten': 'strategic-meeting',
+    'kommunikation': 'communication',
+  };
+
+  // Get the alternate URL
+  const getAlternateUrl = () => {
+    // Remove the current locale prefix
+    const pathWithoutLocale = pathname.replace(`/${currentLang}`, '').replace(/^\//, '');
+    
+    if (!pathWithoutLocale) {
+      // Homepage
       return `/${alternateLanguage}`;
     }
 
-    // Split the path into segments
-    const segments = pathname.split('/').filter(Boolean);
-
-    // If there are less than 2 segments, just return the alternate language
-    if (segments.length < 2) {
-      return `/${alternateLanguage}`;
+    if (alternateLanguage === 'en') {
+      // Switching from Swedish to English - need to translate Swedish page names
+      const segments = pathWithoutLocale.split('/');
+      const translatedSegments = segments.map(segment => pageMap[segment] || segment);
+      return `/${alternateLanguage}/${translatedSegments.join('/')}`;
+    } else {
+      // Switching from English to Swedish - need to translate English page names
+      const reverseMap = Object.fromEntries(
+        Object.entries(pageMap).map(([k, v]) => [v, k])
+      );
+      const segments = pathWithoutLocale.split('/');
+      const translatedSegments = segments.map(segment => reverseMap[segment] || segment);
+      return `/${alternateLanguage}/${translatedSegments.join('/')}`;
     }
-
-    // The first segment is the current language, the second is the path
-    const pathSegment = segments[1];
-
-    // For English to Swedish translation
-    if (currentLang === 'en' && alternateLanguage === 'sv') {
-      // If we're on an English SEO path, we need to find the actual page path first
-      const actualPagePath = pathSegment in routeMapping.en
-        ? routeMapping.en[pathSegment as keyof typeof routeMapping.en]
-        : pathSegment;
-
-      // For Swedish, the URL is the same as the page path
-      return `/${alternateLanguage}/${actualPagePath}${segments.length > 2 ? '/' + segments.slice(2).join('/') : ''}`;
-    }
-
-    // For Swedish to English translation
-    if (currentLang === 'sv' && alternateLanguage === 'en') {
-      // Find if there's an English SEO path for this Swedish page path
-      // Using underscore to indicate unused parameter
-      const englishSeoPath = Object.entries(routeMapping.en).find(([, value]) => value === pathSegment)?.[0] || pathSegment;
-
-      return `/${alternateLanguage}/${englishSeoPath}${segments.length > 2 ? '/' + segments.slice(2).join('/') : ''}`;
-    }
-
-    // Fallback
-    return `/${alternateLanguage}/${pathSegment}${segments.length > 2 ? '/' + segments.slice(2).join('/') : ''}`;
   };
 
   return (
     <Link
-      href={getTranslatedPath()}
+      href={getAlternateUrl()}
       className="text-white hover:text-gray-300 transition-colors"
+      aria-label={`Switch to ${alternateLanguage === 'en' ? 'English' : 'Swedish'}`}
     >
       {alternateLanguage.toUpperCase()}
     </Link>

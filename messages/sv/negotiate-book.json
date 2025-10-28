@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "title": "Förhandla och boka - Effektivisera din eventbokningsprocess",
+    "description": "Förenkla förhandlingar och bokningar med leverantörer genom Event Logics integrerade plattform. Få bästa affärer för dina evenemang effektivt."
+  },
+  "hero": {
+    "title": "Förhandla och boka",
+    "subtitle": "Effektivisera dina förhandlingar och säkra de bästa affärerna för dina evenemang med vårt integrerade bokningssystem."
+  },
+  "overview": {
+    "title": "Effektiv förhandling och bokning",
+    "description": "Event Logics förhandla och boka-funktion transformerar den traditionella fram-och-tillbaka-processen till en strömlinjeformad, transparent upplevelse som sparar tid och säkerställer att du får bästa värde för dina evenemang."
+  },
+  "features": {
+    "title": "Huvudfunktioner",
+    "centralizedNegotiation": {
+      "title": "Centraliserad förhandlingshubb",
+      "description": "Alla förhandlingar med leverantörer sker på ett ställe, vilket ger dig fullständig överblick och kontroll över processen."
+    },
+    "realTimeMessaging": {
+      "title": "Realtidsmeddelanden",
+      "description": "Kommunicera direkt med leverantörer, ställ frågor och förhandla villkor utan att lämna plattformen."
+    },
+    "priceComparison": {
+      "title": "Prisjämförelseverktyg",
+      "description": "Jämför erbjudanden sida vid sida för att fatta välgrundade beslut och förhandla bättre affärer."
+    },
+    "quickBooking": {
+      "title": "Ett-klicks-bokning",
+      "description": "När du har förhandlat fram den perfekta affären, boka den omedelbart med vår strömlinjeformade bokningsprocess."
+    },
+    "contractManagement": {
+      "title": "Kontraktshantering",
+      "description": "Generera och hantera kontrakt automatiskt med tydliga villkor och bestämmelser."
+    },
+    "paymentIntegration": {
+      "title": "Integrerade betalningar",
+      "description": "Säker betalningshantering med flexibla betalningsvillkor och alternativ."
+    }
+  },
+  "process": {
+    "title": "Så fungerar det",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Ta emot offerter",
+        "description": "Få detaljerade offerter från flera leverantörer för jämförelse"
+      },
+      {
+        "number": "2",
+        "title": "Påbörja förhandlingar",
+        "description": "Använd vårt meddelandesystem för att förhandla villkor, prissättning och detaljer"
+      },
+      {
+        "number": "3",
+        "title": "Jämför alternativ",
+        "description": "Granska alla erbjudanden sida vid sida med våra jämförelseverktyg"
+      },
+      {
+        "number": "4",
+        "title": "Slutför affären",
+        "description": "Kom överens om slutliga villkor med din valda leverantör"
+      },
+      {
+        "number": "5",
+        "title": "Boka omedelbart",
+        "description": "Slutför din bokning med ett klick och automatisk kontraktsgenerering"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Fördelar",
+    "timeSaving": {
+      "title": "Spara tid",
+      "description": "Minska förhandlingstiden med upp till 70% genom strömlinjeformade processer"
+    },
+    "betterDeals": {
+      "title": "Bättre affärer",
+      "description": "Få konkurrenskraftiga priser genom transparent jämförelse och förhandling"
+    },
+    "transparency": {
+      "title": "Full transparens",
+      "description": "Se all kommunikationshistorik och villkor på en centraliserad plats"
+    },
+    "compliance": {
+      "title": "Efterlevnadsklar",
+      "description": "Automatisk kontraktsgenerering säkerställer efterlevnad av företagspolicies"
+    }
+  },
+  "cta": {
+    "title": "Redo att effektivisera dina bokningar?",
+    "subtitle": "Gå med tusentals eventplanerare som sparar tid och pengar med vår förhandla och boka-funktion.",
+    "button": "Börja förhandla"
+  }
+}

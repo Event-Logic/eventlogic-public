@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "title": "Professionella Namnbrickor & Eventlegitimationer | Event Logic",
+    "description": "Skapa anpassade namnbrickor, halsband och eventlegitimationer med avancerade funktioner som QR-koder, nätverkspreferenser och säkerhetsåtkomstnivåer.",
+    "keywords": "namnbrickor, eventlegitimationer, brickutskrift, QR-kod brickor, nätverksbrickor, eventsäkerhet"
+  },
+  "hero": {
+    "title": "Professionella Namnbrickor Som Arbetar Lika Hårt Som Du",
+    "subtitle": "Skapa anpassade brickor med avancerade funktioner som QR-koder, nätverkspreferenser och säkerhetsåtkomst - allt från din eventhanteringsplattform",
+    "cta": "Designa Brickor",
+    "secondaryCta": "Visa Exempel"
+  },
+  "features": {
+    "title": "Smarta Brickfunktioner för Moderna Evenemang",
+    "subtitle": "Mer än bara namn - skapa brickor som förbättrar nätverkande och effektiviserar incheckning",
+    "items": [
+      {
+        "title": "Smarta QR-Koder",
+        "description": "Varje bricka inkluderar en unik QR-kod för omedelbar kontaktdelning och sessionsincheckning"
+      },
+      {
+        "title": "Anpassade Designmallar",
+        "description": "Professionella layouter som matchar ditt varumärke med anpassningsbara färger, typsnitt och layouter"
+      },
+      {
+        "title": "Nätverkspreferenser",
+        "description": "Visa deltagarnas intressen, färdigheter och nätverksmål direkt på brickan"
+      },
+      {
+        "title": "Säkerhetsåtkomstnivåer",
+        "description": "Färgkodade brickor och åtkomstindikatorer för olika deltagartyper och begränsade områden"
+      },
+      {
+        "title": "Social Media Integration",
+        "description": "Inkludera LinkedIn-profiler, Twitter-handtag och professionella porträtt"
+      },
+      {
+        "title": "Utskriftsklara Filer",
+        "description": "Högupplösta filer redo för professionell utskrift eller använd våra utskriftspartners"
+      }
+    ]
+  },
+  "badgeTypes": {
+    "title": "Bricklösningar för Alla Eventtyper",
+    "subtitle": "Skräddarsydda designer och funktioner för olika eventformat",
+    "categories": [
+      {
+        "name": "Konferensbrickor",
+        "description": "Flerdagarsevenemang med sessionsspårning, talaridentifiering och nätverksfunktioner"
+      },
+      {
+        "name": "Mässbrickor",
+        "description": "Lead capture-möjligheter, monterbesöksspårning och utställarnätverksverktyg"
+      },
+      {
+        "name": "Företagsbrickor",
+        "description": "Professionella designer med företagsvarumärke, jobbtitlar och avdelningsidentifiering"
+      },
+      {
+        "name": "Säkerhetsbrickor",
+        "description": "Åtkomstkontrollintegration, fotoverifiering och indikatorer för begränsade områden"
+      }
+    ]
+  },
+  "smartFeatures": {
+    "title": "Smart Brickteknologi",
+    "subtitle": "Förbättra nätverkande och eventupplevelse med intelligenta brickfunktioner",
+    "features": [
+      {
+        "title": "Lead Capture",
+        "description": "Skanna brickor för att omedelbart fånga kontaktinformation och uppföljningspåminnelser"
+      },
+      {
+        "title": "Sessionsspårning",
+        "description": "Övervaka närvaro vid gruppsessioner och workshops automatiskt"
+      },
+      {
+        "title": "Digitala Visitkort",
+        "description": "QR-koder länkar till kompletta digitala profiler med all professionell information"
+      },
+      {
+        "title": "Gamification",
+        "description": "Poäng och prestationer för nätverksaktiviteter och sessionsnärvaro"
+      }
+    ]
+  },
+  "process": {
+    "title": "Skapa Professionella Brickor på Minuter",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Välj Din Mall",
+        "description": "Välj från professionella mallar eller skapa en anpassad design"
+      },
+      {
+        "number": "2",
+        "title": "Importera Deltagardata",
+        "description": "Synka direkt från ditt registreringssystem eller ladda upp en CSV-fil"
+      },
+      {
+        "number": "3",
+        "title": "Anpassa Information",
+        "description": "Lägg till QR-koder, nätverkspreferenser och säkerhetsåtkomstnivåer"
+      },
+      {
+        "number": "4",
+        "title": "Skriv Ut eller Distribuera",
+        "description": "Ladda ner utskriftsklara filer eller använd våra integrerade utskriftstjänster"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Varför Event Logic Bricklösningar Sticker Ut",
+    "items": [
+      {
+        "title": "Sömlös Integration",
+        "description": "Brickor synkas automatiskt med ditt eventregistrerings- och deltagarhanteringssystem."
+      },
+      {
+        "title": "Förbättrat Nätverkande",
+        "description": "Smarta funktioner som underlättar meningsfulla kontakter mellan deltagare."
+      },
+      {
+        "title": "Professionell Kvalitet",
+        "description": "Högupplösta designer som återspeglar ditt events professionalism och uppmärksamhet på detaljer."
+      },
+      {
+        "title": "Kostnadseffektivt",
+        "description": "Eliminera dyra brickutskriftstjänster med våra integrerade lösningar."
+      }
+    ]
+  },
+  "printing": {
+    "title": "Flexibla Utskriftsalternativ",
+    "subtitle": "Välj den utskriftslösning som fungerar bäst för ditt evenemang",
+    "options": [
+      {
+        "title": "Gör-Det-Själv Utskrift",
+        "description": "Ladda ner högupplösta PDF:er optimerade för vanliga kontorsskrivare och brickmaterial"
+      },
+      {
+        "title": "Professionell Utskrift",
+        "description": "Beställ genom vårt nätverk av professionella utskriftspartners med garanterad kvalitet"
+      },
+      {
+        "title": "Utskrift på Plats",
+        "description": "Skriv ut brickor på begäran på din eventplats för sista-minuten-registreringar"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Redo att Uppgradera Dina Eventbrickor?",
+    "subtitle": "Skapa professionella, smarta brickor som förbättrar nätverkande och effektiviserar dina eventoperationer",
+    "primaryButton": "Börja Designa",
+    "secondaryButton": "Visa Mallar",
+    "demo": "Eller boka en demo för att se brickfunktioner i aktion"
+  },
+  "faq": {
+    "title": "Vanliga Frågor",
+    "items": [
+      {
+        "question": "Kan jag skriva ut brickor på begäran på mitt evenemang?",
+        "answer": "Ja! Vårt bricksystem stöder utskrift på begäran för sista-minuten-registreringar och walk-ins. Du kan skriva ut individuella brickor eller partier vid behov."
+      },
+      {
+        "question": "Vilken information kan QR-koder på brickor innehålla?",
+        "answer": "QR-koder kan länka till digitala visitkort, LinkedIn-profiler, sessionsscheman eller vilken anpassad URL som helst. Du kan också använda dem för lead capture och kontaktdelning."
+      },
+      {
+        "question": "Stöder ni olika brickstorlekar och material?",
+        "answer": "Ja, våra mallar fungerar med standardbrickstorlekar (3,5\"x2,25\", 4\"x3\", etc.) och vi tillhandahåller specifikationer för olika material inklusive plast, kartong och specialpapper."
+      },
+      {
+        "question": "Kan brickor integreras med åtkomstkontrollsystem?",
+        "answer": "Absolut! Våra brickor kan inkludera åtkomstkontrollfunktioner, RFID-kompatibilitet och integration med säkerhetssystem för begränsade områden."
+      }
+    ]
+  }
+}

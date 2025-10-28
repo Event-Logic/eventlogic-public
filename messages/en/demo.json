@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "title": "Book a Demo",
+    "description": "See how Event Logic can transform your event planning process. Schedule a personalized demo with one of our experts."
+  },
+  "hero": {
+    "title": "Book a Demo",
+    "subtitle": "See how Event Logic can transform your event planning process. Schedule a personalized demo with one of our experts."
+  },
+  "form": {
+    "title": "Schedule Your Demo",
+    "description": "Fill out the form and one of our experts will contact you to schedule a personalized demo of Event Logic. We'll show you how our platform can help you:",
+    "benefits": [
+      "Save time by streamlining your event planning process",
+      "Reduce costs by comparing quotes from multiple suppliers",
+      "Simplify participant management with automated invitations and registrations",
+      "Get comprehensive reporting and analytics on your events"
+    ],
+    "demoTime": "The demo typically takes 30-45 minutes and can be scheduled at a time that works for you.",
+    "fields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "company": "Company",
+      "jobTitle": "Job Title",
+      "interest": "I'm interested in",
+      "message": "Additional Information",
+      "messagePlaceholder": "Tell us about your specific needs or questions",
+      "privacy": "I agree to the Privacy Policy",
+      "required": "*"
+    },
+    "interestOptions": {
+      "select": "Select an option",
+      "meetingPlanner": "Event Logic for Meeting Planners",
+      "buyer": "Event Logic for Buyers",
+      "travelAgency": "Event Logic for Business Travel Agencies",
+      "supplier": "Event Logic for Suppliers",
+      "other": "Other"
+    },
+    "submitButton": "Request Demo"
+  },
+  "testimonials": {
+    "title": "What Our Customers Say About Our Demos",
+    "testimonial1": {
+      "quote": "The demo was incredibly helpful. The Event Logic team took the time to understand our specific needs and showed us exactly how the platform could address our challenges.",
+      "name": "Sarah Johnson",
+      "title": "Event Manager, ABC Company"
+    },
+    "testimonial2": {
+      "quote": "I was impressed by how user-friendly the platform is. After the demo, I felt confident that our team could implement Event Logic with minimal training.",
+      "name": "Michael Chen",
+      "title": "Procurement Director, XYZ Corp"
+    },
+    "testimonial3": {
+      "quote": "The ROI calculation they showed during the demo made it an easy decision to move forward with Event Logic. We've already seen significant time and cost savings.",
+      "name": "Anna Pettersson",
+      "title": "CEO, Nordic Events"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions About Our Demos",
+    "q1": {
+      "question": "How long does a demo typically last?",
+      "answer": "Our demos typically last 30-45 minutes, but we can adjust the length based on your needs and questions."
+    },
+    "q2": {
+      "question": "Do I need to prepare anything for the demo?",
+      "answer": "No preparation is required. However, if you have specific questions or scenarios you'd like us to address, feel free to mention them when scheduling the demo."
+    },
+    "q3": {
+      "question": "Can I invite colleagues to join the demo?",
+      "answer": "Absolutely! We encourage you to invite anyone from your team who would be involved in using the platform or making the purchasing decision."
+    },
+    "q4": {
+      "question": "Is there a cost for the demo?",
+      "answer": "No, our demos are completely free of charge and come with no obligation to purchase."
+    }
+  }
+}

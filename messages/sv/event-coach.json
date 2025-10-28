@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "title": "Event Coach",
+    "description": "Få experthjälp och stöd för dina evenemang med våra erfarna Event Coaches. Låt oss hjälpa dig skapa framgångsrika evenemang."
+  },
+  "hero": {
+    "title": "Event Coach",
+    "subtitle": "Få experthjälp och stöd för dina evenemang med våra erfarna Event Coaches. Låt oss hjälpa dig skapa framgångsrika evenemang medan du fokuserar på det som är viktigast.",
+    "getStarted": "Kom Igång"
+  },
+  "whatIs": {
+    "title": "Vad är en Event Coach?",
+    "description1": "En Event Coach är en erfaren eventprofessionell som ger vägledning, stöd och expertis genom hela din eventplaneringsprocess. De arbetar tillsammans med dig för att säkerställa att ditt evenemang blir framgångsrikt, samtidigt som de tar hand om detaljerna som annars kan kännas överväldigande.",
+    "description2": "Oavsett om du behöver hjälp med en specifik aspekt av ditt evenemang eller vill att någon ska hantera hela processen, är våra Event Coaches här för att hjälpa. De bidrar med års av erfarenhet och branschkunskap för att göra din eventplaneringsprocess smidigare och mer effektiv."
+  },
+  "howItWorks": {
+    "title": "Så Fungerar Det",
+    "step1": {
+      "title": "Boka en Konsultation",
+      "description": "Boka en gratis konsultation med en av våra Event Coaches. Diskutera dina eventbehov, mål och utmaningar för att avgöra hur vi bäst kan stödja dig."
+    },
+    "step2": {
+      "title": "Skapa en Plan",
+      "description": "Tillsammans med din Event Coach skapar du en anpassad plan som beskriver arbetsomfånget, tidslinjen och uppskattade timmar som behövs för ditt evenemang."
+    },
+    "step3": {
+      "title": "Genomför med Självförtroende",
+      "description": "Din Event Coach arbetar med dig genom hela planeringsprocessen, ger vägledning, hanterar uppgifter och säkerställer att allt flyter smidigt."
+    }
+  },
+  "services": {
+    "title": "Tjänster Som Våra Event Coaches Tillhandahåller",
+    "strategicPlanning": {
+      "title": "Strategisk Planering",
+      "services": [
+        "Utveckling av evenemangskoncept",
+        "Budgetplanering och hantering",
+        "Skapande av tidslinje och milstolpsspårning",
+        "Riskbedömning och beredskapsplanering"
+      ]
+    },
+    "supplierManagement": {
+      "title": "Leverantörshantering",
+      "services": [
+        "Lokalval och förhandling",
+        "Leverantörssökning och koordinering",
+        "Kontraktsgranskning och hantering",
+        "Offertjämförelse och analys"
+      ]
+    },
+    "participantManagement": {
+      "title": "Deltagarhantering",
+      "services": [
+        "Design och distribution av inbjudningar",
+        "Registreringshantering",
+        "Kommunikation med deltagare",
+        "Koordinering av särskilda krav"
+      ]
+    },
+    "onSiteSupport": {
+      "title": "Support På Plats",
+      "services": [
+        "Koordinering av evenemangsdagen",
+        "Leverantörshantering",
+        "Assistans till deltagare",
+        "Problemlösning och krishantering"
+      ]
+    }
+  },
+  "pricing": {
+    "title": "Flexibla Prisalternativ",
+    "subtitle": "Timpaket",
+    "description": "Våra Event Coach-tjänster finns tillgängliga i flexibla timpaket för att passa dina specifika behov.",
+    "basic": {
+      "title": "Grundläggande",
+      "hours": "10 Timmar",
+      "description": "Perfekt för mindre evenemang eller specifika uppgifter"
+    },
+    "standard": {
+      "title": "Standard",
+      "hours": "20 Timmar",
+      "description": "Idealisk för medelstora evenemang med flera komponenter",
+      "mostPopular": "Mest Populära"
+    },
+    "premium": {
+      "title": "Premium",
+      "hours": "40+ Timmar",
+      "description": "Omfattande stöd för komplexa eller storskaliga evenemang"
+    },
+    "contactNote": "Kontakta oss för en personlig offert baserad på dina specifika eventbehov."
+  },
+  "testimonials": {
+    "title": "Vad Våra Kunder Säger",
+    "testimonial1": {
+      "quote": "Vår Event Coach var en räddare i nöden! De hanterade alla detaljer kring vår konferens, vilket gjorde att jag kunde fokusera på innehållet och talarna. Evenemanget blev en stor framgång, och jag kunde inte ha gjort det utan deras hjälp.",
+      "name": "Maria Andersson",
+      "title": "Marknadschef, ABC Company"
+    },
+    "testimonial2": {
+      "quote": "Jag var överväldigad av planeringen av vårt företags årsmöte tills jag anlitade en Event Coach. De guidade mig genom hela processen, förhandlade med leverantörer och sparade oss pengar. Värt varje krona!",
+      "name": "Johan Bergström",
+      "title": "VD, XYZ Corporation"
+    },
+    "testimonial3": {
+      "quote": "Som förstagångsplanerare av evenemang hade jag ingen aning om var jag skulle börja. Min Event Coach gick igenom varje steg med mig, gav värdefulla råd och var alltid tillgänglig när jag hade frågor. Evenemanget överträffade alla förväntningar!",
+      "name": "Anna Lindberg",
+      "title": "HR-chef, 123 Industries"
+    }
+  },
+  "cta": {
+    "title": "Redo att ta ditt evenemang till nästa nivå?",
+    "description": "Boka en konsultation med en av våra erfarna Event Coaches idag och upptäck hur vi kan hjälpa dig skapa ett framgångsrikt evenemang.",
+    "getStarted": "Kom Igång",
+    "bookConsultation": "Boka en Konsultation"
+  }
+}

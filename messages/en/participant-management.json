@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "title": "Participant Management",
+    "description": "Simplify your participant management with Event Logic's comprehensive tools for invitations, registrations, and communication."
+  },
+  "title": "Participant Management",
+  "subtitle": "Simplify your participant management with Event Logic's comprehensive tools for invitations, registrations, and communication.",
+  "features": {
+    "title": "Key Features",
+    "customInvitations": {
+      "title": "Custom Invitations",
+      "description": "Create beautiful, branded invitations with our easy-to-use editor. Include all the essential information about your event and customize the design to match your brand."
+    },
+    "registrationForms": {
+      "title": "Registration Forms",
+      "description": "Create custom registration forms to collect exactly the information you need from participants. Add questions about dietary requirements, travel preferences, workshop choices, and more."
+    },
+    "automatedReminders": {
+      "title": "Automated Reminders",
+      "description": "Set up automated reminders to be sent to participants before the event. Reduce no-shows and ensure everyone has the latest information about your event."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "createInvitation": {
+      "title": "Create Your Invitation",
+      "description1": "Design your invitation using our intuitive editor. Choose from templates or create your own design. Include all the essential information about your event, such as date, time, location, and agenda.",
+      "description2": "You can also add images, logos, and custom colors to match your brand identity."
+    },
+    "buildForm": {
+      "title": "Build Your Registration Form",
+      "description1": "Create a custom registration form to collect the information you need from participants. Add standard fields like name and email, as well as custom questions specific to your event.",
+      "description2": "You can include questions about dietary requirements, travel preferences, workshop choices, and more. Make fields required or optional as needed."
+    },
+    "sendInvitations": {
+      "title": "Send Invitations",
+      "description1": "Send your invitations to participants via email. You can import your contact list or enter email addresses manually. Each invitation includes a unique link to the registration form.",
+      "description2": "You can also schedule when to send the invitations and set up reminder emails for those who haven't responded."
+    },
+    "trackResponses": {
+      "title": "Track Responses",
+      "description1": "Monitor responses in real-time through your dashboard. See who has accepted, declined, or not yet responded to your invitation. View all registration information in one place.",
+      "description2": "You can export participant data to Excel or CSV for further analysis or to share with suppliers and team members."
+    },
+    "communicate": {
+      "title": "Communicate with Participants",
+      "description1": "Send updates, reminders, and additional information to participants before, during, and after the event. You can send messages to all participants or filter by specific criteria.",
+      "description2": "Participants can also update their information if their plans change, ensuring you always have the most up-to-date information."
+    }
+  },
+  "benefits": {
+    "title": "Benefits of Our Participant Management",
+    "saveTime": {
+      "title": "Save Time",
+      "description": "Automate the invitation and registration process, eliminating the need for manual tracking and follow-ups. Our system handles everything from sending invitations to collecting responses.",
+      "items": [
+        "Automated email sending and reminders",
+        "Real-time tracking of responses",
+        "Self-service registration for participants"
+      ]
+    },
+    "reduceErrors": {
+      "title": "Reduce Errors",
+      "description": "Eliminate manual data entry and the risk of errors. Participants enter their own information, which is automatically stored in your event database.",
+      "items": [
+        "No manual data entry required",
+        "Validation of email addresses and required fields",
+        "Participants can update their own information"
+      ]
+    },
+    "improveCommunication": {
+      "title": "Improve Communication",
+      "description": "Keep participants informed with timely updates and reminders. Ensure everyone has the information they need for a successful event experience.",
+      "items": [
+        "Scheduled reminders before the event",
+        "Targeted messages to specific participant groups",
+        "Post-event follow-up and feedback collection"
+      ]
+    },
+    "enhanceExperience": {
+      "title": "Enhance Participant Experience",
+      "description": "Provide a seamless and professional experience for your participants from invitation to post-event follow-up.",
+      "items": [
+        "Professional, branded communications",
+        "Easy registration process",
+        "Timely updates and information"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Ready to simplify your participant management?",
+    "description": "Join thousands of event planners who use Event Logic to manage their participants efficiently."
+  }
+}

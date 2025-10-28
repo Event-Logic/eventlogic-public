@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "title": "Strategic Meeting Management - Event Logic",
+    "description": "Optimize your meeting planning process with our comprehensive strategic meeting management solution. Streamline workflows, reduce costs, and improve outcomes."
+  },
+  "hero": {
+    "title": "Strategic Meeting Management",
+    "subtitle": "Optimize your meeting planning process with our comprehensive strategic meeting management solution. Streamline workflows, reduce costs, and improve outcomes.",
+    "cta": "Get Started"
+  },
+  "features": {
+    "title": "Key Features",
+    "centralized": {
+      "title": "Centralized Planning",
+      "description": "Manage all your meetings and events from a single platform. Centralize planning, budgeting, and execution to ensure consistency and efficiency across your organization."
+    },
+    "costControl": {
+      "title": "Cost Control",
+      "description": "Gain visibility into meeting spend across your organization. Identify cost-saving opportunities, negotiate better rates with preferred suppliers, and track budget compliance."
+    },
+    "dataDecisions": {
+      "title": "Data-Driven Decisions",
+      "description": "Access comprehensive analytics and reporting to make informed decisions. Track key metrics, measure ROI, and continuously improve your meeting management process."
+    }
+  },
+  "process": {
+    "title": "The Strategic Meeting Management Process",
+    "policy": {
+      "title": "Policy Development",
+      "description": "Establish clear meeting policies and guidelines for your organization. Define approval processes, budget thresholds, and preferred suppliers to ensure consistency and compliance."
+    },
+    "supplier": {
+      "title": "Supplier Management",
+      "description": "Build and maintain a network of preferred suppliers. Negotiate favorable rates and terms, evaluate supplier performance, and ensure quality standards are met consistently."
+    },
+    "budget": {
+      "title": "Budget Management",
+      "description": "Implement robust budget management processes. Track expenses, compare planned vs. actual costs, and identify opportunities for cost savings across your meeting portfolio."
+    },
+    "attendee": {
+      "title": "Attendee Management",
+      "description": "Streamline the registration and attendance process. Manage invitations, track responses, and ensure a seamless experience for all participants from registration to post-event follow-up."
+    },
+    "dataAnalysis": {
+      "title": "Data Analysis & Reporting",
+      "description": "Collect and analyze data from all your meetings and events. Generate comprehensive reports, track key performance indicators, and use insights to continuously improve your meeting management process."
+    }
+  },
+  "benefits": {
+    "title": "Benefits of Strategic Meeting Management",
+    "costSavings": {
+      "title": "Cost Savings",
+      "description": "Reduce meeting and event costs through centralized planning, supplier negotiation, and elimination of duplicate efforts.",
+      "items": [
+        "Typical savings of 10-25% on meeting spend",
+        "Reduced administrative costs",
+        "Better negotiated rates with preferred suppliers"
+      ]
+    },
+    "efficiency": {
+      "title": "Improved Efficiency",
+      "description": "Streamline planning processes and reduce the time spent on administrative tasks, allowing your team to focus on creating impactful events.",
+      "items": [
+        "Standardized planning processes",
+        "Automated workflows and approvals",
+        "Reduced planning time by up to 40%"
+      ]
+    },
+    "compliance": {
+      "title": "Enhanced Compliance",
+      "description": "Ensure all meetings and events comply with corporate policies, regulatory requirements, and budget constraints.",
+      "items": [
+        "Standardized approval processes",
+        "Transparent budget tracking",
+        "Comprehensive audit trails"
+      ]
+    },
+    "decisions": {
+      "title": "Better Decision Making",
+      "description": "Use data and analytics to make informed decisions about your meeting and event strategy.",
+      "items": [
+        "Comprehensive reporting and analytics",
+        "ROI measurement for meetings and events",
+        "Data-driven supplier selection"
+      ]
+    }
+  },
+  "caseStudy": {
+    "title": "Success Story",
+    "companyName": "Global Pharmaceutical Company",
+    "description": "A leading pharmaceutical company implemented our Strategic Meeting Management solution and achieved the following results:",
+    "results": {
+      "cost": "22% Reduction in meeting costs",
+      "efficiency": "35% Increase in planning efficiency", 
+      "compliance": "100% Policy compliance achieved"
+    },
+    "quote": "Event Logic's Strategic Meeting Management solution has transformed how we plan and execute meetings across our global organization. We now have complete visibility into our meeting spend, streamlined processes, and significant cost savings.",
+    "attribution": "- Director of Global Meetings, Leading Pharmaceutical Company"
+  },
+  "cta": {
+    "title": "Ready to optimize your meeting management process?",
+    "subtitle": "Join organizations that use Event Logic's Strategic Meeting Management solution to reduce costs, improve efficiency, and enhance compliance.",
+    "getStarted": "Get Started",
+    "demo": "Book a Demo"
+  }
+}

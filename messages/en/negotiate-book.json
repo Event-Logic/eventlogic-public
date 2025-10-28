@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "title": "Negotiate and Book - Streamline Your Event Booking Process",
+    "description": "Simplify negotiations and bookings with suppliers through Event Logic's integrated platform. Get the best deals for your events efficiently."
+  },
+  "hero": {
+    "title": "Negotiate and Book",
+    "subtitle": "Streamline your negotiations and secure the best deals for your events with our integrated booking system."
+  },
+  "overview": {
+    "title": "Efficient Negotiation and Booking",
+    "description": "Event Logic's negotiate and book feature transforms the traditional back-and-forth process into a streamlined, transparent experience that saves time and ensures you get the best value for your events."
+  },
+  "features": {
+    "title": "Key Features",
+    "centralizedNegotiation": {
+      "title": "Centralized Negotiation Hub",
+      "description": "All negotiations with suppliers happen in one place, giving you complete visibility and control over the process."
+    },
+    "realTimeMessaging": {
+      "title": "Real-time Messaging",
+      "description": "Communicate directly with suppliers, ask questions, and negotiate terms without leaving the platform."
+    },
+    "priceComparison": {
+      "title": "Price Comparison Tools",
+      "description": "Compare offers side-by-side to make informed decisions and negotiate better deals."
+    },
+    "quickBooking": {
+      "title": "One-Click Booking",
+      "description": "Once you've negotiated the perfect deal, book it instantly with our streamlined booking process."
+    },
+    "contractManagement": {
+      "title": "Contract Management",
+      "description": "Automatically generate and manage contracts with clear terms and conditions."
+    },
+    "paymentIntegration": {
+      "title": "Integrated Payments",
+      "description": "Secure payment processing with flexible payment terms and options."
+    }
+  },
+  "process": {
+    "title": "How It Works",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Receive Quotes",
+        "description": "Get detailed quotes from multiple suppliers for comparison"
+      },
+      {
+        "number": "2",
+        "title": "Start Negotiations",
+        "description": "Use our messaging system to negotiate terms, pricing, and details"
+      },
+      {
+        "number": "3",
+        "title": "Compare Options",
+        "description": "Review all offers side-by-side with our comparison tools"
+      },
+      {
+        "number": "4",
+        "title": "Finalize Deal",
+        "description": "Agree on final terms and conditions with your chosen supplier"
+      },
+      {
+        "number": "5",
+        "title": "Book Instantly",
+        "description": "Complete your booking with one click and automatic contract generation"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Benefits",
+    "timeSaving": {
+      "title": "Save Time",
+      "description": "Reduce negotiation time by up to 70% with streamlined processes"
+    },
+    "betterDeals": {
+      "title": "Better Deals",
+      "description": "Get competitive pricing through transparent comparison and negotiation"
+    },
+    "transparency": {
+      "title": "Full Transparency",
+      "description": "See all communication history and terms in one centralized location"
+    },
+    "compliance": {
+      "title": "Compliance Ready",
+      "description": "Automated contract generation ensures compliance with company policies"
+    }
+  },
+  "cta": {
+    "title": "Ready to Streamline Your Bookings?",
+    "subtitle": "Join thousands of event planners who save time and money with our negotiate and book feature.",
+    "button": "Start Negotiating"
+  }
+}

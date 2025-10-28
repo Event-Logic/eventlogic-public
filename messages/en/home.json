@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "title": "Event Logic - Complete Platform for Meetings, Events & Conferences",
+    "description": "Creating and managing conferences, meetings and events has never been easier with Event Logic. Everything gathered in one place."
+  },
+  "hero": {
+    "title": "Procure, Manage & Invite Easier",
+    "subtitle": "Everything you need for meetings, events & conferences — in one tool",
+    "cta": "Get Started",
+    "features": {
+      "planning": "Smart Event Planning",
+      "network": "Supplier Network",
+      "analytics": "Real-time Analytics",
+      "integration": "Seamless Integration"
+    }
+  },
+  "about": {
+    "title": "About Event Logic",
+    "ingress": "Complete tool for everyone who procures, manages, and invites to meetings, events, and conferences",
+    "description": "Event Logic is a complete platform that changes how you procure, organize, and plan your meetings, events, and conferences. Founded in 2013 in Gothenburg, Event Logic has developed into the obvious tool for meetings, events, and conferences. All management takes place directly in the user's personal event page in the platform, which means that everything related to the user's bookings is in one place, enabling full overview, easier management, time savings, and follow-up opportunities."
+  },
+  "clientLogos": {
+    "title": "Trusted by Leading Organizations",
+    "subtitle": "Join hundreds of companies who trust Event Logic for their event management needs"
+  }
+}

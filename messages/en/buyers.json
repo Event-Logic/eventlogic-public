@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "title": "For Buyers",
+    "description": "For those who want to streamline and take control of the company's bookings"
+  },
+  "title": "For Buyers",
+  "subtitle": "For those who want to streamline and take control of the company's bookings",
+  "benefits": {
+    "title": "Benefits for Buyers",
+    "costControl": {
+      "title": "Cost Control",
+      "description": "Get complete visibility into all event spending across your organization."
+    },
+    "streamlinedProcesses": {
+      "title": "Streamlined Processes",
+      "description": "Digitize the entire event management process from planning to invoicing."
+    },
+    "comprehensiveReporting": {
+      "title": "Comprehensive Reporting",
+      "description": "Access detailed reports and statistics on all event-related spending."
+    }
+  },
+  "features": {
+    "title": "Key Features for Buyers",
+    "strategicMeeting": {
+      "title": "Strategic Meeting Management",
+      "description": "Take control of your company's meeting and event spending with comprehensive oversight and management tools.",
+      "learnMore": "Learn more"
+    },
+    "reports": {
+      "title": "Reports & Statistics",
+      "description": "Get detailed insights into your organization's event spending with comprehensive reports and analytics.",
+      "learnMore": "Learn more"
+    },
+    "oneInvoice": {
+      "title": "One Invoice",
+      "description": "Simplify your accounting with a single invoice for all event-related expenses, regardless of how many suppliers are involved.",
+      "learnMore": "Learn more"
+    }
+  },
+  "cta": {
+    "title": "Ready to take control of your event spending?",
+    "description": "Join organizations that have streamlined their event management process with Event Logic."
+  }
+}

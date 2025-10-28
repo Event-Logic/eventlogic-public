@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "title": "Create Account",
+    "description": "Join Event Logic and start planning your events with our comprehensive event management platform."
+  },
+  "title": "Create Account",
+  "subtitle": "Join Event Logic and start planning your events",
+  "form": {
+    "firstName": "First Name",
+    "firstNamePlaceholder": "First name",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Last name",
+    "email": "Email",
+    "emailPlaceholder": "Your email",
+    "company": "Company",
+    "companyPlaceholder": "Your company",
+    "password": "Password",
+    "passwordPlaceholder": "Create a password",
+    "passwordRequirements": "Password must be at least 8 characters long and include a number and a special character.",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "termsAgreement": "I agree to the Terms of Service and Privacy Policy",
+    "createAccountButton": "Create Account"
+  },
+  "socialLogin": {
+    "orSignUpWith": "Or sign up with",
+    "google": "Google",
+    "facebook": "Facebook"
+  },
+  "footer": {
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign in"
+  }
+}

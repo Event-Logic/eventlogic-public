@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "Reports & Statistics",
+    "description": "Gain valuable insights into your events with comprehensive reporting and analytics. Make data-driven decisions and optimize your event planning process."
+  },
+  "title": "Reports & Statistics",
+  "subtitle": "Gain valuable insights into your events with comprehensive reporting and analytics. Make data-driven decisions and optimize your event planning process.",
+  "features": {
+    "title": "Key Features",
+    "dashboards": {
+      "title": "Comprehensive Dashboards",
+      "description": "Get a complete overview of your events with customizable dashboards. Monitor key metrics such as budget utilization, participant numbers, and supplier performance at a glance."
+    },
+    "budgetTracking": {
+      "title": "Budget Tracking",
+      "description": "Track your event budgets in real-time. Compare planned vs. actual expenses, identify cost-saving opportunities, and ensure you stay within budget for all your events."
+    },
+    "customReports": {
+      "title": "Custom Reports",
+      "description": "Create custom reports tailored to your specific needs. Filter and segment data by event type, date range, department, or any other criteria to get the insights that matter most to you."
+    }
+  },
+  "reportTypes": {
+    "title": "Available Reports",
+    "financial": {
+      "title": "Financial Reports",
+      "description": "Get detailed insights into your event finances with our comprehensive financial reports. Track expenses, compare quotes, and analyze cost trends across all your events.",
+      "items": [
+        "Budget vs. Actual Expense Reports",
+        "Cost Per Participant Analysis",
+        "Supplier Cost Comparison",
+        "Department Spending Reports"
+      ]
+    },
+    "participant": {
+      "title": "Participant Reports",
+      "description": "Analyze participant data to better understand your audience and improve future events. Track registration rates, attendance, and participant feedback.",
+      "items": [
+        "Registration and Attendance Rates",
+        "Participant Demographics",
+        "Feedback and Satisfaction Scores",
+        "No-Show Analysis"
+      ]
+    },
+    "supplier": {
+      "title": "Supplier Performance Reports",
+      "description": "Evaluate supplier performance to make informed decisions for future events. Track response times, pricing, and quality ratings for all your suppliers.",
+      "items": [
+        "Supplier Response Time Analysis",
+        "Price Competitiveness Comparison",
+        "Quality and Satisfaction Ratings",
+        "Most Used Suppliers Report"
+      ]
+    },
+    "strategic": {
+      "title": "Strategic Reports",
+      "description": "Get the big picture with strategic reports that help you identify trends, optimize your event planning process, and make data-driven decisions.",
+      "items": [
+        "Year-over-Year Event Comparison",
+        "ROI Analysis by Event Type",
+        "Event Planning Efficiency Metrics",
+        "Forecasting and Trend Analysis"
+      ]
+    }
+  },
+  "exportOptions": {
+    "title": "Export & Share Options",
+    "fileFormats": {
+      "title": "Multiple File Formats",
+      "description": "Export your reports in various formats including PDF, Excel, CSV, and PowerPoint. Choose the format that works best for your needs and easily share with stakeholders."
+    },
+    "scheduledReports": {
+      "title": "Scheduled Reports",
+      "description": "Set up automated report delivery on a schedule that works for you. Receive daily, weekly, or monthly reports directly in your inbox, ensuring you always have the latest data."
+    },
+    "teamSharing": {
+      "title": "Team Sharing",
+      "description": "Share reports with team members, stakeholders, and suppliers directly from the platform. Control access levels and ensure everyone has the information they need."
+    }
+  },
+  "benefits": {
+    "title": "Benefits of Our Reporting Tools",
+    "dataDriven": {
+      "title": "Make Data-Driven Decisions",
+      "description": "Base your event planning decisions on solid data rather than gut feelings. Our comprehensive reports provide the insights you need to optimize your events and improve outcomes."
+    },
+    "demonstrateRoi": {
+      "title": "Demonstrate ROI",
+      "description": "Clearly show the return on investment for your events. Provide stakeholders with detailed reports that demonstrate the value and impact of your events."
+    },
+    "costSaving": {
+      "title": "Identify Cost-Saving Opportunities",
+      "description": "Analyze spending patterns to identify areas where you can reduce costs. Compare supplier prices, optimize participant numbers, and eliminate unnecessary expenses."
+    },
+    "improveFuture": {
+      "title": "Improve Future Events",
+      "description": "Learn from past events to continuously improve. Analyze what worked well and what didn't to make each event better than the last."
+    }
+  },
+  "cta": {
+    "title": "Ready to gain valuable insights from your events?",
+    "description": "Join organizations that use Event Logic's reporting tools to make data-driven decisions and optimize their event planning process."
+  }
+}

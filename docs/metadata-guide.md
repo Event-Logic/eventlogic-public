@@ -20,7 +20,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'pageName' });
 
   return {
-    title: `${t('title')} | Mollösunds Wärdshus`,
+    title: `${t('title')} | Event Logic`,
     description: t('subtitle'),
   };
 }

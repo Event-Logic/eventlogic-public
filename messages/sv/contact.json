@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "title": "Kontakta Event Logic - Få hjälp med dina evenemang",
+    "description": "Kontakta Event Logic för information om vår eventhanteringsplattform. Vi är här för att hjälpa dig med dina evenemang och möten."
+  },
+  "hero": {
+    "title": "Kontakta oss",
+    "subtitle": "Vi hör gärna från dig! Hör av dig med frågor, feedback eller förfrågningar."
+  },
+  "getInTouch": {
+    "title": "Kom i kontakt",
+    "address": {
+      "label": "Adress"
+    },
+    "phone": {
+      "label": "Telefon"
+    },
+    "email": {
+      "label": "E-post"
+    },
+    "hours": {
+      "label": "Kontorstider",
+      "value": "Måndag - Fredag: 9:00 - 17:00"
+    },
+    "followUs": "Följ oss"
+  },
+  "form": {
+    "title": "Skicka oss ett meddelande",
+    "name": {
+      "label": "Namn",
+      "placeholder": "Ditt namn"
+    },
+    "email": {
+      "label": "E-post",
+      "placeholder": "Din e-post"
+    },
+    "subject": {
+      "label": "Ämne",
+      "placeholder": "Ämne"
+    },
+    "message": {
+      "label": "Meddelande",
+      "placeholder": "Ditt meddelande"
+    },
+    "submit": "Skicka meddelande"
+  },
+  "map": {
+    "title": "Hitta oss"
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "question1": {
+      "question": "Hur snabbt kan jag förvänta mig ett svar?",
+      "answer": "Vi strävar efter att svara på alla förfrågningar inom 24 timmar under arbetsdagar. För brådskande ärenden, ring oss direkt."
+    },
+    "question2": {
+      "question": "Jag är intresserad av en demo. Hur bokar jag en?",
+      "answer": "Du kan boka en demo genom att klicka på \"Boka Demo\"-knappen i navigationsmenyn, eller genom att kontakta oss direkt via detta formulär."
+    },
+    "question3": {
+      "question": "Erbjuder ni support på andra språk än engelska och svenska?",
+      "answer": "För närvarande är vår plattform och support tillgänglig på engelska och svenska. Vi arbetar på att lägga till fler språk i framtiden."
+    }
+  }
+}

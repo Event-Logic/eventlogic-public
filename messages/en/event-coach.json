@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "title": "Event Coach",
+    "description": "Get expert guidance and support for your events with our experienced Event Coaches. Let us help you create successful events."
+  },
+  "hero": {
+    "title": "Event Coach",
+    "subtitle": "Get expert guidance and support for your events with our experienced Event Coaches. Let us help you create successful events while you focus on what matters most.",
+    "getStarted": "Get Started"
+  },
+  "whatIs": {
+    "title": "What is an Event Coach?",
+    "description1": "An Event Coach is an experienced event professional who provides guidance, support, and expertise throughout your event planning process. They work alongside you to ensure your event is successful, while taking care of the details that might otherwise overwhelm you.",
+    "description2": "Whether you need help with a specific aspect of your event or want someone to manage the entire process, our Event Coaches are here to help. They bring years of experience and industry knowledge to make your event planning process smoother and more efficient."
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1": {
+      "title": "Book a Consultation",
+      "description": "Schedule a free consultation with one of our Event Coaches. Discuss your event needs, goals, and challenges to determine how we can best support you."
+    },
+    "step2": {
+      "title": "Create a Plan",
+      "description": "Together with your Event Coach, create a customized plan that outlines the scope of work, timeline, and estimated hours needed for your event."
+    },
+    "step3": {
+      "title": "Execute with Confidence",
+      "description": "Your Event Coach works with you throughout the planning process, providing guidance, handling tasks, and ensuring everything runs smoothly."
+    }
+  },
+  "services": {
+    "title": "Services Our Event Coaches Provide",
+    "strategicPlanning": {
+      "title": "Strategic Planning",
+      "services": [
+        "Event concept development",
+        "Budget planning and management",
+        "Timeline creation and milestone tracking",
+        "Risk assessment and contingency planning"
+      ]
+    },
+    "supplierManagement": {
+      "title": "Supplier Management",
+      "services": [
+        "Venue selection and negotiation",
+        "Vendor sourcing and coordination",
+        "Contract review and management",
+        "Quote comparison and analysis"
+      ]
+    },
+    "participantManagement": {
+      "title": "Participant Management",
+      "services": [
+        "Invitation design and distribution",
+        "Registration management",
+        "Attendee communication",
+        "Special requirements coordination"
+      ]
+    },
+    "onSiteSupport": {
+      "title": "On-Site Support",
+      "services": [
+        "Event day coordination",
+        "Supplier management",
+        "Attendee assistance",
+        "Problem-solving and crisis management"
+      ]
+    }
+  },
+  "pricing": {
+    "title": "Flexible Pricing Options",
+    "subtitle": "Hourly Packages",
+    "description": "Our Event Coach services are available in flexible hourly packages to suit your specific needs.",
+    "basic": {
+      "title": "Basic",
+      "hours": "10 Hours",
+      "description": "Perfect for smaller events or specific tasks"
+    },
+    "standard": {
+      "title": "Standard",
+      "hours": "20 Hours",
+      "description": "Ideal for medium-sized events with multiple components",
+      "mostPopular": "Most Popular"
+    },
+    "premium": {
+      "title": "Premium",
+      "hours": "40+ Hours",
+      "description": "Comprehensive support for complex or large-scale events"
+    },
+    "contactNote": "Contact us for a personalized quote based on your specific event needs."
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "testimonial1": {
+      "quote": "Our Event Coach was a lifesaver! They handled all the details of our conference, allowing me to focus on the content and speakers. The event was a huge success, and I couldn't have done it without their help.",
+      "name": "Maria Andersson",
+      "title": "Marketing Director, ABC Company"
+    },
+    "testimonial2": {
+      "quote": "I was overwhelmed with planning our company's annual meeting until I hired an Event Coach. They guided me through the entire process, negotiated with suppliers, and saved us money. Worth every penny!",
+      "name": "Johan Bergström",
+      "title": "CEO, XYZ Corporation"
+    },
+    "testimonial3": {
+      "quote": "As a first-time event planner, I had no idea where to start. My Event Coach walked me through each step, provided valuable advice, and was always available when I had questions. The event exceeded all expectations!",
+      "name": "Anna Lindberg",
+      "title": "HR Manager, 123 Industries"
+    }
+  },
+  "cta": {
+    "title": "Ready to take your event to the next level?",
+    "description": "Book a consultation with one of our experienced Event Coaches today and discover how we can help you create a successful event.",
+    "getStarted": "Get Started",
+    "bookConsultation": "Book a Consultation"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "title": "Kommunikation",
+    "description": "Effektivisera kommunikationen med deltagare, leverantörer och teammedlemmar. Håll alla informerade och engagerade genom hela din eventplaneringsprocess."
+  },
+  "title": "Kommunikation",
+  "subtitle": "Effektivisera kommunikationen med deltagare, leverantörer och teammedlemmar. Håll alla informerade och engagerade genom hela din eventplaneringsprocess.",
+  "features": {
+    "title": "Huvudfunktioner",
+    "centralizedCommunication": {
+      "title": "Centraliserad kommunikation",
+      "description": "Håll all din eventrelaterade kommunikation på ett ställe. Slut på att söka genom e-postmeddelanden eller meddelanden på olika plattformar."
+    },
+    "automatedNotifications": {
+      "title": "Automatiserade meddelanden",
+      "description": "Ställ in automatiserade meddelanden för viktiga uppdateringar, deadlines och ändringar. Säkerställ att alla hålls informerade utan manuell ansträngning."
+    },
+    "multiChannelDelivery": {
+      "title": "Flerkanalsleverans",
+      "description": "Nå din publik genom deras föredragna kanaler - e-post, SMS eller app-meddelanden. Säkerställ att dina meddelanden ses och ageras på."
+    }
+  },
+  "communicationTypes": {
+    "title": "Kommunikationstyper",
+    "participant": {
+      "title": "Deltagarkommunikation",
+      "description": "Håll dina eventdeltagare informerade och engagerade med personlig kommunikation:",
+      "items": [
+        "Eventinbjudningar och registreringsbekräftelser",
+        "Information och påminnelser före eventet",
+        "Schemauppdateringar och ändringar",
+        "Enkäter efter eventet och tackmeddelanden"
+      ]
+    },
+    "supplier": {
+      "title": "Leverantörskommunikation",
+      "description": "Effektivisera kommunikationen med dina eventleverantörer:",
+      "items": [
+        "Distribution av anbudsförfrågningar och offertförfrågningar",
+        "Kontraktsförhandlingar och bekräftelser",
+        "Installationsinstruktioner och logistikkoordinering",
+        "Feedback efter eventet och betalningshantering"
+      ]
+    },
+    "team": {
+      "title": "Teamkommunikation",
+      "description": "Håll ditt eventplaneringsteam samordnat och produktivt:",
+      "items": [
+        "Uppgiftstilldelningar och deadline-påminnelser",
+        "Framstegsuppdateringar och statusrapporter",
+        "Samarbetsbaserat beslutsfattande",
+        "Realtidskoordinering på eventdagen"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Redo att effektivisera din eventkommunikation?",
+    "description": "Gå med tusentals eventplanerare som använder Event Logic för att kommunicera effektivt med alla intressenter."
+  }
+}

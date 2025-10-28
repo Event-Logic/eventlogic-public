@@ -1,100 +1,158 @@
 {
   "metadata": {
-    "title": "Mollösunds Wärdshus | Historic Inn by the Sea",
-    "description": "Step into history at Mollösunds Wärdshus, a charming inn dating back to 1860 in one of Sweden's oldest fishing villages, where sea tales and modern comforts meet."
+    "title": "Event Logic is a complete \"do-it-yourself\" service for the planning of your events",
+    "description": "Creating and managing conferences, meetings and events has never been easier with Event Logic. Everything gathered in one place."
   },
   "navigation": {
     "home": "Home",
-    "rooms": "Rooms",
-    "dining": "Restaurant",
-    "conference": "Conferences",
-    "activities": "Activities",
-    "about": "About",
+    "solutions": "Solutions",
+    "features": "Features",
+    "about": "About Us",
+    "resources": "Resources",
+    "pricing": "Pricing",
     "contact": "Contact",
-    "book": "Book Now",
-    "information": "Information",
-    "events": "Events",
-    "weddings": "Weddings",
-    "celebrations": "Celebrations",
-    "retreats": "Retreats"
+    "login": "Sign in",
+    "demo": "Book Demo",
+    "register": "Create Account",
+    "meeting_planners": "For Meeting Planners",
+    "meeting_planners_desc": "For those who plan and book meetings, events and conferences",
+    "buyers": "For Buyers",
+    "buyers_desc": "For those who want to streamline and take control of the company's bookings",
+    "travel_agencies": "For Business Travel Agencies",
+    "travel_agencies_desc": "For those who want to digitize the process from planning to invoicing",
+    "suppliers": "For Suppliers",
+    "suppliers_desc": "For those who provide services within events, meetings, and conferences",
+    "express_booking": "Express Booking",
+    "find_suppliers": "Find Suppliers",
+    "find_suppliers_desc": "Search and find the best suppliers for your events",
+    "compare_offers": "Compare Offers",
+    "compare_offers_desc": "Compare offers from different suppliers",
+    "participant_management": "Participant Management",
+    "participant_management_desc": "Manage invitations, registrations and communication",
+    "reports": "Reports & Statistics",
+    "reports_desc": "Get insights with comprehensive reporting and analytics",
+    "event_coach": "Event Coach",
+    "event_coach_desc": "Get expert guidance and support for your events",
+    "strategic_meeting_management": "Strategic Meeting Management",
+    "strategic_meeting_management_desc": "Plan and optimize your meeting management process"
   },
   "home": {
     "hero": {
-      "title": "Welcome to Mollösunds Wärdshus",
-      "subtitle": "Where the Sea Whispers Stories Through Time",
-      "cta": "Book Your Stay"
+      "title": "Source, manage and invite to meetings, events and conferences",
+      "subtitle": "All you need in one place",
+      "cta": "Book Demo",
+      "create_event": "Get Started"
     },
     "about": {
-      "title": "Our Story",
-      "ingress": "A tale of sea, salt, and centuries of hospitality",
-      "description": "Since 1860, Mollösunds Wärdshus has stood proudly in one of Sweden's oldest fishing villages. Once a lively hub where weary seafarers sought warmth and shared tall tales that grew taller with each passing hour, our historic inn has witnessed the ebb and flow of Mollösund's fortunes through the herring boom and beyond. Today, while offering modern comforts, our creaking floorboards still whisper stories of the past, creating an authentic experience that connects you to the rich maritime heritage of the Swedish west coast."
+      "title": "About Event Logic",
+      "ingress": "Complete tool for everyone who procures, manages, and invites to meetings, events, and conferences",
+      "description": "Event Logic is a complete platform that changes how you procure, organize, and plan your meetings, events, and conferences. Founded in 2013 in Gothenburg, Event Logic has developed into the obvious tool for meetings, events, and conferences. All management takes place directly in the user's personal event page in the platform, which means that everything related to the user's bookings is in one place, enabling full overview, easier management, time savings, and follow-up opportunities."
     },
-    "history": {
-      "title": "A Rich Maritime Heritage",
-      "ingress": "When herring was gold and the harbor was life itself",
-      "description": "For generations, Mollösund was synonymous with herring, its rise and fall dictating the fortunes of the village. Imagine the harbor in the late 19th century, teeming with life - a raucous symphony of fishermen hauling their catches, their voices booming with tales of the day's adventures. This wasn't a place of hushed luxury, but a vibrant community shaped by the rhythm of the sea. Our inn stands as a living testament to this heritage, its walls holding stories of sailors, local fishermen, and travelers finding respite from the sea."
-    },
-    "newGeneration": {
-      "title": "A New Chapter: Ellen and Wilma",
-      "ingress": "The hospitality rock stars with sensible shoes and wild ideas",
-      "description": "Now, a new generation is ready to chart the course for Mollösunds Wärdshus. Enter Ellen and Wilma! These aren't just any newcomers; they're the daughters of two legendary entrepreneurs from a nearby island – think of them as the Beyoncé and Taylor Swift of the local hospitality scene, but with slightly more sensible footwear. Growing up practically knee-high in their family's bustling restaurant, they've spent their lives immersed in the art of making people feel welcome. Armed with degrees in hotel and restaurant management from far-flung corners of the globe and a suitcase full of travel experiences, they've returned to their roots, ready to infuse Mollösunds Wärdshus with fresh energy. Their mission? To honor the inn's wonderful history while bringing it into the 21st century. Expect themed weekends involving seafood cooking classes that inevitably turn into impromptu dance parties, and maybe even a 'guess the age of the floorboard' contest."
-    },
-    "modernEra": {
-      "title": "The Windzer Brothers Era",
-      "ingress": "When two adventurers turned an old inn into their greatest expedition",
-      "description": "In the early 2010s, Mollösunds Wärdshus embarked on a new chapter with its acquisition by Ocean Group. At the helm of this era were the brothers Johan and Eric Windzer, two adventurers who approached the historic inn as if it were their most exciting expedition yet. While Johan took the role of CEO, there was nothing corporate about how either brother approached their venture. They were often spotted racing each other on RIB boats around the archipelago, competing to discover the most breathtaking hidden coves to share with guests. The brothers became famous for their 'archipelago safaris,' whisking visitors off on exhilarating boat rides that combined high-speed thrills with fascinating local history. One memorable summer, they established the 'Windzer Express' - a boat service that transported dinner guests from neighboring islands in style, often taking the scenic route that somehow always included at least one dramatic wave splash. Their infectious enthusiasm transformed the inn from a simple place to stay into a hub of joyful maritime adventure."
-    },
-    "presentDay": {
-      "title": "Today at Mollösunds Wärdshus",
-      "ingress": "Where avocado toast meets herring, and chaos meets charm",
-      "description": "Even today, as Mollösunds Wärdshus continues its legacy, you can still sense that vibrant, slightly unpredictable spirit. Mollösunds Wärdshus isn't just a place to stay; it's an experience, a place where the salty tales of the past get a hilarious, high-speed modern twist, now with a sprinkle of millennial magic and a dash of delightful chaos. It's an invitation to embrace the unexpected, to laugh at the little mishaps, and to create your own unforgettable stories in a place where history and humor go hand in hand. So, buckle up, the sea is calling, and Mollösunds Wärdshus is ready for your next adventure!"
-    },
-    "diyEvents": {
-      "title": "Your Event, Your Way",
-      "ingress": "Ditch the beige, embrace the brine!",
-      "description": "Tired of cookie-cutter events in windowless conference rooms? At Mollösunds Wärdshus, we believe in the power of DIY. You bring the vision, we provide the historic seaside venue and just the right amount of support to make it happen. From unconventional conferences to Pinterest-board-breaking weddings, legendary parties to wellness retreats - our quirky coastal escape is your canvas.",
-      "cta": "Create Your Coastal Event",
-      "eventTypes": [
-        {
-          "title": "Conferences",
-          "description": "Unleash creativity in a space where the sea breeze replaces stale air conditioning"
-        },
-        {
-          "title": "Weddings",
-          "description": "Say 'I do' your way with the beautiful Bohuslän archipelago as your witness"
-        },
-        {
-          "title": "Celebrations",
-          "description": "Host a party they'll talk about for years in our characterful historic venue"
-        },
-        {
-          "title": "Retreats & Wellness",
-          "description": "Escape the ordinary and craft your extraordinary wellness experience by the sea"
-        }
-      ]
-    },
-    "features": {
-      "title": "Experience Mollösunds Wärdshus",
-      "ingress": "A taste of coastal life with a side of quirky charm",
-      "oceanView": {
-        "title": "Coastal Character",
-        "description": "Wake to the sound of gulls and the sight of the archipelago from windows that have framed this view for generations"
+    "for_types": {
+      "title": "Complete tool for everyone",
+      "meeting_planners": {
+        "title": "For Meeting Planners",
+        "description": "Quickly and easily collect comparable quotes for your next meeting, event, or conference. With Event Logic, you can search among thousands of suppliers and request quotes with just a click."
       },
-      "dining": {
-        "title": "West Coast Flavors",
-        "description": "Savor simple yet authentic Swedish west coast cuisine, honoring local ingredients and fishing traditions"
+      "buyers": {
+        "title": "For Buyers",
+        "description": "By digitizing the entire process for meetings, events, and conferences, you can increase your efficiency while improving the user experience for your employees and partners. Get complete reporting and statistics on all your spending."
       },
-      "activities": {
-        "title": "Maritime Adventures",
-        "description": "Discover the village's winding streets, try your hand at fishing, or explore the archipelago just as visitors have for centuries"
+      "travel_agencies": {
+        "title": "For Business Travel Agencies",
+        "description": "Event Logic offers a complete solution for business travel agencies that want to digitize their event management process. From planning to invoicing, our platform helps you streamline your operations."
+      },
+      "suppliers": {
+        "title": "For Suppliers",
+        "description": "Join thousands of suppliers in our database and get more business. It's free to be listed, and you only pay a small commission when you get a booking."
       }
+    },
+    "event_types": {
+      "title": "Event Logic for all types of events",
+      "conferences": "Conferences & Kick-offs",
+      "meetings": "Meetings",
+      "dinners": "Dinners",
+      "events": "Events",
+      "christmas": "Christmas Parties"
+    },
+    "steps": {
+      "title": "Event Logic in action",
+      "step1": {
+        "title": "Plan your event",
+        "description": "Fill in the basic information and we'll give you a schedule suggestion based on your preferences. You can easily customize your event by adjusting times and details."
+      },
+      "step2": {
+        "title": "Find suppliers",
+        "description": "Search among thousands of suppliers and easily request quotes with a button click."
+      },
+      "step3": {
+        "title": "Compare quotes",
+        "description": "Suppliers' prices are displayed in a budget tab where you can easily compare prices for each part."
+      },
+      "step4": {
+        "title": "Consider and book",
+        "description": "When you as a meeting booker have received quotes from suppliers, you can easily book the best option with a button."
+      },
+      "step5": {
+        "title": "Invite participants",
+        "description": "Design your invitation and send it to participants. Customize a registration form with your own questions, send reminders, and share the participant list with suppliers."
+      },
+      "step6": {
+        "title": "Changes and communication",
+        "description": "Update all changes and communicate with suppliers and agents in the platform."
+      }
+    },
+    "testimonials": {
+      "title": "What our customers say",
+      "testimonial1": {
+        "text": "Event Logic has simplified our event planning process significantly. We save both time and money by using this platform.",
+        "author": "Maria Andersson, Event Manager"
+      },
+      "testimonial2": {
+        "text": "The ability to compare quotes side by side has helped us make better decisions and negotiate better deals with suppliers.",
+        "author": "Johan Bergström, Procurement Manager"
+      },
+      "testimonial3": {
+        "text": "The participant management feature is a game-changer. It's so easy to send invitations and track responses.",
+        "author": "Anna Lindberg, Marketing Director"
+      }
+    },
+    "help": {
+      "title": "How Event Logic can help you",
+      "description": "Event Logic simplifies all management within meetings, events, and conferences. Our platform helps you plan your event, find suppliers, compare quotes, book, invite participants, and communicate with all stakeholders.",
+      "contact_text": "Want to know more? Click and submit your information below and we'll be in touch!",
+      "contact_button": "Contact me"
+    },
+    "event_coach": {
+      "title": "If you need support, use an Event Coach!",
+      "description1": "If you need support with your management, we recommend you to book an experienced Event Coach who can help you with parts or all of the project management and administration.",
+      "description2": "You can book an Event Coach directly in Event Logic, and together you'll estimate how many hours that may need."
     }
   },
   "footer": {
-    "address": "Kyrkvägen 9, 474 70 Mollösund, Sweden",
-    "phone": "Phone: +46 (0)304 211 08",
-    "email": "Email: info@wards.se",
-    "copyright": "© 2025 Mollösunds Wärdshus. All rights reserved."
+    "address": "Södra Vägen 20, 412 54 Gothenburg, Sweden",
+    "phone": "Phone: +46 (0)31 83 20 20",
+    "email": "Email: info@eventlogic.se",
+    "copyright": "© 2025 Event Logic. All rights reserved.",
+    "quick_links": {
+      "title": "Quick Links",
+      "home": "Home",
+      "contact": "Contact",
+      "pricing": "Pricing",
+      "suppliers": "For Suppliers",
+      "all_categories": "All Categories",
+      "all_locations": "All Locations",
+      "all_activity_types": "All Activity Types"
+    },
+    "about": {
+      "title": "About Event Logic",
+      "description": "Event Logic is a complete platform that changes how you procure, organize, and plan your meetings, events, and conferences. Founded in 2013 in Gothenburg, Event Logic has developed into the obvious tool for meetings, events, and conferences."
+    },
+    "follow_us": "Follow us on",
+    "all_rights_reserved": "All rights reserved",
+    "cookies": "Use of cookies",
+    "privacy_policy": "Privacy Policy",
+    "strategic_meeting": "Strategic Meeting Management"
   },
   "konferens": {
     "title": "Conference",
@@ -185,7 +243,7 @@
       "note": "We are happy to tailor a package to your specific needs!"
     }
   },
-  
+
   "restaurang": {
     "title": "Restaurant",
     "subtitle": "Welcome to our restaurant in Mollösund",
@@ -277,7 +335,7 @@
       "note": "We help you realize your dream party!"
     }
   },
-  
+
   "kontakt": {
     "title": "Contact Us",
     "subtitle": "We'll help you with your booking or questions",
@@ -373,7 +431,7 @@
       ]
     }
   },
-  
+
   "booking": {
     "title": "Book Your Stay",
     "subtitle": "Stay in a piece of living history at Mollösunds Wärdshus",

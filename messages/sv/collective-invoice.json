@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "title": "Samlingsfaktura - Förenkla eventfakturering & redovisning",
+    "description": "Effektivisera din eventredovisning med Event Logics samlingsfaktura-funktion. Få en konsoliderad räkning för alla dina eventkostnader."
+  },
+  "hero": {
+    "title": "Samlingsfaktura",
+    "subtitle": "Förenkla din redovisning med en konsoliderad faktura för alla eventrelaterade kostnader, oavsett hur många leverantörer som är inblandade."
+  },
+  "overview": {
+    "title": "Ett event, en faktura",
+    "description": "Att hantera flera fakturor från olika leverantörer kan vara en mardröm för din redovisningsavdelning. Vår samlingsfaktura-funktion konsoliderar alla kostnader i en enda, omfattande räkning."
+  },
+  "features": {
+    "title": "Huvudfunktioner",
+    "singleInvoice": {
+      "title": "Enskild konsoliderad faktura",
+      "description": "Ta emot en omfattande faktura som inkluderar alla tjänster från flera leverantörer för varje event."
+    },
+    "automaticConsolidation": {
+      "title": "Automatisk konsolidering",
+      "description": "Alla leverantörsavgifter samlas automatiskt och konsolideras i en lättbearbetad faktura."
+    },
+    "detailedBreakdown": {
+      "title": "Detaljerad kostnadsuppdelning",
+      "description": "Se exakt vad du betalar för med specificerade kostnader från varje leverantör tydligt visade."
+    },
+    "taxHandling": {
+      "title": "Smart momshantering",
+      "description": "Automatiska momsberäkningar och skatteefterlevnad över olika leverantörsjurisdiktioner."
+    },
+    "customBranding": {
+      "title": "Anpassad varumärkning",
+      "description": "Fakturor kan anpassas med ditt företags varumärke och specifika formateringskrav."
+    },
+    "multiCurrency": {
+      "title": "Stöd för flera valutor",
+      "description": "Hantera internationella leverantörer med automatisk valutakonvertering och konsoliderad fakturering."
+    }
+  },
+  "benefits": {
+    "title": "Fördelar för din organisation",
+    "reducedAdmin": {
+      "title": "Minskad administration",
+      "description": "Minska fakturabehandlingstiden med upp till 80% med konsoliderad fakturering"
+    },
+    "betterTracking": {
+      "title": "Bättre kostnadsspårning",
+      "description": "Enkel budgetuppföljning och kostnadsrapportering med centraliserad fakturering"
+    },
+    "improvedCashFlow": {
+      "title": "Förbättrat kassaflöde",
+      "description": "Bättre betalningsvillkor och förenklade godkännandeprocesser"
+    },
+    "compliance": {
+      "title": "Efterlevnadsklar",
+      "description": "Automatisk efterlevnad av redovisningsstandarder och företagspolicies"
+    }
+  },
+  "process": {
+    "title": "Så fungerar det",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Boka flera tjänster",
+        "description": "Boka lokaler, catering, utrustning och andra tjänster från olika leverantörer"
+      },
+      {
+        "number": "2",
+        "title": "Automatisk insamling",
+        "description": "Alla leverantörsavgifter samlas automatiskt i vårt system"
+      },
+      {
+        "number": "3",
+        "title": "Fakturagenerering",
+        "description": "En omfattande faktura genereras med alla kostnader konsoliderade"
+      },
+      {
+        "number": "4",
+        "title": "Granska & godkänn",
+        "description": "Granska den detaljerade uppdelningen innan slutligt godkännande och betalning"
+      },
+      {
+        "number": "5",
+        "title": "Enkel betalning",
+        "description": "Gör en betalning för att täcka alla eventkostnader"
+      }
+    ]
+  },
+  "savings": {
+    "title": "Kostnadsbesparingar",
+    "description": "Organisationer sparar vanligtvis 15-25% på administrativa kostnader och minskar fakturabehandlingstiden avsevärt.",
+    "stats": [
+      {
+        "value": "80%",
+        "label": "Minskning av fakturabehandlingstid"
+      },
+      {
+        "value": "25%",
+        "label": "Lägre administrativa kostnader"
+      },
+      {
+        "value": "100%",
+        "label": "Noggrannhet i kostnadsfördelning"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Redo att förenkla din eventfakturering?",
+    "subtitle": "Gå med organisationer som har effektiviserat sin eventredovisning med vår samlingsfaktura-funktion.",
+    "button": "Kom igång"
+  }
+}

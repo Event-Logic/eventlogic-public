@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "title": "Logga In",
+    "description": "Logga in på ditt Event Logic-konto för att hantera dina evenemang och bokningar."
+  },
+  "title": "Logga In",
+  "subtitle": "Logga in på ditt Event Logic-konto",
+  "form": {
+    "email": "E-post",
+    "emailPlaceholder": "Din e-post",
+    "password": "Lösenord",
+    "passwordPlaceholder": "Ditt lösenord",
+    "rememberMe": "Kom ihåg mig",
+    "forgotPassword": "Glömt ditt lösenord?",
+    "signInButton": "Logga In"
+  },
+  "socialLogin": {
+    "orContinueWith": "Eller fortsätt med",
+    "google": "Google",
+    "facebook": "Facebook"
+  },
+  "footer": {
+    "noAccount": "Har du inget konto?",
+    "signUp": "Registrera dig"
+  }
+}

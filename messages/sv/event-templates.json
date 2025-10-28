@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "title": "Professionella Eventmallar & Planeringsverktyg | Event Logic",
+    "description": "Spara tid med vårt omfattande bibliotek av professionella eventmallar. Från konferenser till galaer, börja med beprövade ramverk och anpassa efter dina behov.",
+    "keywords": "eventmallar, eventplaneringsmallar, konferensmallar, mötesmallar, eventchecklistmallar"
+  },
+  "hero": {
+    "title": "Börja med Beprövade Eventmallar",
+    "subtitle": "Lansera framgångsrika evenemang snabbare med vårt omfattande bibliotek av professionella mallar, checklistor och planeringsramverk",
+    "cta": "Bläddra Mallar",
+    "secondaryCta": "Skapa Anpassad Mall"
+  },
+  "features": {
+    "title": "Komplett Mallbibliotek för Alla Eventtyper",
+    "subtitle": "Professionella mallar som sparar tid och säkerställer att inget förbises",
+    "items": [
+      {
+        "title": "Färdigbyggda Eventstrukturer",
+        "description": "Kompletta eventramverk med tidslinjer, sessioner och logistik redan kartlagda"
+      },
+      {
+        "title": "Anpassningsbara Checklistor",
+        "description": "Omfattande uppgiftslistor som anpassar sig till dina specifika eventkrav och tidslinje"
+      },
+      {
+        "title": "Budgetmallar",
+        "description": "Detaljerade budgetuppdelningar med branschstandardkostnadskategorier och allokeringsguider"
+      },
+      {
+        "title": "Tidslinjemallar",
+        "description": "Beprövade schemaläggningsramverk från planering till eftereventuppföljning"
+      },
+      {
+        "title": "Kommunikationsmallar",
+        "description": "E-postsekvenser, tillkännagivanden och meddelandemallar för varje steg"
+      },
+      {
+        "title": "Leverantörshantering",
+        "description": "Leverantörsutvärderingsformulär, kontraktsmallar och koordinationsarbetsflöden"
+      }
+    ]
+  },
+  "templateCategories": {
+    "title": "Mallar för Alla Eventtyper",
+    "subtitle": "Branschspecifika mallar designade av eventproffs",
+    "categories": [
+      {
+        "name": "Företagskonferenser",
+        "description": "Flerdagarsevenemang med huvudtalare, gruppsessioner, nätverkande och utställningar",
+        "includes": ["Sessionsplanering", "Talarhantering", "Deltagarupplevelse", "Logistikkoordinering"]
+      },
+      {
+        "name": "Utbildning & Workshops",
+        "description": "Utbildningsevenemang fokuserade på kompetensutveckling och kunskapsöverföring",
+        "includes": ["Lärandemål", "Materialförberedelse", "Bedömningsverktyg", "Uppföljningsresurser"]
+      },
+      {
+        "name": "Gala & Insamling",
+        "description": "Formella evenemang med underhållning, auktioner och givarengagemang",
+        "includes": ["Programflöde", "Insamlingsmål", "Underhållningsbokning", "Sponsorpaket"]
+      },
+      {
+        "name": "Produktlanseringar",
+        "description": "Marknadsföringsevenemang för att introducera nya produkter eller tjänster på marknaden",
+        "includes": ["Mediehantering", "Demokoordinering", "Pressmaterial", "Lead capture"]
+      },
+      {
+        "name": "Virtuella & Hybridevenemanag",
+        "description": "Digitala och kombinerade fysiska/virtuella eventformat",
+        "includes": ["Plattformsinställning", "Engagemangsstrategier", "Tekniska krav", "Innehållsanpassning"]
+      },
+      {
+        "name": "Mässor & Utställningar",
+        "description": "Branschevenemang med montrar, demonstrationer och företagsnätverkande",
+        "includes": ["Utställarhantering", "Golvplanering", "Lead generation", "ROI-spårning"]
+      }
+    ]
+  },
+  "smartTemplates": {
+    "title": "Smarta Mallar Som Anpassar Sig",
+    "subtitle": "Intelligenta mallar som justerar baserat på dina eventparametrar",
+    "features": [
+      {
+        "title": "Dynamiska Tidslinjer",
+        "description": "Mallar justerar automatiskt deadlines och milstolpar baserat på ditt eventdatum"
+      },
+      {
+        "title": "Budgetskalning",
+        "description": "Kostnadsmallar som skalar med deltagarantal och eventkomplexitet"
+      },
+      {
+        "title": "Efterlevnadsintegration",
+        "description": "Inkluderar automatiskt relevanta regler och krav baserat på plats och bransch"
+      },
+      {
+        "title": "Resursoptimering",
+        "description": "Personal- och resursrekommendationer som justerar baserat på eventstorlek och typ"
+      }
+    ]
+  },
+  "process": {
+    "title": "Från Mall till Framgångsrikt Evenemang i 4 Steg",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Välj Din Mall",
+        "description": "Välj från vårt bibliotek av professionella mallar eller börja med en liknande eventtyp"
+      },
+      {
+        "number": "2",
+        "title": "Anpassa för Dina Behov",
+        "description": "Anpassa mallen med dina specifika krav, tidslinje och begränsningar"
+      },
+      {
+        "number": "3",
+        "title": "Samarbeta och Genomför",
+        "description": "Dela med ditt team, tilldela uppgifter och spåra framsteg genom slutförande"
+      },
+      {
+        "number": "4",
+        "title": "Spara som Ny Mall",
+        "description": "Förvandla ditt framgångsrika evenemang till en återanvändbar mall för framtida evenemang"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Varför Eventmallar Accelererar Framgång",
+    "items": [
+      {
+        "title": "Snabbare Planering",
+        "description": "Börja med beprövade ramverk istället för att bygga från grunden varje gång."
+      },
+      {
+        "title": "Minskad Risk",
+        "description": "Mallar inkluderar branschbästa praxis och förebyggande av vanliga fallgropar."
+      },
+      {
+        "title": "Konsekvent Kvalitet",
+        "description": "Bibehåll professionella standarder över alla dina evenemang med standardiserade processer."
+      },
+      {
+        "title": "Teameffektivitet",
+        "description": "Tydliga mallar hjälper teammedlemmar förstå förväntningar och leverabler."
+      }
+    ]
+  },
+  "customization": {
+    "title": "Gör Varje Mall Till Din Egen",
+    "subtitle": "Fullständig flexibilitet att anpassa mallar till dina unika krav",
+    "features": [
+      "Lägg till eller ta bort sektioner baserat på eventkomplexitet",
+      "Anpassa uppgiftstilldelningar och deadlines",
+      "Integrera med dina befintliga verktyg och arbetsflöden",
+      "Varumärk mallar med din organisations identitet",
+      "Skapa mallvarianter för olika eventskalor",
+      "Dela mallar över din organisation"
+    ]
+  },
+  "integration": {
+    "title": "Mallar Som Fungerar med Hela Ditt Arbetsflöde",
+    "description": "Sömlöst integrerade med alla Event Logic-funktioner för end-to-end eventhantering",
+    "integrations": [
+      {
+        "title": "Registreringssystem",
+        "description": "Mallar konfigurerar automatiskt registreringsformulär och deltagarhantering"
+      },
+      {
+        "title": "Budgetspårning",
+        "description": "Mallbudgetar synkas med realtidskostnadsspårning och rapportering"
+      },
+      {
+        "title": "Kommunikationsverktyg",
+        "description": "E-postmallar och kommunikationsscheman integreras med din meddelandeplattform"
+      },
+      {
+        "title": "Uppgiftshantering",
+        "description": "Mallchecklistor blir spårbara uppgifter med deadlines och tilldelningar"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Redo att Planera Evenemang Snabbare och Smartare?",
+    "subtitle": "Gå med tusentals eventproffs som använder våra mallar för att leverera exceptionella evenemang konsekvent",
+    "primaryButton": "Utforska Mallar",
+    "secondaryButton": "Skapa Konto",
+    "demo": "Eller boka en demo för att se mallar i aktion"
+  },
+  "faq": {
+    "title": "Vanliga Frågor",
+    "items": [
+      {
+        "question": "Kan jag skapa mina egna anpassade mallar?",
+        "answer": "Absolut! Du kan skapa anpassade mallar från grunden eller modifiera befintliga. Spara vilket framgångsrikt evenemang som helst som en mall för framtida användning."
+      },
+      {
+        "question": "Inkluderar mallar leverantörs- och leverantörsrekommendationer?",
+        "answer": "Ja, många mallar inkluderar rekommenderade leverantörskategorier och utvärderingskriterier. Vissa inkluderar specifika leverantörsrekommendationer baserat på plats och eventtyp."
+      },
+      {
+        "question": "Uppdateras mallar med branschbästa praxis?",
+        "answer": "Ja, vårt mallbibliotek uppdateras regelbundet av eventproffs och inkorporerar de senaste branschtrenderna och bästa praxis."
+      },
+      {
+        "question": "Kan jag dela mallar med mitt team eller organisation?",
+        "answer": "Ja, mallar kan delas inom din organisation och över teammedlemmar. Du kan också kontrollera behörigheter för vem som kan redigera vs. använda mallar."
+      },
+      {
+        "question": "Fungerar mallar för internationella evenemang?",
+        "answer": "Ja, våra mallar inkluderar överväganden för internationella evenemang inklusive efterlevnadskrav, kulturella överväganden och tidszonhantering."
+      }
+    ]
+  }
+}

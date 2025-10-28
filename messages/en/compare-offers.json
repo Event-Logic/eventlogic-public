@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "title": "Compare Offers",
+    "description": "Easily compare quotes from multiple suppliers to find the best option for your event."
+  },
+  "title": "Compare Offers",
+  "subtitle": "Easily compare quotes from multiple suppliers to find the best option for your event.",
+  "howItWorks": {
+    "title": "How It Works",
+    "requestQuotes": {
+      "title": "Request Quotes",
+      "description": "Send your event requirements to multiple suppliers with just a few clicks."
+    },
+    "receiveOffers": {
+      "title": "Receive Offers",
+      "description": "Suppliers respond with detailed quotes that are automatically organized in your account."
+    },
+    "compareSideBySide": {
+      "title": "Compare Side by Side",
+      "description": "View all offers in a standardized format that makes it easy to compare prices, services, and terms."
+    }
+  },
+  "features": {
+    "title": "Key Features",
+    "standardizedFormat": {
+      "title": "Standardized Format",
+      "description": "All quotes are presented in a standardized format, making it easy to compare apples to apples. No more digging through emails or spreadsheets to find the information you need."
+    },
+    "budgetBreakdown": {
+      "title": "Budget Breakdown",
+      "description": "See a detailed breakdown of costs for each quote, including venue, catering, equipment, and other services. Identify where you can save money or where one supplier offers better value."
+    },
+    "negotiationTools": {
+      "title": "Negotiation Tools",
+      "description": "Communicate directly with suppliers through the platform to negotiate better terms or request modifications to their offers."
+    },
+    "collaborativeDecision": {
+      "title": "Collaborative Decision Making",
+      "description": "Share quotes with colleagues or clients to get their input before making a final decision. Everyone can view the same information and provide feedback."
+    }
+  },
+  "benefits": {
+    "title": "Benefits of Comparing Offers with Event Logic",
+    "saveTime": {
+      "title": "Save Time",
+      "description": "No more manually compiling quotes from different suppliers. Event Logic does the work for you, presenting all information in a clear, comparable format."
+    },
+    "betterDecisions": {
+      "title": "Make Better Decisions",
+      "description": "With all information clearly presented, you can make more informed decisions based on value, not just price."
+    },
+    "negotiateDeals": {
+      "title": "Negotiate Better Deals",
+      "description": "Armed with multiple quotes, you're in a stronger position to negotiate better terms with your preferred suppliers."
+    }
+  },
+  "cta": {
+    "title": "Ready to make smarter decisions for your events?",
+    "description": "Join thousands of event planners who use Event Logic to compare offers and get the best value."
+  }
+}

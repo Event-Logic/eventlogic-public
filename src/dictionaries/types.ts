@@ -5,75 +5,128 @@ export interface Dictionary {
   };
   navigation: {
     home: string;
-    rooms: string;
-    dining: string;
-    conference: string;
-    activities: string;
+    solutions: string;
+    features: string;
     about: string;
+    resources: string;
+    pricing: string;
     contact: string;
-    book: string;
-    information: string;
-    events: string;
-    weddings: string;
-    celebrations: string;
-    retreats: string;
+    login: string;
+    demo: string;
+    register: string;
+    meeting_planners: string;
+    meeting_planners_desc: string;
+    buyers: string;
+    buyers_desc: string;
+    travel_agencies: string;
+    travel_agencies_desc: string;
+    suppliers: string;
+    suppliers_desc: string;
+    express_booking: string;
+    find_suppliers: string;
+    find_suppliers_desc: string;
+    compare_offers: string;
+    compare_offers_desc: string;
+    participant_management: string;
+    participant_management_desc: string;
+    reports: string;
+    reports_desc: string;
+    event_coach: string;
+    event_coach_desc: string;
+    strategic_meeting_management: string;
+    strategic_meeting_management_desc: string;
   };
   home: {
     hero: {
       title: string;
       subtitle: string;
       cta: string;
+      create_event: string;
     };
     about: {
       title: string;
       ingress: string;
       description: string;
     };
-    history?: {
+    for_types: {
       title: string;
-      ingress: string;
-      description: string;
-    };
-    modernEra?: {
-      title: string;
-      ingress: string;
-      description: string;
-    };
-    newGeneration?: {
-      title: string;
-      ingress: string;
-      description: string;
-    };
-    presentDay?: {
-      title: string;
-      ingress: string;
-      description: string;
-    };
-    diyEvents?: {
-      title: string;
-      ingress: string;
-      description: string;
-      cta: string;
-      eventTypes: Array<{
-        title: string;
-        description: string;
-      }>;
-    };
-    features: {
-      title: string;
-      ingress: string;
-      oceanView: {
+      meeting_planners: {
         title: string;
         description: string;
       };
-      dining: {
+      buyers: {
         title: string;
         description: string;
       };
-      activities: {
+      travel_agencies: {
         title: string;
         description: string;
       };
+      suppliers: {
+        title: string;
+        description: string;
+      };
+    };
+    event_types: {
+      title: string;
+      conferences: string;
+      meetings: string;
+      dinners: string;
+      events: string;
+      christmas: string;
+    };
+    steps: {
+      title: string;
+      step1: {
+        title: string;
+        description: string;
+      };
+      step2: {
+        title: string;
+        description: string;
+      };
+      step3: {
+        title: string;
+        description: string;
+      };
+      step4: {
+        title: string;
+        description: string;
+      };
+      step5: {
+        title: string;
+        description: string;
+      };
+      step6: {
+        title: string;
+        description: string;
+      };
+    };
+    testimonials: {
+      title: string;
+      testimonial1: {
+        text: string;
+        author: string;
+      };
+      testimonial2: {
+        text: string;
+        author: string;
+      };
+      testimonial3: {
+        text: string;
+        author: string;
+      };
+    };
+    help: {
+      title: string;
+      description: string;
+      contact_text: string;
+      contact_button: string;
+    };
+    event_coach: {
+      title: string;
+      description1: string;
+      description2: string;
     };
   };
   footer: {
@@ -81,6 +134,25 @@ export interface Dictionary {
     phone: string;
     email: string;
     copyright: string;
+    quick_links: {
+      title: string;
+      home: string;
+      contact: string;
+      pricing: string;
+      suppliers: string;
+      all_categories: string;
+      all_locations: string;
+      all_activity_types: string;
+    };
+    about: {
+      title: string;
+      description: string;
+    };
+    follow_us: string;
+    all_rights_reserved: string;
+    cookies: string;
+    privacy_policy: string;
+    strategic_meeting: string;
   };
   booking: {
     title: string;

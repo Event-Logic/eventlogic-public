@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "Rapporter & Statistik",
+    "description": "Få värdefulla insikter i dina evenemang med omfattande rapportering och analys. Fatta datadrivna beslut och optimera din eventplaneringsprocess."
+  },
+  "title": "Rapporter & Statistik",
+  "subtitle": "Få värdefulla insikter i dina evenemang med omfattande rapportering och analys. Fatta datadrivna beslut och optimera din eventplaneringsprocess.",
+  "features": {
+    "title": "Huvudfunktioner",
+    "dashboards": {
+      "title": "Omfattande Instrumentpaneler",
+      "description": "Få en komplett översikt över dina evenemang med anpassningsbara instrumentpaneler. Övervaka nyckeltal som budgetutnyttjande, deltagarantal och leverantörsprestanda med en överblick."
+    },
+    "budgetTracking": {
+      "title": "Budgetuppföljning",
+      "description": "Spåra dina eventbudgetar i realtid. Jämför planerade mot faktiska utgifter, identifiera kostnadsbesparingsmöjligheter och säkerställ att du håller dig inom budgeten för alla dina evenemang."
+    },
+    "customReports": {
+      "title": "Anpassade Rapporter",
+      "description": "Skapa anpassade rapporter skräddarsydda för dina specifika behov. Filtrera och segmentera data efter eventtyp, datumintervall, avdelning eller andra kriterier för att få de insikter som är viktigast för dig."
+    }
+  },
+  "reportTypes": {
+    "title": "Tillgängliga Rapporter",
+    "financial": {
+      "title": "Finansiella Rapporter",
+      "description": "Få detaljerade insikter i din eventens ekonomi med våra omfattande finansiella rapporter. Spåra utgifter, jämför offerter och analysera kostnadstrender över alla dina evenemang.",
+      "items": [
+        "Budget vs. Faktiska Utgiftsrapporter",
+        "Kostnad Per Deltagare Analys",
+        "Leverantörskostnadsjämförelse",
+        "Avdelningsutgiftsrapporter"
+      ]
+    },
+    "participant": {
+      "title": "Deltagarrapporter",
+      "description": "Analysera deltagardata för att bättre förstå din målgrupp och förbättra framtida evenemang. Spåra registreringsfrekvenser, närvaro och deltagarfeedback.",
+      "items": [
+        "Registrerings- och Närvarofrekvenser",
+        "Deltagardemografi",
+        "Feedback och Tillfredsställelsesresultat",
+        "Uteblivenhetsanalys"
+      ]
+    },
+    "supplier": {
+      "title": "Leverantörsprestandarapporter",
+      "description": "Utvärdera leverantörsprestanda för att fatta välgrundade beslut för framtida evenemang. Spåra svarstider, prissättning och kvalitetsbetyg för alla dina leverantörer.",
+      "items": [
+        "Leverantörssvarstidsanalys",
+        "Priskonkurrensjämförelse",
+        "Kvalitets- och Tillfredsställelsesbetyg",
+        "Mest Använda Leverantörsrapport"
+      ]
+    },
+    "strategic": {
+      "title": "Strategiska Rapporter",
+      "description": "Få helhetsbilden med strategiska rapporter som hjälper dig identifiera trender, optimera din eventplaneringsprocess och fatta datadrivna beslut.",
+      "items": [
+        "År-för-År Eventjämförelse",
+        "ROI-analys efter Eventtyp",
+        "Eventplaneringseffektivitetsmetrik",
+        "Prognoser och Trendanalys"
+      ]
+    }
+  },
+  "exportOptions": {
+    "title": "Export & Delningsalternativ",
+    "fileFormats": {
+      "title": "Flera Filformat",
+      "description": "Exportera dina rapporter i olika format inklusive PDF, Excel, CSV och PowerPoint. Välj det format som fungerar bäst för dina behov och dela enkelt med intressenter."
+    },
+    "scheduledReports": {
+      "title": "Schemalagda Rapporter",
+      "description": "Ställ in automatiserad rapportleverans enligt ett schema som fungerar för dig. Ta emot dagliga, veckovisa eller månatliga rapporter direkt i din inkorg, vilket säkerställer att du alltid har den senaste datan."
+    },
+    "teamSharing": {
+      "title": "Teamdelning",
+      "description": "Dela rapporter med teammedlemmar, intressenter och leverantörer direkt från plattformen. Kontrollera åtkomstnivåer och säkerställ att alla har den information de behöver."
+    }
+  },
+  "benefits": {
+    "title": "Fördelar med Våra Rapporteringsverktyg",
+    "dataDriven": {
+      "title": "Fatta Datadrivna Beslut",
+      "description": "Basera dina eventplaneringsbeslut på solid data snarare än magkänsla. Våra omfattande rapporter ger dig de insikter du behöver för att optimera dina evenemang och förbättra resultaten."
+    },
+    "demonstrateRoi": {
+      "title": "Demonstrera ROI",
+      "description": "Visa tydligt avkastningen på investeringen för dina evenemang. Ge intressenter detaljerade rapporter som visar värdet och påverkan av dina evenemang."
+    },
+    "costSaving": {
+      "title": "Identifiera Kostnadsbesparingsmöjligheter",
+      "description": "Analysera utgiftsmönster för att identifiera områden där du kan minska kostnaderna. Jämför leverantörspriser, optimera deltagarantal och eliminera onödiga utgifter."
+    },
+    "improveFuture": {
+      "title": "Förbättra Framtida Evenemang",
+      "description": "Lär av tidigare evenemang för att kontinuerligt förbättra. Analysera vad som fungerade bra och vad som inte gjorde det för att göra varje evenemang bättre än det föregående."
+    }
+  },
+  "cta": {
+    "title": "Redo att få värdefulla insikter från dina evenemang?",
+    "description": "Gå med organisationer som använder Event Logics rapporteringsverktyg för att fatta datadrivna beslut och optimera sin eventplaneringsprocess."
+  }
+}

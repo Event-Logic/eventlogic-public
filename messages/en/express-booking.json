@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "title": "Express Booking",
+    "description": "Book your event venues and services quickly and efficiently with our streamlined express booking process."
+  },
+  "hero": {
+    "title": "Express Booking",
+    "subtitle": "Book your event venues and services quickly and efficiently with our streamlined express booking process.",
+    "cta": "Get Started"
+  },
+  "features": {
+    "title": "Key Features",
+    "quickBooking": {
+      "title": "Quick Booking",
+      "description": "Book venues and services in just a few clicks. Our streamlined process saves you time and effort."
+    },
+    "preApproved": {
+      "title": "Pre-approved Suppliers",
+      "description": "Access our network of pre-approved, high-quality suppliers. All vetted to ensure excellent service."
+    },
+    "transparent": {
+      "title": "Transparent Pricing",
+      "description": "See all costs upfront with no hidden fees. Compare options easily to find the best value for your budget."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1": {
+      "title": "Enter Your Requirements",
+      "description": "Tell us what you need - location, date, number of attendees, and any specific requirements for your event."
+    },
+    "step2": {
+      "title": "Browse Available Options",
+      "description": "Instantly see available venues and services that match your criteria. Filter by price, capacity, amenities, and more."
+    },
+    "step3": {
+      "title": "Select and Book",
+      "description": "Choose your preferred options and book instantly. Secure your venue and services with immediate confirmation."
+    },
+    "step4": {
+      "title": "Manage Your Booking",
+      "description": "Access all your booking details in one place. Make changes, add services, or communicate with suppliers as needed."
+    }
+  },
+  "benefits": {
+    "title": "Benefits",
+    "forPlanners": {
+      "title": "For Event Planners",
+      "item1": "Save up to 70% of planning time",
+      "item2": "Access exclusive rates and availability",
+      "item3": "Book with confidence - all suppliers are vetted",
+      "item4": "Manage all bookings in one central dashboard"
+    },
+    "forOrganizations": {
+      "title": "For Organizations",
+      "item1": "Ensure policy compliance with pre-approved suppliers",
+      "item2": "Track spending and stay within budget",
+      "item3": "Standardized contracts and terms",
+      "item4": "Comprehensive reporting and analytics"
+    }
+  },
+  "cta": {
+    "title": "Ready to streamline your booking process?",
+    "subtitle": "Join thousands of event planners who use Event Logic Express Booking to save time and reduce stress.",
+    "getStarted": "Get Started",
+    "requestDemo": "Request Demo"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "För Mötesplanerare",
+    "description": "Effektivisera din eventplaneringsprocess med Event Logic. Spara tid, förenkla planering och skapa professionella resultat."
+  },
+  "hero": {
+    "title": "För Mötesplanerare",
+    "subtitle": "Effektivisera din eventplaneringsprocess med Event Logic. Spara tid, förenkla planering och skapa professionella resultat."
+  },
+  "benefits": {
+    "title": "Fördelar för Mötesplanerare",
+    "saveTime": {
+      "title": "Spara Tid",
+      "description": "Samla snabbt in och jämför offerter från flera leverantörer med bara några klick."
+    },
+    "simplifyPlanning": {
+      "title": "Förenkla Planering",
+      "description": "Hantera alla aspekter av ditt evenemang på ett ställe, från leverantörsval till deltagarregistrering."
+    },
+    "professionalResults": {
+      "title": "Professionella Resultat",
+      "description": "Skapa professionellt utseende inbjudningar, namnbrickor och evenemangwebbplatser med lätthet."
+    }
+  },
+  "features": {
+    "title": "Nyckelfunktioner för Mötesplanerare",
+    "findSuppliers": {
+      "title": "Hitta Leverantörer",
+      "description": "Sök bland tusentals leverantörer och begär enkelt offerter med ett knapptryck.",
+      "learnMore": "Läs mer"
+    },
+    "compareOffers": {
+      "title": "Jämför Erbjudanden",
+      "description": "Leverantörernas priser visas i en budgetflik där du enkelt kan jämföra priser för varje del.",
+      "learnMore": "Läs mer"
+    },
+    "participantManagement": {
+      "title": "Deltagarhantering",
+      "description": "Designa din inbjudan och skicka den till deltagare. Anpassa ett registreringsformulär med dina egna frågor, skicka påminnelser och dela deltagarlistan med leverantörer.",
+      "learnMore": "Läs mer"
+    }
+  },
+  "cta": {
+    "title": "Redo att förenkla din eventplanering?",
+    "description": "Gå med tusentals mötesplanerare som använder Event Logic för att spara tid och skapa framgångsrika evenemang."
+  }
+}

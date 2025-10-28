@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "title": "Professional Event Templates & Planning Tools | Event Logic",
+    "description": "Save time with our comprehensive library of professional event templates. From conferences to galas, start with proven frameworks and customize to your needs.",
+    "keywords": "event templates, event planning templates, conference templates, meeting templates, event checklist templates"
+  },
+  "hero": {
+    "title": "Start with Proven Event Templates",
+    "subtitle": "Launch successful events faster with our comprehensive library of professional templates, checklists, and planning frameworks",
+    "cta": "Browse Templates",
+    "secondaryCta": "Create Custom Template"
+  },
+  "features": {
+    "title": "Complete Template Library for Every Event Type",
+    "subtitle": "Professional templates that save time and ensure nothing gets overlooked",
+    "items": [
+      {
+        "title": "Pre-Built Event Structures",
+        "description": "Complete event frameworks with timelines, sessions, and logistics already mapped out"
+      },
+      {
+        "title": "Customizable Checklists",
+        "description": "Comprehensive task lists that adapt to your specific event requirements and timeline"
+      },
+      {
+        "title": "Budget Templates",
+        "description": "Detailed budget breakdowns with industry-standard cost categories and allocation guides"
+      },
+      {
+        "title": "Timeline Templates",
+        "description": "Proven scheduling frameworks from planning to post-event follow-up"
+      },
+      {
+        "title": "Communication Templates",
+        "description": "Email sequences, announcements, and messaging templates for every stage"
+      },
+      {
+        "title": "Vendor Management",
+        "description": "Supplier evaluation forms, contracts templates, and coordination workflows"
+      }
+    ]
+  },
+  "templateCategories": {
+    "title": "Templates for Every Event Type",
+    "subtitle": "Industry-specific templates designed by event professionals",
+    "categories": [
+      {
+        "name": "Corporate Conferences",
+        "description": "Multi-day business events with keynotes, breakouts, networking, and exhibitions",
+        "includes": ["Session planning", "Speaker management", "Attendee experience", "Logistics coordination"]
+      },
+      {
+        "name": "Training & Workshops",
+        "description": "Educational events focused on skill development and knowledge transfer",
+        "includes": ["Learning objectives", "Material preparation", "Assessment tools", "Follow-up resources"]
+      },
+      {
+        "name": "Gala & Fundraising",
+        "description": "Formal events with entertainment, auctions, and donor engagement",
+        "includes": ["Program flow", "Fundraising goals", "Entertainment booking", "Sponsorship packages"]
+      },
+      {
+        "name": "Product Launches",
+        "description": "Marketing events to introduce new products or services to market",
+        "includes": ["Media management", "Demo coordination", "Press materials", "Lead capture"]
+      },
+      {
+        "name": "Virtual & Hybrid Events",
+        "description": "Digital and combined in-person/virtual event formats",
+        "includes": ["Platform setup", "Engagement strategies", "Technical requirements", "Content adaptation"]
+      },
+      {
+        "name": "Trade Shows & Exhibitions",
+        "description": "Industry events with booths, demonstrations, and business networking",
+        "includes": ["Exhibitor management", "Floor planning", "Lead generation", "ROI tracking"]
+      }
+    ]
+  },
+  "smartTemplates": {
+    "title": "Smart Templates That Adapt",
+    "subtitle": "Intelligent templates that adjust based on your event parameters",
+    "features": [
+      {
+        "title": "Dynamic Timelines",
+        "description": "Templates automatically adjust deadlines and milestones based on your event date"
+      },
+      {
+        "title": "Budget Scaling",
+        "description": "Cost templates that scale with attendee count and event complexity"
+      },
+      {
+        "title": "Compliance Integration",
+        "description": "Automatically include relevant regulations and requirements based on location and industry"
+      },
+      {
+        "title": "Resource Optimization",
+        "description": "Staff and resource recommendations that adjust based on event size and type"
+      }
+    ]
+  },
+  "process": {
+    "title": "From Template to Successful Event in 4 Steps",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Select Your Template",
+        "description": "Choose from our library of professional templates or start with a similar event type"
+      },
+      {
+        "number": "2",
+        "title": "Customize for Your Needs",
+        "description": "Adapt the template with your specific requirements, timeline, and constraints"
+      },
+      {
+        "number": "3",
+        "title": "Collaborate and Execute",
+        "description": "Share with your team, assign tasks, and track progress through completion"
+      },
+      {
+        "number": "4",
+        "title": "Save as New Template",
+        "description": "Turn your successful event into a reusable template for future events"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Why Event Templates Accelerate Success",
+    "items": [
+      {
+        "title": "Faster Planning",
+        "description": "Start with proven frameworks instead of building from scratch every time."
+      },
+      {
+        "title": "Reduced Risk",
+        "description": "Templates include industry best practices and common pitfall prevention."
+      },
+      {
+        "title": "Consistent Quality",
+        "description": "Maintain professional standards across all your events with standardized processes."
+      },
+      {
+        "title": "Team Efficiency",
+        "description": "Clear templates help team members understand expectations and deliverables."
+      }
+    ]
+  },
+  "customization": {
+    "title": "Make Every Template Your Own",
+    "subtitle": "Complete flexibility to adapt templates to your unique requirements",
+    "features": [
+      "Add or remove sections based on event complexity",
+      "Customize task assignments and deadlines",
+      "Integrate with your existing tools and workflows",
+      "Brand templates with your organization's identity",
+      "Create template variants for different event scales",
+      "Share templates across your organization"
+    ]
+  },
+  "integration": {
+    "title": "Templates That Work with Your Entire Workflow",
+    "description": "Seamlessly integrated with all Event Logic features for end-to-end event management",
+    "integrations": [
+      {
+        "title": "Registration System",
+        "description": "Templates automatically configure registration forms and attendee management"
+      },
+      {
+        "title": "Budget Tracking",
+        "description": "Template budgets sync with real-time expense tracking and reporting"
+      },
+      {
+        "title": "Communication Tools",
+        "description": "Email templates and communication schedules integrate with your messaging platform"
+      },
+      {
+        "title": "Task Management",
+        "description": "Template checklists become trackable tasks with deadlines and assignments"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Plan Events Faster and Smarter?",
+    "subtitle": "Join thousands of event professionals using our templates to deliver exceptional events consistently",
+    "primaryButton": "Explore Templates",
+    "secondaryButton": "Create Account",
+    "demo": "Or schedule a demo to see templates in action"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Can I create my own custom templates?",
+        "answer": "Absolutely! You can create custom templates from scratch or modify existing ones. Save any successful event as a template for future use."
+      },
+      {
+        "question": "Do templates include vendor and supplier recommendations?",
+        "answer": "Yes, many templates include recommended vendor categories and evaluation criteria. Some include specific supplier recommendations based on location and event type."
+      },
+      {
+        "question": "Are templates updated with industry best practices?",
+        "answer": "Yes, our template library is regularly updated by event professionals and incorporates the latest industry trends and best practices."
+      },
+      {
+        "question": "Can I share templates with my team or organization?",
+        "answer": "Yes, templates can be shared within your organization and across team members. You can also control permissions for who can edit vs. use templates."
+      },
+      {
+        "question": "Do templates work for international events?",
+        "answer": "Yes, our templates include considerations for international events including compliance requirements, cultural considerations, and time zone management."
+      }
+    ]
+  }
+}

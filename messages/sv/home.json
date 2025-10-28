@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "title": "Event Logic - Komplett plattform för möten, event & konferenser",
+    "description": "Att skapa och hantera konferenser, möten och evenemang har aldrig varit lättare med Event Logic. Allt samlat på ett ställe."
+  },
+  "hero": {
+    "title": "Upphandla, hantera & bjud in smidigare",
+    "subtitle": "Allt du behöver för möten, event & konferenser — i ett enda verktyg",
+    "cta": "Kom igång",
+    "features": {
+      "planning": "Smart Eventplanering",
+      "network": "Leverantörsnätverk",
+      "analytics": "Realtidsanalys",
+      "integration": "Sömlös Integration"
+    }
+  },
+  "about": {
+    "title": "Om Event Logic",
+    "ingress": "Komplett verktyg för alla som upphandlar, hanterar och bjuder in till möten, event och konferenser",
+    "description": "Event Logic är en komplett plattform som förändrar hur du upphandlar, organiserar och planerar dina möten, event och konferenser. Grundat 2013 i Göteborg har Event Logic utvecklats till det självklara verktyget för möten, event och konferenser. All hantering sker direkt i användarens personliga eventsida i plattformen vilket gör att allt som rör användarens bokningar finns på ett ställe, möjliggör full överblick, enklare hantering, tidsbesparingar och uppföljningsmöjligheter."
+  },
+  "clientLogos": {
+    "title": "Betrodd av ledande organisationer",
+    "subtitle": "Gå med hundratals företag som litar på Event Logic för sina eventhanteringsbehov"
+  }
+}

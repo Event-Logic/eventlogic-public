@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "title": "About Event Logic - Complete Event Management Platform",
+    "description": "Learn about Event Logic, the complete platform that changes how you procure, organize, and plan your meetings, events, and conferences."
+  },
+  "hero": {
+    "title": "About Event Logic",
+    "subtitle": "Event Logic is a complete platform that changes how you procure, organize, and plan your meetings, events, and conferences."
+  },
+  "about": {
+    "title": "About Event Logic",
+    "description1": "In an increasingly digitalized world, we believe in challenging and changing the way people source, plan and conduct meetings, events, and conferences.",
+    "description2": "We do this by ensuring that we understand the event planners and their organizations' most difficult challenges in the effort to create successful meetings between people."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "To provide a complete, user-friendly platform that simplifies the entire event management process from planning to execution."
+  },
+  "values": {
+    "title": "Our Values",
+    "innovation": {
+      "title": "Innovation",
+      "description": "We continuously develop new solutions to meet the evolving needs of event professionals."
+    },
+    "simplicity": {
+      "title": "Simplicity",
+      "description": "We believe complex processes should be made simple and intuitive for everyone."
+    },
+    "quality": {
+      "title": "Quality",
+      "description": "We are committed to delivering high-quality solutions that exceed expectations."
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Event Logic was founded in 2013 in Gothenburg by a team of passionate professionals dedicated to revolutionizing the event industry."
+  }
+}

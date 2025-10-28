@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "Bli en del av vårt team - Event Logic Karriär",
+    "description": "Hjälp oss att revolutionera eventhanteringsbranschen. Gå med i vårt team och arbeta med den senaste tekniken i en samarbetsmiljö."
+  },
+  "hero": {
+    "title": "Bli en del av vårt team",
+    "subtitle": "Hjälp oss att revolutionera eventhanteringsbranschen"
+  },
+  "whyWorkWithUs": {
+    "title": "Varför arbeta hos oss"
+  },
+  "openPositions": {
+    "title": "Lediga tjänster"
+  },
+  "cta": {
+    "title": "Redo att bli en del av vårt team?",
+    "subtitle": "Skicka ditt CV till careers@eventlogic.se eller kolla in våra lediga tjänster.",
+    "emailResume": "Maila ditt CV",
+    "backToAbout": "Tillbaka till Om oss"
+  }
+}

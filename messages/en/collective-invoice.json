@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "title": "Collective Invoice - Simplify Event Billing & Accounting",
+    "description": "Streamline your event accounting with Event Logic's collective invoice feature. Get one consolidated bill for all your event expenses."
+  },
+  "hero": {
+    "title": "Collective Invoice",
+    "subtitle": "Simplify your accounting with one consolidated invoice for all event-related expenses, regardless of how many suppliers are involved."
+  },
+  "overview": {
+    "title": "One Event, One Invoice",
+    "description": "Managing multiple invoices from different suppliers can be a nightmare for your accounting department. Our collective invoice feature consolidates all expenses into a single, comprehensive bill."
+  },
+  "features": {
+    "title": "Key Features",
+    "singleInvoice": {
+      "title": "Single Consolidated Invoice",
+      "description": "Receive one comprehensive invoice that includes all services from multiple suppliers for each event."
+    },
+    "automaticConsolidation": {
+      "title": "Automatic Consolidation",
+      "description": "All supplier charges are automatically collected and consolidated into one easy-to-process invoice."
+    },
+    "detailedBreakdown": {
+      "title": "Detailed Cost Breakdown",
+      "description": "See exactly what you're paying for with itemized costs from each supplier clearly displayed."
+    },
+    "taxHandling": {
+      "title": "Smart Tax Handling",
+      "description": "Automatic VAT calculations and tax compliance across different supplier jurisdictions."
+    },
+    "customBranding": {
+      "title": "Custom Branding",
+      "description": "Invoices can be customized with your company branding and specific formatting requirements."
+    },
+    "multiCurrency": {
+      "title": "Multi-Currency Support",
+      "description": "Handle international suppliers with automatic currency conversion and consolidated billing."
+    }
+  },
+  "benefits": {
+    "title": "Benefits for Your Organization",
+    "reducedAdmin": {
+      "title": "Reduced Administration",
+      "description": "Cut invoice processing time by up to 80% with consolidated billing"
+    },
+    "betterTracking": {
+      "title": "Better Cost Tracking",
+      "description": "Easy budget tracking and expense reporting with centralized invoicing"
+    },
+    "improvedCashFlow": {
+      "title": "Improved Cash Flow",
+      "description": "Better payment terms and simplified approval processes"
+    },
+    "compliance": {
+      "title": "Compliance Ready",
+      "description": "Automatic compliance with accounting standards and company policies"
+    }
+  },
+  "process": {
+    "title": "How It Works",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Book Multiple Services",
+        "description": "Book venues, catering, equipment, and other services from different suppliers"
+      },
+      {
+        "number": "2",
+        "title": "Automatic Collection",
+        "description": "All supplier charges are automatically collected in our system"
+      },
+      {
+        "number": "3",
+        "title": "Invoice Generation",
+        "description": "One comprehensive invoice is generated with all costs consolidated"
+      },
+      {
+        "number": "4",
+        "title": "Review & Approve",
+        "description": "Review the detailed breakdown before final approval and payment"
+      },
+      {
+        "number": "5",
+        "title": "Single Payment",
+        "description": "Make one payment to cover all event expenses"
+      }
+    ]
+  },
+  "savings": {
+    "title": "Cost Savings",
+    "description": "Organizations typically save 15-25% on administrative costs and reduce invoice processing time significantly.",
+    "stats": [
+      {
+        "value": "80%",
+        "label": "Reduction in invoice processing time"
+      },
+      {
+        "value": "25%",
+        "label": "Lower administrative costs"
+      },
+      {
+        "value": "100%",
+        "label": "Accuracy in cost allocation"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Simplify Your Event Billing?",
+    "subtitle": "Join organizations that have streamlined their event accounting with our collective invoice feature.",
+    "button": "Get Started"
+  }
+}

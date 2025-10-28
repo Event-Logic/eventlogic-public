@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Create Event Schedule - Event Logic",
+    "description": "Create detailed schedules for your events with our intuitive scheduling tool. Keep everyone on the same page with clear timelines and activities."
+  },
+  "hero": {
+    "title": "Create Event Schedule",
+    "subtitle": "Create detailed schedules for your events with our intuitive scheduling tool. Keep everyone on the same page with clear timelines and activities.",
+    "cta": "Get Started"
+  },
+  "features": {
+    "title": "Key Features",
+    "timeline": {
+      "title": "Intuitive Timeline",
+      "description": "Create visual timelines for your events with drag-and-drop simplicity. Easily adjust times and activities as your plans evolve."
+    },
+    "sharing": {
+      "title": "Easy Sharing",
+      "description": "Share schedules with your team, suppliers, and participants. Everyone stays informed with real-time updates."
+    },
+    "templates": {
+      "title": "Templates & Automation",
+      "description": "Save time with customizable templates for different event types. Automate notifications and reminders for key schedule milestones."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1": {
+      "title": "Create Your Event",
+      "description": "Start by entering your event details, including date, location, and event type. Our system will suggest a schedule template based on your event type."
+    },
+    "step2": {
+      "title": "Customize Your Schedule",
+      "description": "Customize the schedule by adding, removing, or rearranging activities. Set times, durations, and assign responsibilities to team members or suppliers."
+    },
+    "step3": {
+      "title": "Share and Collaborate",
+      "description": "Share your schedule with team members, suppliers, and other stakeholders. Collaborate in real-time with comments and change tracking."
+    },
+    "step4": {
+      "title": "Monitor and Update",
+      "description": "Track progress during your event and make real-time adjustments as needed. Send automatic notifications to keep everyone informed of changes."
+    }
+  },
+  "cta": {
+    "title": "Ready to create your event schedule?",
+    "subtitle": "Join thousands of event planners who use Event Logic to create and manage their event schedules.",
+    "getStarted": "Get Started"
+  }
+}

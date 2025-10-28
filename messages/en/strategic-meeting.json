@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "title": "Strategic Meeting Management - Event Logic",
+    "description": "Take control of your organization's meeting and event spending with our comprehensive Strategic Meeting Management solution."
+  },
+  "hero": {
+    "title": "Strategic Meeting Management",
+    "subtitle": "Take control of your organization's meeting and event spending with our comprehensive Strategic Meeting Management solution.",
+    "cta": "Get Started"
+  },
+  "whatIsSMM": {
+    "title": "What is Strategic Meeting Management?",
+    "description1": "Strategic Meeting Management (SMM) is a disciplined approach to managing enterprise-wide meeting and event activities. It helps organizations gain visibility into their meeting spend, streamline processes, and achieve measurable business objectives.",
+    "description2": "With Event Logic's SMM solution, you can centralize all your meeting and event planning activities, standardize processes, leverage your buying power, and gain valuable insights through comprehensive reporting and analytics.",
+    "benefitsTitle": "Key Benefits",
+    "benefits": [
+      "Reduce meeting and event costs by 10-25%",
+      "Gain complete visibility into meeting spend",
+      "Standardize processes across your organization",
+      "Mitigate risk and ensure compliance",
+      "Improve attendee experience and satisfaction"
+    ]
+  },
+  "features": {
+    "title": "Key Features",
+    "centralized": {
+      "title": "Centralized Meeting Management",
+      "description": "Manage all your organization's meetings and events in one centralized platform. Gain visibility into all event activities across departments, locations, and business units.",
+      "items": [
+        "Single platform for all meeting types",
+        "Customizable approval workflows",
+        "Role-based access control"
+      ]
+    },
+    "supplier": {
+      "title": "Supplier Management",
+      "description": "Build and maintain a preferred supplier network. Negotiate better rates through volume discounts and leverage your organization's buying power.",
+      "items": [
+        "Preferred supplier directory",
+        "Contract management",
+        "Performance tracking and ratings"
+      ]
+    },
+    "budget": {
+      "title": "Budget Control & Approval Workflows",
+      "description": "Implement standardized approval processes and budget controls to ensure compliance with your organization's policies and procedures.",
+      "items": [
+        "Multi-level approval workflows",
+        "Budget allocation and tracking",
+        "Policy compliance checks"
+      ]
+    },
+    "reporting": {
+      "title": "Comprehensive Reporting & Analytics",
+      "description": "Gain valuable insights into your organization's meeting and event spend with detailed reports and analytics. Identify trends, track KPIs, and make data-driven decisions.",
+      "items": [
+        "Customizable dashboards",
+        "Spend analysis by department, event type, etc.",
+        "Savings and ROI tracking"
+      ]
+    }
+  },
+  "implementation": {
+    "title": "Implementation Process",
+    "assessment": {
+      "title": "Assessment",
+      "description": "We analyze your current meeting management processes, identify pain points, and define your SMM goals."
+    },
+    "strategy": {
+      "title": "Strategy",
+      "description": "We develop a customized SMM strategy aligned with your organization's objectives and requirements."
+    },
+    "implementation": {
+      "title": "Implementation",
+      "description": "We configure the platform, set up workflows, and integrate with your existing systems."
+    },
+    "adoption": {
+      "title": "Adoption",
+      "description": "We provide training, support, and change management to ensure successful adoption across your organization."
+    }
+  },
+  "caseStudy": {
+    "title": "Success Story",
+    "companyName": "Global Technology Company",
+    "description": "A global technology company with over 10,000 employees implemented Event Logic's Strategic Meeting Management solution to gain control over their meeting and event spend.",
+    "challengesTitle": "Challenges:",
+    "challenges": [
+      "Decentralized meeting planning across 15 countries",
+      "No visibility into total meeting spend",
+      "Inconsistent supplier selection and contracting"
+    ],
+    "resultsTitle": "Results:",
+    "results": [
+      "22% reduction in overall meeting spend",
+      "35% time savings in the meeting planning process",
+      "100% compliance with company policies",
+      "Complete visibility into meeting spend across all regions"
+    ],
+    "costReduction": "Cost Reduction",
+    "timeSavings": "Time Savings"
+  },
+  "cta": {
+    "title": "Ready to transform your meeting management?",
+    "subtitle": "Join organizations that have implemented Strategic Meeting Management with Event Logic and achieved significant cost savings and process improvements.",
+    "getStarted": "Get Started",
+    "demo": "Book a Demo"
+  }
+}

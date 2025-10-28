@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "Pricing",
+    "description": "Choose the plan that's right for your organization. Transparent pricing with no hidden fees."
+  },
+  "hero": {
+    "title": "Transparent Pricing",
+    "subtitle": "Choose the plan that's right for your organization. No hidden fees, no surprises."
+  },
+  "plans": {
+    "basic": {
+      "name": "Basic",
+      "description": "For small teams and occasional events",
+      "price": "€99",
+      "period": "/month",
+      "features": [
+        "Up to 5 users",
+        "10 events per month",
+        "Basic reporting",
+        "Email support",
+        "Supplier database access"
+      ],
+      "notIncluded": [
+        "Custom branding",
+        "API access"
+      ],
+      "getStarted": "Get Started"
+    },
+    "professional": {
+      "name": "Professional",
+      "description": "For growing teams with regular events",
+      "price": "€299",
+      "period": "/month",
+      "mostPopular": "Most Popular",
+      "features": [
+        "Up to 20 users",
+        "Unlimited events",
+        "Advanced reporting",
+        "Priority support",
+        "Custom branding",
+        "Approval workflows"
+      ],
+      "notIncluded": [
+        "API access"
+      ],
+      "getStarted": "Get Started"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "For large organizations with complex needs",
+      "price": "Custom",
+      "features": [
+        "Unlimited users",
+        "Unlimited events",
+        "Custom reporting",
+        "Dedicated account manager",
+        "Custom branding",
+        "Advanced approval workflows",
+        "API access"
+      ],
+      "contactSales": "Contact Sales"
+    }
+  },
+  "suppliers": {
+    "title": "For Suppliers",
+    "join": {
+      "title": "Join Our Supplier Network",
+      "description": "As a supplier, you can join our network for free and get access to thousands of event planners looking for venues and services like yours.",
+      "features": [
+        "Free to join - No upfront costs or monthly fees",
+        "8% commission - Only pay when you get a booking",
+        "Unlimited RFPs - Receive and respond to as many requests as you want",
+        "Detailed profile - Showcase your venue or services with photos, descriptions, and pricing"
+      ],
+      "learnMore": "Learn More"
+    },
+    "pricing": {
+      "title": "Supplier Pricing",
+      "commissionFee": "Commission Fee",
+      "percentage": "8%",
+      "description": "of the total booking value when you receive a booking through Event Logic",
+      "noHiddenFees": "No Hidden Fees",
+      "noFeesDescription": "No setup fees, no monthly fees, no subscription required. You only pay when you get business.",
+      "joinAsSupplier": "Join as a Supplier"
+    }
+  },
+  "addOns": {
+    "title": "Optional Add-ons",
+    "eventCoach": {
+      "title": "Event Coach",
+      "description": "Get expert guidance and support for your events with our experienced Event Coaches.",
+      "price": "€95",
+      "period": "/hour",
+      "learnMore": "Learn More"
+    },
+    "customIntegration": {
+      "title": "Custom Integration",
+      "description": "Integrate Event Logic with your existing systems, such as CRM, ERP, or accounting software.",
+      "price": "Custom",
+      "contactUs": "Contact Us"
+    },
+    "whiteLabel": {
+      "title": "White Label Solution",
+      "description": "Offer Event Logic as your own branded solution to your clients, with your logo and colors.",
+      "price": "Custom",
+      "contactUs": "Contact Us"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": {
+      "question": "Can I change plans later?",
+      "answer": "Yes, you can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle."
+    },
+    "q2": {
+      "question": "Is there a free trial?",
+      "answer": "Yes, we offer a 14-day free trial for all plans. No credit card required to start your trial."
+    },
+    "q3": {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept all major credit cards (Visa, Mastercard, American Express) and can also arrange for invoice payment for annual subscriptions."
+    },
+    "q4": {
+      "question": "Do you offer discounts for annual billing?",
+      "answer": "Yes, you can save 15% by choosing annual billing instead of monthly billing."
+    },
+    "q5": {
+      "question": "What kind of support is included?",
+      "answer": "All plans include email support. Professional and Enterprise plans include priority support with faster response times. Enterprise plans also include a dedicated account manager."
+    }
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "description": "Join thousands of organizations that use Event Logic to streamline their event planning process.",
+    "signUpNow": "Sign Up Now",
+    "bookDemo": "Book a Demo"
+  }
+}

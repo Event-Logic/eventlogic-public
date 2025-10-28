@@ -1,100 +1,158 @@
 {
   "metadata": {
-    "title": "Mollösunds Wärdshus | Historiskt värdshus vid havet",
-    "description": "Kliv in i historien på Mollösunds Wärdshus, ett charmigt värdshus från 1860 i en av Sveriges äldsta fiskebyar, där havets berättelser möter modern komfort."
+    "title": "Event Logic är ditt kompletta verktyg för eventhantering",
+    "description": "Att skapa och hantera konferenser, möten och event har aldrig varit enklare med Event Logic. Allt samlat på en plats."
   },
   "navigation": {
     "home": "Hem",
-    "rooms": "Rum",
-    "dining": "Restaurang",
-    "conference": "Konferenser",
-    "activities": "Aktiviteter",
+    "solutions": "Lösningar",
+    "features": "Funktioner",
     "about": "Om oss",
+    "resources": "Resurser",
+    "pricing": "Priser",
     "contact": "Kontakt",
-    "book": "Boka nu",
-    "information": "Information",
-    "events": "Event",
-    "weddings": "Bröllop",
-    "celebrations": "Fester",
-    "retreats": "Retreats"
+    "login": "Logga in",
+    "demo": "Boka demo",
+    "register": "Skapa konto",
+    "meeting_planners": "För mötesplanerare",
+    "meeting_planners_desc": "För dig som planerar och bokar möten, event och konferenser",
+    "buyers": "För inköpare",
+    "buyers_desc": "För dig som vill effektivisera och ta kontroll över företagets bokningar",
+    "travel_agencies": "För affärsresebyråer",
+    "travel_agencies_desc": "För dig som vill digitalisera processen från planering till faktura",
+    "suppliers": "För leverantörer",
+    "suppliers_desc": "För er som tillhandahåller tjänster inom event, möten och konferenser",
+    "express_booking": "Expressbokning",
+    "find_suppliers": "Hitta leverantörer",
+    "find_suppliers_desc": "Sök och hitta de bästa leverantörerna för dina event",
+    "compare_offers": "Jämför offerter",
+    "compare_offers_desc": "Jämför offerter från olika leverantörer",
+    "participant_management": "Deltagarhantering",
+    "participant_management_desc": "Hantera inbjudningar, anmälningar och kommunikation",
+    "reports": "Rapporter & Statistik",
+    "reports_desc": "Få insikter med omfattande rapportering och analys",
+    "event_coach": "Event Coach",
+    "event_coach_desc": "Få experthjälp och stöd för dina event",
+    "strategic_meeting_management": "Strategisk möteshantering",
+    "strategic_meeting_management_desc": "Planera och optimera din möteshanteringsprocess"
   },
   "home": {
     "hero": {
-      "title": "Välkommen till Mollösunds Wärdshus",
-      "subtitle": "Där havet viskar historier genom tiden",
-      "cta": "Boka din vistelse"
+      "title": "Upphandla, hantera och bjud in till möten, event och konferenser",
+      "subtitle": "Allt du behöver på ett ställe",
+      "cta": "Boka demo",
+      "create_event": "Kom igång"
     },
     "about": {
-      "title": "Vår historia",
-      "ingress": "En berättelse om hav, salt och århundraden av gästfrihet",
-      "description": "Sedan 1860 har Mollösunds Wärdshus stått stolt i en av Sveriges äldsta fiskebyar. En gång en livlig samlingsplats där trötta sjöfarare sökte värme och delade skrönor som växte med varje timme, har vårt historiska värdshus bevittnat Mollösunds skiftande öden genom sillperioderna och framåt. Idag, medan vi erbjuder moderna bekvämligheter, viskar våra knarrande golvplankor fortfarande historier från det förflutna och skapar en autentisk upplevelse som knyter an till den rika maritima traditionen på Sveriges västkust."
+      "title": "Om Event Logic",
+      "ingress": "Komplett verktyg för alla som upphandlar, hanterar och bjuder in till möten, event och konferenser",
+      "description": "Event Logic är en komplett plattform som förändrar hur du upphandlar, organiserar och planerar dina möten, event och konferenser. Grundat 2013 i Göteborg har Event Logic utvecklats till det självklara verktyget inom möten, event och konferens. All hantering sker direkt i användarens personliga eventsida i plattformen vilket betyder att allt som rör användarens alla bokningar finns på samma ställe vilket möjliggör full översikt, enklare hantering, tidsbesparing och uppföljningsmöjligheter."
     },
-    "history": {
-      "title": "Ett rikt maritimt arv",
-      "ingress": "När sill var guld och hamnen var själva livet",
-      "description": "I generationer var Mollösund synonymt med sill, vars upp- och nedgångar styrde byns öde. Föreställ dig hamnen i slutet av 1800-talet, full av liv - en högljudd symfoni av fiskare som drog in sina fångster, deras röster dånande med berättelser om dagens äventyr. Detta var inte en plats för dämpad lyx, utan ett livligt samhälle format av havets rytm. Vårt värdshus står som ett levande vittnesbörd om detta arv, dess väggar bär berättelser om sjömän, lokala fiskare och resenärer som funnit vila från havet."
-    },
-    "newGeneration": {
-      "title": "Ett nytt kapitel: Ellen och Wilma",
-      "ingress": "Hotellbranschens rockstjärnor med förnuftiga skor och vilda idéer",
-      "description": "Nu är en ny generation redo att styra kursen för Mollösunds Wärdshus. Välkomna Ellen och Wilma! Dessa är inte vilka nykomlingar som helst; de är döttrar till två legendariska entreprenörer från en närliggande ö – tänk dig dem som den lokala hotellscenens Beyoncé och Taylor Swift, fast med något mer förnuftiga skor. Uppvuxna praktiskt taget knähöga i familjens livliga restaurang, har de tillbringat sina liv omgivna av konsten att få människor att känna sig välkomna. Beväpnade med examina i hotell- och restaurangledning från avlägsna hörn av världen och en resväska full av reseerfarenheter, har de återvänt till sina rötter, redo att ge Mollösunds Wärdshus en fräsch energi. Deras uppdrag? Att hedra värdshusets underbara historia samtidigt som de för det in i 2000-talet. Förvänta dig temahelger med sjömatsmatlagningskurser som oundvikligen förvandlas till improviserade dansfester, och kanske till och med en 'gissa åldern på golvplankan'-tävling."
-    },
-    "modernEra": {
-      "title": "Bröderna Windzers era",
-      "ingress": "När två äventyrslystna entreprenörer förvandlade ett gammalt värdshus till sitt största äventyr",
-      "description": "I början av 2010-talet inledde Mollösunds Wärdshus ett nytt kapitel med förvärvet av Ocean Group. Vid rodret för denna era stod bröderna Johan och Eric Windzer, två äventyrslystna entreprenörer som närmade sig det historiska värdshuset som om det vore deras mest spännande äventyr hittills. Även om Johan tog rollen som VD, var det inget företagsmässigt över hur någon av bröderna närmade sig sitt projekt. De syntes ofta tävla med varandra i RIB-båtar runt skärgården, tävlande om att upptäcka de mest hisnande gömda vikarna att dela med gäster. Bröderna blev kända för sina 'skärgårdssafaris', där de tog med besökare på spännande båtturer som kombinerade höghastighetsäventyr med fascinerande lokalhistoria. En minnesvärd sommar etablerade de 'Windzer Express' - en båtservice som transporterade middagsgäster från närliggande öar med stil, ofta via en scenisk rutt som på något sätt alltid inkluderade åtminstone ett dramatiskt vågstänk. Deras smittsamma entusiasm förvandlade värdshuset från en enkel plats att bo på till ett nav för glada maritima äventyr."
-    },
-    "presentDay": {
-      "title": "Mollösunds Wärdshus idag",
-      "ingress": "Där avokadotoast möter sill, och kaos möter charm",
-      "description": "Även idag, när Mollösunds Wärdshus fortsätter sitt arv, kan du fortfarande känna den livliga, lite oförutsägbara andan. Mollösunds Wärdshus är inte bara ett ställe att bo på; det är en upplevelse, en plats där havets salta berättelser får en rolig, höghastighetsmässig modern twist, nu med en nypa millennial-magi och en skvätt härligt kaos. Det är en inbjudan att omfamna det oväntade, att skratta åt små missöden och att skapa dina egna oförglömliga berättelser på en plats där historia och humor går hand i hand. Så spänn fast säkerhetsbältet, havet kallar, och Mollösunds Wärdshus är redo för ditt nästa äventyr!"
-    },
-    "diyEvents": {
-      "title": "Ditt Event, Dina Regler",
-      "ingress": "Skippa det tråkiga, omfamna havet!",
-      "description": "Trött på standardevent i fönsterlösa konferensrum? På Mollösunds Wärdshus tror vi på kraften i DIY. Du tar med visionen, vi tillhandahåller den historiska havsnära platsen och precis rätt mängd stöd för att göra det möjligt. Från okonventionella konferenser till Pinterest-inspirerade bröllop, legendariska fester till wellness-retreats - vår unika kustplats är din canvas.",
-      "cta": "Skapa ditt kustevent",
-      "eventTypes": [
-        {
-          "title": "Konferenser",
-          "description": "Släpp loss kreativiteten i en miljö där havsbris ersätter instängd luftkonditionering"
-        },
-        {
-          "title": "Bröllop",
-          "description": "Säg 'ja' på ditt sätt med den vackra Bohusläns skärgård som vittne"
-        },
-        {
-          "title": "Fester",
-          "description": "Anordna en fest som de kommer att prata om i åratal i vår karaktärsfulla historiska miljö"
-        },
-        {
-          "title": "Retreats & Wellness",
-          "description": "Fly från det vanliga och skapa din extraordinära wellness-upplevelse vid havet"
-        }
-      ]
-    },
-    "features": {
-      "title": "Upplev Mollösunds Wärdshus",
-      "ingress": "En smak av kustliv med en dos av udda charm",
-      "oceanView": {
-        "title": "Kustkaraktär",
-        "description": "Vakna till ljudet av måsar och synen av skärgården från fönster som har inramat denna vy i generationer"
+    "for_types": {
+      "title": "Komplett verktyg för alla",
+      "meeting_planners": {
+        "title": "För mötesplanerare",
+        "description": "Samla snabbt och enkelt in jämförbara offerter till nästa möte, event eller konferens. Med Event Logic kan du söka bland tusentals leverantörer och begära offerter med bara en knapptryckning."
       },
-      "dining": {
-        "title": "Västkustens smaker",
-        "description": "Njut av enkel men autentisk svensk västkustmat som hyllar lokala råvaror och fisketraditioner"
+      "buyers": {
+        "title": "För inköpare",
+        "description": "Genom att digitalisera hela processen för möten, event och konferenser kan ni öka er effektivitet och samtidigt förbättra användarupplevelsen för era medarbetare och samarbetspartners. Få komplett rapportering och statistik på alla era utgifter."
       },
-      "activities": {
-        "title": "Maritima äventyr",
-        "description": "Upptäck byns slingrande gator, prova på fiske eller utforska skärgården precis som besökare har gjort i århundraden"
+      "travel_agencies": {
+        "title": "För affärsresebyråer",
+        "description": "Event Logic erbjuder en komplett lösning för affärsresebyråer som vill digitalisera sin eventhanteringsprocess. Från planering till fakturering hjälper vår plattform dig att effektivisera din verksamhet."
+      },
+      "suppliers": {
+        "title": "För leverantörer",
+        "description": "Anslut dig till tusentals leverantörer i vår databas och få fler affärer. Det är gratis att vara med i databasen, och du betalar bara en liten provision när du får en bokning."
       }
+    },
+    "event_types": {
+      "title": "Event Logic för alla typer av event",
+      "conferences": "Konferenser & Kick-offs",
+      "meetings": "Möten",
+      "dinners": "Middagar",
+      "events": "Event",
+      "christmas": "Julbord"
+    },
+    "steps": {
+      "title": "Event Logic i praktiken",
+      "step1": {
+        "title": "Planera ditt event",
+        "description": "Fyll i grundinformationen så ger vi dig ett schemaförslag baserat på dina önskemål. Du kan enkelt anpassa ditt event genom att justera tider och detaljer."
+      },
+      "step2": {
+        "title": "Hitta leverantörer",
+        "description": "Sök bland tusentals leverantörer och begär enkelt offerter med en knapptryckning."
+      },
+      "step3": {
+        "title": "Jämför offerter",
+        "description": "Leverantörernas priser visas i en budgetflik där du enkelt kan jämföra priser för varje del."
+      },
+      "step4": {
+        "title": "Överväg och boka",
+        "description": "När du som mötesbokare fått in offerter från leverantörer kan du enkelt med en knapp boka det bästa alternativet."
+      },
+      "step5": {
+        "title": "Bjud in deltagare",
+        "description": "Designa din inbjudan och skicka till deltagarna. Skräddarsy ett anmälningsformulär med egna frågor, skicka påminnelser och dela deltagarlistan med leverantörer."
+      },
+      "step6": {
+        "title": "Ändringar och kommunikation",
+        "description": "Uppdatera alla ändringar och kommunicera med leverantörer och ombud i plattformen."
+      }
+    },
+    "testimonials": {
+      "title": "Vad våra kunder säger",
+      "testimonial1": {
+        "text": "Event Logic har förenklat vår eventplaneringsprocess avsevärt. Vi sparar både tid och pengar genom att använda denna plattform.",
+        "author": "Maria Andersson, Eventansvarig"
+      },
+      "testimonial2": {
+        "text": "Möjligheten att jämföra offerter sida vid sida har hjälpt oss att fatta bättre beslut och förhandla bättre avtal med leverantörer.",
+        "author": "Johan Bergström, Inköpschef"
+      },
+      "testimonial3": {
+        "text": "Deltagarhanteringsfunktionen är en game-changer. Det är så enkelt att skicka inbjudningar och spåra svar.",
+        "author": "Anna Lindberg, Marknadsdirektör"
+      }
+    },
+    "help": {
+      "title": "Hur Event Logic kan hjälpa dig",
+      "description": "Event Logic förenklar all hantering inom möten, event och konferenser. Vår plattform hjälper dig att planera ditt event, hitta leverantörer, jämföra offerter, boka, bjuda in deltagare och kommunicera med alla intressenter.",
+      "contact_text": "Vill du veta mer? Klicka nedan och fyll i din information så hör vi av oss.",
+      "contact_button": "Kontakta mig"
+    },
+    "event_coach": {
+      "title": "Ta hjälp av en Event Coach!",
+      "description1": "Om du behöver stöd i din hantering rekommenderar vi att boka en erfaren Event Coach som kan hjälpa dig med delar av eller hela projektledningen och administrationen.",
+      "description2": "En Event Coach bokar du direkt i Event Logic och tillsammans estimerar ni antal timmar som kan komma att behövas."
     }
   },
   "footer": {
-    "address": "Kyrkvägen 9, 474 70 Mollösund, Sverige",
-    "phone": "Telefon: +46 (0)304 211 08",
-    "email": "E-post: info@wards.se",
-    "copyright": "© 2025 Mollösunds Wärdshus. Alla rättigheter förbehållna."
+    "address": "Södra Vägen 20, 412 54 Göteborg, Sverige",
+    "phone": "Telefon: +46 (0)31 83 20 20",
+    "email": "E-post: info@eventlogic.se",
+    "copyright": "© 2025 Event Logic. Alla rättigheter förbehållna.",
+    "quick_links": {
+      "title": "Snabblänkar",
+      "home": "Hem",
+      "contact": "Kontakt",
+      "pricing": "Priser",
+      "suppliers": "För leverantörer",
+      "all_categories": "Alla kategorier",
+      "all_locations": "Alla platser",
+      "all_activity_types": "Alla aktivitetstyper"
+    },
+    "about": {
+      "title": "Om Event Logic",
+      "description": "Event Logic är en komplett plattform som förändrar hur du upphandlar, organiserar och planerar dina möten, event och konferenser. Grundat 2013 i Göteborg har Event Logic utvecklats till det självklara verktyget inom möten, event och konferens."
+    },
+    "follow_us": "Följ oss på",
+    "all_rights_reserved": "Alla rättigheter förbehållna",
+    "cookies": "Användning av cookies",
+    "privacy_policy": "Dataskyddspolicy",
+    "strategic_meeting": "Strategisk möteshantering"
   },
   "booking": {
     "title": "Boka din vistelse",

@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "title": "Strategisk möteshantering - Event Logic",
+    "description": "Optimera din mötesplaneringsprocess med vår omfattande strategiska möteshanteringslösning. Effektivisera arbetsflöden, minska kostnader och förbättra resultat."
+  },
+  "hero": {
+    "title": "Strategisk möteshantering",
+    "subtitle": "Optimera din mötesplaneringsprocess med vår omfattande strategiska möteshanteringslösning. Effektivisera arbetsflöden, minska kostnader och förbättra resultat.",
+    "cta": "Kom igång"
+  },
+  "features": {
+    "title": "Huvudfunktioner",
+    "centralized": {
+      "title": "Centraliserad planering",
+      "description": "Hantera alla dina möten och event från en enda plattform. Centralisera planering, budgetering och genomförande för att säkerställa konsistens och effektivitet i hela organisationen."
+    },
+    "costControl": {
+      "title": "Kostnadskontroll",
+      "description": "Få synlighet över mötesutgifter i hela organisationen. Identifiera kostnadssparande möjligheter, förhandla bättre priser med föredragna leverantörer och spåra budgetkompatibilitet."
+    },
+    "dataDecisions": {
+      "title": "Datadrivna beslut",
+      "description": "Få tillgång till omfattande analyser och rapporter för att fatta välgrundade beslut. Spåra nyckeltal, mät ROI och förbättra kontinuerligt din möteshanteringsprocess."
+    }
+  },
+  "process": {
+    "title": "Den strategiska möteshanteringsprocessen",
+    "policy": {
+      "title": "Policyutveckling",
+      "description": "Etablera tydliga mötespolicyer och riktlinjer för din organisation. Definiera godkännandeprocesser, budgettrösklar och föredragna leverantörer för att säkerställa konsistens och efterlevnad."
+    },
+    "supplier": {
+      "title": "Leverantörshantering",
+      "description": "Bygg och underhåll ett nätverk av föredragna leverantörer. Förhandla fördelaktiga priser och villkor, utvärdera leverantörsprestanda och säkerställ att kvalitetsstandarder upprätthålls konsekvent."
+    },
+    "budget": {
+      "title": "Budgethantering",
+      "description": "Implementera robusta budgethanteringsprocesser. Spåra utgifter, jämför planerade vs faktiska kostnader och identifiera möjligheter för kostnadsbesparingar i din mötesportfölj."
+    },
+    "attendee": {
+      "title": "Deltagarhantering",
+      "description": "Effektivisera registrerings- och närvaroprocessen. Hantera inbjudningar, spåra svar och säkerställ en smidig upplevelse för alla deltagare från registrering till uppföljning efter eventet."
+    },
+    "dataAnalysis": {
+      "title": "Dataanalys och rapportering",
+      "description": "Samla in och analysera data från alla dina möten och event. Generera omfattande rapporter, spåra nyckelprestandaindikatorer och använd insikter för att kontinuerligt förbättra din möteshanteringsprocess."
+    }
+  },
+  "benefits": {
+    "title": "Fördelar med strategisk möteshantering",
+    "costSavings": {
+      "title": "Kostnadsbesparingar",
+      "description": "Minska mötes- och eventkostnader genom centraliserad planering, leverantörsförhandling och eliminering av dubbelarbete.",
+      "items": [
+        "Typiska besparingar på 10-25% på mötesutgifter",
+        "Minskade administrativa kostnader",
+        "Bättre förhandlade priser med föredragna leverantörer"
+      ]
+    },
+    "efficiency": {
+      "title": "Förbättrad effektivitet",
+      "description": "Effektivisera planeringsprocesser och minska tiden som läggs på administrativa uppgifter, vilket gör att ditt team kan fokusera på att skapa effektfulla event.",
+      "items": [
+        "Standardiserade planeringsprocesser",
+        "Automatiserade arbetsflöden och godkännanden",
+        "Minskad planeringstid med upp till 40%"
+      ]
+    },
+    "compliance": {
+      "title": "Förbättrad efterlevnad",
+      "description": "Säkerställ att alla möten och event följer företagspolicyer, regulatoriska krav och budgetbegränsningar.",
+      "items": [
+        "Standardiserade godkännandeprocesser",
+        "Transparent budgetspårning",
+        "Omfattande revisionsspår"
+      ]
+    },
+    "decisions": {
+      "title": "Bättre beslutsfattande",
+      "description": "Använd data och analyser för att fatta välgrundade beslut om din mötes- och eventstrategi.",
+      "items": [
+        "Omfattande rapporter och analyser",
+        "ROI-mätning för möten och event",
+        "Datadriven leverantörsval"
+      ]
+    }
+  },
+  "caseStudy": {
+    "title": "Framgångshistoria",
+    "companyName": "Globalt läkemedelsföretag",
+    "description": "Ett ledande läkemedelsföretag implementerade vår strategiska möteshanteringslösning och uppnådde följande resultat:",
+    "results": {
+      "cost": "22% minskning av möteskostnader",
+      "efficiency": "35% ökning av planeringseffektivitet",
+      "compliance": "100% policyefterlevnad uppnådd"
+    },
+    "quote": "Event Logics strategiska möteshanteringslösning har förvandlat hur vi planerar och genomför möten i vår globala organisation. Vi har nu fullständig synlighet över våra mötesutgifter, effektiviserade processer och betydande kostnadsbesparingar.",
+    "attribution": "- Direktör för globala möten, ledande läkemedelsföretag"
+  },
+  "cta": {
+    "title": "Redo att optimera din möteshanteringsprocess?",
+    "subtitle": "Gå med organisationer som använder Event Logics strategiska möteshanteringslösning för att minska kostnader, förbättra effektivitet och förbättra efterlevnad.",
+    "getStarted": "Kom igång",
+    "demo": "Boka en demo"
+  }
+}

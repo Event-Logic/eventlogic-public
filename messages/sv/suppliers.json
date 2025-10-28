@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "title": "För leverantörer - Gå med i Event Logic-nätverket",
+    "description": "Gå med tusentals leverantörer i Event Logics nätverk. Få fler bokningar och låt ditt företag växa med vår eventhanteringsplattform."
+  },
+  "hero": {
+    "title": "För leverantörer",
+    "subtitle": "För dig som tillhandahåller tjänster inom event, möten och konferenser",
+    "cta": "Gå med som leverantör"
+  },
+  "benefits": {
+    "title": "Fördelar för leverantörer",
+    "moreBusiness": {
+      "title": "Mer affärer",
+      "description": "Få exponering mot tusentals mötesplanerare och eventorganisatörer som letar efter leverantörer."
+    },
+    "simplifiedCommunication": {
+      "title": "Förenklad kommunikation",
+      "description": "Kommunicera med kunder direkt genom plattformen, med all information på ett ställe."
+    },
+    "noUpfrontCosts": {
+      "title": "Inga förskottskostnader",
+      "description": "Det är gratis att vara listad i vår databas. Du betalar bara en liten provision när du får en bokning."
+    }
+  },
+  "howItWorks": {
+    "title": "Så här fungerar det för leverantörer",
+    "createProfile": {
+      "title": "1. Skapa din profil",
+      "description": "Registrera dig och skapa en detaljerad profil som visar din lokal eller dina tjänster, med foton, beskrivningar och prisinformation."
+    },
+    "receiveRequests": {
+      "title": "2. Ta emot offertsförfrågningar",
+      "description": "Få meddelanden när mötesplanerare begär offerter för event som matchar dina tjänster."
+    },
+    "submitQuotes": {
+      "title": "3. Skicka offerter",
+      "description": "Svara på offertsförfrågningar med detaljerade erbjudanden, inklusive prissättning, tillgänglighet och eventuella särskilda villkor."
+    },
+    "getBookings": {
+      "title": "4. Få bokningar",
+      "description": "När din offert accepteras får du en bokningsbekräftelse och kan börja planera detaljerna."
+    },
+    "manageEvents": {
+      "title": "5. Hantera evenemang",
+      "description": "Använd plattformen för att kommunicera med kunder, få tillgång till deltagarinformation och hantera alla aspekter av eventet."
+    }
+  },
+  "pricing": {
+    "title": "Prissättning för leverantörer",
+    "subtitle": "Det är gratis att gå med i Event Logic som leverantör. Du betalar bara en liten provision när du får en bokning genom plattformen.",
+    "commission": "Provision: 8%",
+    "description": "Vi tar 8% provision på det totala bokningsvärdet när du får en bokning genom Event Logic.",
+    "learnMore": "Läs mer om prissättning"
+  },
+  "cta": {
+    "title": "Redo att utveckla ditt företag?",
+    "subtitle": "Gå med tusentals leverantörer som får fler bokningar genom Event Logic.",
+    "join": "Gå med som leverantör"
+  }
+}

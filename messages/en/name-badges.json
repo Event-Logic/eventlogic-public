@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "title": "Professional Name Badges & Event Credentials | Event Logic",
+    "description": "Create custom name badges, lanyards, and event credentials with advanced features like QR codes, networking preferences, and security access levels.",
+    "keywords": "name badges, event credentials, badge printing, QR code badges, networking badges, event security"
+  },
+  "hero": {
+    "title": "Professional Name Badges That Work as Hard as You Do",
+    "subtitle": "Create custom badges with advanced features like QR codes, networking preferences, and security access - all from your event management platform",
+    "cta": "Design Badges",
+    "secondaryCta": "View Examples"
+  },
+  "features": {
+    "title": "Smart Badge Features for Modern Events",
+    "subtitle": "More than just names - create badges that enhance networking and streamline check-in",
+    "items": [
+      {
+        "title": "Smart QR Codes",
+        "description": "Each badge includes a unique QR code for instant contact sharing and session check-ins"
+      },
+      {
+        "title": "Custom Design Templates",
+        "description": "Professional layouts that match your brand with customizable colors, fonts, and layouts"
+      },
+      {
+        "title": "Networking Preferences",
+        "description": "Display attendee interests, skills, and networking goals right on the badge"
+      },
+      {
+        "title": "Security Access Levels",
+        "description": "Color-coded badges and access indicators for different attendee types and restricted areas"
+      },
+      {
+        "title": "Social Media Integration",
+        "description": "Include LinkedIn profiles, Twitter handles, and professional headshots"
+      },
+      {
+        "title": "Print-Ready Files",
+        "description": "High-resolution files ready for professional printing or use our printing partners"
+      }
+    ]
+  },
+  "badgeTypes": {
+    "title": "Badge Solutions for Every Event Type",
+    "subtitle": "Tailored designs and features for different event formats",
+    "categories": [
+      {
+        "name": "Conference Badges",
+        "description": "Multi-day events with session tracking, speaker identification, and networking features"
+      },
+      {
+        "name": "Trade Show Badges",
+        "description": "Lead capture capabilities, booth visit tracking, and exhibitor networking tools"
+      },
+      {
+        "name": "Corporate Badges",
+        "description": "Professional designs with company branding, job titles, and department identification"
+      },
+      {
+        "name": "Security Badges",
+        "description": "Access control integration, photo verification, and restricted area indicators"
+      }
+    ]
+  },
+  "smartFeatures": {
+    "title": "Smart Badge Technology",
+    "subtitle": "Enhance networking and event experience with intelligent badge features",
+    "features": [
+      {
+        "title": "Lead Capture",
+        "description": "Scan badges to instantly capture contact information and follow-up reminders"
+      },
+      {
+        "title": "Session Tracking",
+        "description": "Monitor attendance at breakout sessions and workshops automatically"
+      },
+      {
+        "title": "Digital Business Cards",
+        "description": "QR codes link to complete digital profiles with all professional information"
+      },
+      {
+        "title": "Gamification",
+        "description": "Points and achievements for networking activities and session attendance"
+      }
+    ]
+  },
+  "process": {
+    "title": "Create Professional Badges in Minutes",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Choose Your Template",
+        "description": "Select from professional templates or create a custom design"
+      },
+      {
+        "number": "2",
+        "title": "Import Attendee Data",
+        "description": "Sync directly from your registration system or upload a CSV file"
+      },
+      {
+        "number": "3",
+        "title": "Customize Information",
+        "description": "Add QR codes, networking preferences, and security access levels"
+      },
+      {
+        "number": "4",
+        "title": "Print or Distribute",
+        "description": "Download print-ready files or use our integrated printing services"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Why Event Logic Badge Solutions Stand Out",
+    "items": [
+      {
+        "title": "Seamless Integration",
+        "description": "Badges automatically sync with your event registration and attendee management system."
+      },
+      {
+        "title": "Enhanced Networking",
+        "description": "Smart features that facilitate meaningful connections between attendees."
+      },
+      {
+        "title": "Professional Quality",
+        "description": "High-resolution designs that reflect your event's professionalism and attention to detail."
+      },
+      {
+        "title": "Cost-Effective",
+        "description": "Eliminate expensive badge printing services with our integrated solutions."
+      }
+    ]
+  },
+  "printing": {
+    "title": "Flexible Printing Options",
+    "subtitle": "Choose the printing solution that works best for your event",
+    "options": [
+      {
+        "title": "DIY Printing",
+        "description": "Download high-resolution PDFs optimized for standard office printers and badge stock"
+      },
+      {
+        "title": "Professional Printing",
+        "description": "Order through our network of professional printing partners with guaranteed quality"
+      },
+      {
+        "title": "On-Site Printing",
+        "description": "Print badges on-demand at your event location for last-minute registrations"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Upgrade Your Event Badges?",
+    "subtitle": "Create professional, smart badges that enhance networking and streamline your event operations",
+    "primaryButton": "Start Designing",
+    "secondaryButton": "View Templates",
+    "demo": "Or schedule a demo to see badge features in action"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Can I print badges on-demand at my event?",
+        "answer": "Yes! Our badge system supports on-demand printing for last-minute registrations and walk-ins. You can print individual badges or batches as needed."
+      },
+      {
+        "question": "What information can QR codes on badges contain?",
+        "answer": "QR codes can link to digital business cards, LinkedIn profiles, session schedules, or any custom URL. You can also use them for lead capture and contact sharing."
+      },
+      {
+        "question": "Do you support different badge sizes and materials?",
+        "answer": "Yes, our templates work with standard badge sizes (3.5\"x2.25\", 4\"x3\", etc.) and we provide specifications for various materials including plastic, cardstock, and specialty papers."
+      },
+      {
+        "question": "Can badges integrate with access control systems?",
+        "answer": "Absolutely! Our badges can include access control features, RFID compatibility, and integration with security systems for restricted areas."
+      }
+    ]
+  }
+}

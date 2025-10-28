@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "For Meeting Planners",
+    "description": "Streamline your event planning process with Event Logic. Save time, simplify planning, and create professional results."
+  },
+  "hero": {
+    "title": "For Meeting Planners",
+    "subtitle": "Streamline your event planning process with Event Logic. Save time, simplify planning, and create professional results."
+  },
+  "benefits": {
+    "title": "Benefits for Meeting Planners",
+    "saveTime": {
+      "title": "Save Time",
+      "description": "Quickly collect and compare quotes from multiple suppliers with just a few clicks."
+    },
+    "simplifyPlanning": {
+      "title": "Simplify Planning",
+      "description": "Manage all aspects of your event in one place, from supplier selection to participant registration."
+    },
+    "professionalResults": {
+      "title": "Professional Results",
+      "description": "Create professional-looking invitations, name badges, and event websites with ease."
+    }
+  },
+  "features": {
+    "title": "Key Features for Meeting Planners",
+    "findSuppliers": {
+      "title": "Find Suppliers",
+      "description": "Search among thousands of suppliers and easily request quotes with a button click.",
+      "learnMore": "Learn more"
+    },
+    "compareOffers": {
+      "title": "Compare Offers",
+      "description": "Suppliers' prices are displayed in a budget tab where you can easily compare prices for each part.",
+      "learnMore": "Learn more"
+    },
+    "participantManagement": {
+      "title": "Participant Management",
+      "description": "Design your invitation and send it to participants. Customize a registration form with your own questions, send reminders, and share the participant list with suppliers.",
+      "learnMore": "Learn more"
+    }
+  },
+  "cta": {
+    "title": "Ready to simplify your event planning?",
+    "description": "Join thousands of meeting planners who use Event Logic to save time and create successful events."
+  }
+}

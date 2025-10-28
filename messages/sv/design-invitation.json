@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "title": "Designa Vackra Eventinbjudningar | Event Logic",
+    "description": "Skapa fantastiska, professionella eventinbjudningar med våra lättanvända designverktyg. Anpassa mallar, spåra svar och hantera gästlistor smidigt.",
+    "keywords": "eventinbjudningar, inbjudningsdesign, OSA-hantering, digitala inbjudningar, eventmarknadsföring"
+  },
+  "hero": {
+    "title": "Designa Inbjudningar Som Inspirerar Deltagande",
+    "subtitle": "Skapa vackra, professionella eventinbjudningar på minuter med våra intuitiva designverktyg och anpassningsbara mallar",
+    "cta": "Börja Designa",
+    "secondaryCta": "Visa Mallar"
+  },
+  "features": {
+    "title": "Allt Du Behöver för Perfekta Inbjudningar",
+    "subtitle": "Professionella verktyg som gör inbjudningsdesign enkel och effektiv",
+    "items": [
+      {
+        "title": "Dra-och-Släpp Designer",
+        "description": "Intuitiv gränssnitt låter dig skapa fantastiska inbjudningar utan designerfarenhet"
+      },
+      {
+        "title": "Professionella Mallar",
+        "description": "Välj bland hundratals anpassningsbara mallar för alla typer av evenemang"
+      },
+      {
+        "title": "Varumärkeskonsistens",
+        "description": "Ladda upp din logga, färger och typsnitt för att behålla varumärkesidentitet"
+      },
+      {
+        "title": "OSA-Spårning",
+        "description": "Inbyggd OSA-hantering med realtidsspårning av svar och gästlistuppdateringar"
+      },
+      {
+        "title": "Flerkanalsdistribution",
+        "description": "Skicka via e-post, SMS eller dela genom sociala medier och eventplattformar"
+      },
+      {
+        "title": "Mobilanpassad",
+        "description": "Alla inbjudningar anpassas automatiskt för att se perfekta ut på alla enheter"
+      }
+    ]
+  },
+  "designOptions": {
+    "title": "Designalternativ för Alla Evenemang",
+    "subtitle": "Från företagskonferenser till sociala sammankomster",
+    "categories": [
+      {
+        "name": "Företagsevenemang",
+        "description": "Professionella designer för konferenser, seminarier och affärsmöten"
+      },
+      {
+        "name": "Sociala Evenemang",
+        "description": "Eleganta mallar för galaer, fester och nätverksevenemang"
+      },
+      {
+        "name": "Utbildning & Workshops",
+        "description": "Rena, informativa layouter för utbildningsevenemang"
+      },
+      {
+        "name": "Virtuella Evenemang",
+        "description": "Digitala designer med integrerade möteslänkar och instruktioner"
+      }
+    ]
+  },
+  "process": {
+    "title": "Skapa Fantastiska Inbjudningar i 4 Enkla Steg",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Välj en Mall",
+        "description": "Välj från vårt bibliotek av professionella mallar eller börja från scratch"
+      },
+      {
+        "number": "2",
+        "title": "Anpassa Din Design",
+        "description": "Lägg till ditt innehåll, bilder och varumärke med vår lättanvända editor"
+      },
+      {
+        "number": "3",
+        "title": "Ställ In OSA-Alternativ",
+        "description": "Konfigurera registreringsfält, kapacitetsgränser och bekräftelsemeddelanden"
+      },
+      {
+        "number": "4",
+        "title": "Skicka och Spåra",
+        "description": "Distribuera dina inbjudningar och övervaka svar i realtid"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Varför Välja Event Logic för Inbjudningsdesign?",
+    "items": [
+      {
+        "title": "Spara Tid och Pengar",
+        "description": "Inget behov av dyra designers eller komplexa program. Skapa professionella inbjudningar på minuter."
+      },
+      {
+        "title": "Öka Deltagandet",
+        "description": "Vackra, engagerande inbjudningar som fångar uppmärksamhet och driver registreringar."
+      },
+      {
+        "title": "Förenkla Kommunikation",
+        "description": "Alla eventdetaljer på ett ställe med automatiska påminnelser och uppdateringar."
+      },
+      {
+        "title": "Mät Framgång",
+        "description": "Spåra öppningsgrad, klick och OSA för att optimera din inbjudningsstrategi."
+      }
+    ]
+  },
+  "integration": {
+    "title": "Sömlöst Integrerad med Ditt Eventarbetsflöde",
+    "description": "Designa inbjudningar som fungerar perfekt med alla Event Logic-funktioner",
+    "features": [
+      "Automatisk synkronisering av gästlista med registreringssystem",
+      "Direkt integration med eventwebbsidor och landningssidor",
+      "Koordinerade e-postkampanjer och påminnelser",
+      "Enhetlig rapportering över alla eventkontaktpunkter"
+    ]
+  },
+  "cta": {
+    "title": "Redo att Skapa Inbjudningar Som Imponerar?",
+    "subtitle": "Gå med tusentals eventproffs som använder Event Logic för att designa och hantera sina eventinbjudningar",
+    "primaryButton": "Starta Gratis Provperiod",
+    "secondaryButton": "Bläddra Mallar",
+    "demo": "Eller boka en personlig demo"
+  },
+  "faq": {
+    "title": "Vanliga Frågor",
+    "items": [
+      {
+        "question": "Kan jag använda mitt eget varumärke och designelement?",
+        "answer": "Absolut! Ladda upp din logga, varumärkesfärger, typsnitt och bilder för att skapa inbjudningar som perfekt matchar din varumärkesidentitet."
+      },
+      {
+        "question": "Hur många inbjudningar kan jag skicka?",
+        "answer": "Våra planer inkluderar generösa skickgränser, från 1 000 inbjudningar per månad på vår Starter-plan till obegränsad sändning på Enterprise-planer."
+      },
+      {
+        "question": "Kan gäster OSA direkt från inbjudan?",
+        "answer": "Ja! Varje inbjudan inkluderar anpassningsbara OSA-knappar som länkar direkt till din registreringssida eller inbyggda OSA-formulär."
+      },
+      {
+        "question": "Stöder ni flera språk?",
+        "answer": "Ja, du kan skapa inbjudningar på flera språk och till och med skicka olika språkversioner till olika gästsegment."
+      }
+    ]
+  }
+}

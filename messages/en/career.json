@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "Join Our Team - Event Logic Careers",
+    "description": "Help us revolutionize the event management industry. Join our team and work on cutting-edge technology in a collaborative environment."
+  },
+  "hero": {
+    "title": "Join Our Team",
+    "subtitle": "Help us revolutionize the event management industry"
+  },
+  "whyWorkWithUs": {
+    "title": "Why Work With Us"
+  },
+  "openPositions": {
+    "title": "Open Positions"
+  },
+  "cta": {
+    "title": "Ready to Join Our Team?",
+    "subtitle": "Send your resume to careers@eventlogic.se or check out our open positions.",
+    "emailResume": "Email Your Resume",
+    "backToAbout": "Back to About Us"
+  }
+}

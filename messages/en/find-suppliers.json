@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "title": "Find Suppliers",
+    "description": "Quickly and easily find the perfect suppliers for your next event."
+  },
+  "title": "Find Suppliers",
+  "subtitle": "Quickly and easily find the perfect suppliers for your next event.",
+  "howItWorks": {
+    "title": "How It Works",
+    "defineNeeds": {
+      "title": "Define Your Needs",
+      "description": "Specify your event details, including location, date, number of participants, and the type of suppliers you need."
+    },
+    "browseSuppliers": {
+      "title": "Browse Suppliers",
+      "description": "Browse through our database of thousands of suppliers, filtering by location, capacity, services, and more."
+    },
+    "requestQuotes": {
+      "title": "Request Quotes",
+      "description": "Select the suppliers you're interested in and request quotes with just a click. No need to call or email each one individually."
+    }
+  },
+  "supplierDatabase": {
+    "title": "Our Supplier Database",
+    "verifiedSuppliers": {
+      "title": "Thousands of Verified Suppliers",
+      "description": "Our database includes over 3,500 suppliers across various categories:",
+      "categories": [
+        "Venues (hotels, conference centers, restaurants)",
+        "Catering services",
+        "Entertainment providers",
+        "Transportation services",
+        "And many more..."
+      ],
+      "verification": "All suppliers in our database are verified to ensure quality and reliability."
+    }
+  },
+  "searchFeatures": {
+    "title": "Advanced Search Features",
+    "filterCriteria": {
+      "title": "Filter by Multiple Criteria",
+      "description": "Narrow down your search by location, capacity, price range, services offered, and more to find the perfect match for your event."
+    },
+    "compareSuppliers": {
+      "title": "Compare Suppliers Side by Side",
+      "description": "Select multiple suppliers and compare their offerings, prices, and reviews side by side to make an informed decision."
+    },
+    "saveFavorites": {
+      "title": "Save Favorites",
+      "description": "Save your favorite suppliers to revisit later or share with colleagues when making decisions."
+    },
+    "readReviews": {
+      "title": "Read Reviews",
+      "description": "See ratings and reviews from other event planners who have worked with the suppliers you're considering."
+    }
+  },
+  "cta": {
+    "title": "Ready to find the perfect suppliers for your event?",
+    "description": "Join thousands of event planners who use Event Logic to find and book suppliers."
+  }
+}

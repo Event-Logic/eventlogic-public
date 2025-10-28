@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "title": "Om Event Logic - Komplett eventhanteringsplattform",
+    "description": "Lär dig mer om Event Logic, den kompletta plattformen som förändrar hur du upphandlar, organiserar och planerar dina möten, event och konferenser."
+  },
+  "hero": {
+    "title": "Om Event Logic",
+    "subtitle": "Event Logic är en komplett plattform som förändrar hur du upphandlar, organiserar och planerar dina möten, event och konferenser."
+  },
+  "about": {
+    "title": "Om Event Logic",
+    "description1": "I en allt mer digitaliserad värld tror vi på att utmana och förändra hur människor upphandlar, planerar och genomför möten, event och konferenser.",
+    "description2": "Det gör vi genom att säkerställa att vi förstår eventplanerare och deras organisationers svåraste utmaningar i arbetet att skapa framgångsrika möten mellan människor."
+  },
+  "mission": {
+    "title": "Vårt uppdrag",
+    "description": "Att tillhandahålla en komplett, användarvänlig plattform som förenklar hela eventhanteringsprocessen från planering till genomförande."
+  },
+  "values": {
+    "title": "Våra värderingar",
+    "innovation": {
+      "title": "Innovation",
+      "description": "Vi utvecklar kontinuerligt nya lösningar för att möta eventprofessionellas växande behov."
+    },
+    "simplicity": {
+      "title": "Enkelhet",
+      "description": "Vi tror att komplexa processer ska göras enkla och intuitiva för alla."
+    },
+    "quality": {
+      "title": "Kvalitet",
+      "description": "Vi är dedikerade till att leverera högkvalitativa lösningar som överträffar förväntningar."
+    }
+  },
+  "team": {
+    "title": "Vårt team",
+    "description": "Event Logic grundades 2013 i Göteborg av ett team av passionerade yrkesmänniskor dedikerade till att revolutionera eventbranschen."
+  }
+}

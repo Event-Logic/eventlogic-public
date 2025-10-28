@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "title": "Design Beautiful Event Invitations | Event Logic",
+    "description": "Create stunning, professional event invitations with our easy-to-use design tools. Customize templates, track RSVPs, and manage guest lists seamlessly.",
+    "keywords": "event invitations, invitation design, RSVP management, digital invitations, event marketing"
+  },
+  "hero": {
+    "title": "Design Invitations That Inspire Attendance",
+    "subtitle": "Create beautiful, professional event invitations in minutes with our intuitive design tools and customizable templates",
+    "cta": "Start Designing",
+    "secondaryCta": "View Templates"
+  },
+  "features": {
+    "title": "Everything You Need for Perfect Invitations",
+    "subtitle": "Professional tools that make invitation design simple and effective",
+    "items": [
+      {
+        "title": "Drag-and-Drop Designer",
+        "description": "Intuitive interface lets you create stunning invitations without any design experience"
+      },
+      {
+        "title": "Professional Templates",
+        "description": "Choose from hundreds of customizable templates for every type of event"
+      },
+      {
+        "title": "Brand Consistency",
+        "description": "Upload your logo, colors, and fonts to maintain brand identity across all invitations"
+      },
+      {
+        "title": "RSVP Tracking",
+        "description": "Built-in RSVP management with real-time response tracking and guest list updates"
+      },
+      {
+        "title": "Multi-Channel Distribution",
+        "description": "Send via email, SMS, or share through social media and event platforms"
+      },
+      {
+        "title": "Mobile Responsive",
+        "description": "All invitations automatically adapt to look perfect on any device"
+      }
+    ]
+  },
+  "designOptions": {
+    "title": "Design Options for Every Event",
+    "subtitle": "From corporate conferences to social gatherings",
+    "categories": [
+      {
+        "name": "Corporate Events",
+        "description": "Professional designs for conferences, seminars, and business meetings"
+      },
+      {
+        "name": "Social Events",
+        "description": "Elegant templates for galas, parties, and networking events"
+      },
+      {
+        "name": "Training & Workshops",
+        "description": "Clean, informative layouts for educational events"
+      },
+      {
+        "name": "Virtual Events",
+        "description": "Digital-first designs with integrated meeting links and instructions"
+      }
+    ]
+  },
+  "process": {
+    "title": "Create Stunning Invitations in 4 Simple Steps",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Choose a Template",
+        "description": "Select from our library of professional templates or start from scratch"
+      },
+      {
+        "number": "2",
+        "title": "Customize Your Design",
+        "description": "Add your content, images, and branding with our easy-to-use editor"
+      },
+      {
+        "number": "3",
+        "title": "Set Up RSVP Options",
+        "description": "Configure registration fields, capacity limits, and confirmation messages"
+      },
+      {
+        "number": "4",
+        "title": "Send and Track",
+        "description": "Distribute your invitations and monitor responses in real-time"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Why Choose Event Logic for Invitation Design?",
+    "items": [
+      {
+        "title": "Save Time and Money",
+        "description": "No need for expensive designers or complex software. Create professional invitations in minutes."
+      },
+      {
+        "title": "Increase Attendance",
+        "description": "Beautiful, engaging invitations that capture attention and drive registrations."
+      },
+      {
+        "title": "Streamline Communication",
+        "description": "All event details in one place with automatic reminders and updates."
+      },
+      {
+        "title": "Measure Success",
+        "description": "Track open rates, clicks, and RSVPs to optimize your invitation strategy."
+      }
+    ]
+  },
+  "integration": {
+    "title": "Seamlessly Integrated with Your Event Workflow",
+    "description": "Design invitations that work perfectly with all Event Logic features",
+    "features": [
+      "Automatic guest list sync with registration system",
+      "Direct integration with event websites and landing pages",
+      "Coordinated email campaigns and reminders",
+      "Unified reporting across all event touchpoints"
+    ]
+  },
+  "cta": {
+    "title": "Ready to Create Invitations That Impress?",
+    "subtitle": "Join thousands of event professionals using Event Logic to design and manage their event invitations",
+    "primaryButton": "Start Free Trial",
+    "secondaryButton": "Browse Templates",
+    "demo": "Or schedule a personalized demo"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Can I use my own branding and design elements?",
+        "answer": "Absolutely! Upload your logo, brand colors, fonts, and images to create invitations that perfectly match your brand identity."
+      },
+      {
+        "question": "How many invitations can I send?",
+        "answer": "Our plans include generous sending limits, from 1,000 invitations per month on our Starter plan to unlimited sending on Enterprise plans."
+      },
+      {
+        "question": "Can guests RSVP directly from the invitation?",
+        "answer": "Yes! Every invitation includes customizable RSVP buttons that link directly to your registration page or built-in RSVP forms."
+      },
+      {
+        "question": "Do you support multiple languages?",
+        "answer": "Yes, you can create invitations in multiple languages and even send different language versions to different guest segments."
+      }
+    ]
+  }
+}

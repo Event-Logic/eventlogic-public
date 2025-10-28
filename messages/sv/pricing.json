@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "Priser",
+    "description": "Välj det abonnemang som passar din organisation. Transparenta priser utan dolda avgifter."
+  },
+  "hero": {
+    "title": "Transparenta Priser",
+    "subtitle": "Välj det abonnemang som passar din organisation. Inga dolda avgifter, inga överraskningar."
+  },
+  "plans": {
+    "basic": {
+      "name": "Grundläggande",
+      "description": "För små team och tillfälliga evenemang",
+      "price": "€99",
+      "period": "/månad",
+      "features": [
+        "Upp till 5 användare",
+        "10 evenemang per månad",
+        "Grundläggande rapportering",
+        "E-postsupport",
+        "Tillgång till leverantörsdatabas"
+      ],
+      "notIncluded": [
+        "Anpassad varumärkning",
+        "API-åtkomst"
+      ],
+      "getStarted": "Kom Igång"
+    },
+    "professional": {
+      "name": "Professionell",
+      "description": "För växande team med regelbundna evenemang",
+      "price": "€299",
+      "period": "/månad",
+      "mostPopular": "Mest Populära",
+      "features": [
+        "Upp till 20 användare",
+        "Obegränsade evenemang",
+        "Avancerad rapportering",
+        "Prioriterad support",
+        "Anpassad varumärkning",
+        "Godkännandeflöden"
+      ],
+      "notIncluded": [
+        "API-åtkomst"
+      ],
+      "getStarted": "Kom Igång"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "För stora organisationer med komplexa behov",
+      "price": "Anpassad",
+      "features": [
+        "Obegränsade användare",
+        "Obegränsade evenemang",
+        "Anpassad rapportering",
+        "Dedikerad kontoansvarig",
+        "Anpassad varumärkning",
+        "Avancerade godkännandeflöden",
+        "API-åtkomst"
+      ],
+      "contactSales": "Kontakta Säljteamet"
+    }
+  },
+  "suppliers": {
+    "title": "För Leverantörer",
+    "join": {
+      "title": "Gå Med i Vårt Leverantörsnätverk",
+      "description": "Som leverantör kan du gå med i vårt nätverk gratis och få tillgång till tusentals eventplanerare som letar efter lokaler och tjänster som dina.",
+      "features": [
+        "Gratis att gå med - Inga förskottskostnader eller månadsavgifter",
+        "8% provision - Betala bara när du får en bokning",
+        "Obegränsade förfrågningar - Ta emot och svara på så många förfrågningar du vill",
+        "Detaljerad profil - Visa upp din lokal eller tjänster med foton, beskrivningar och priser"
+      ],
+      "learnMore": "Läs Mer"
+    },
+    "pricing": {
+      "title": "Leverantörspriser",
+      "commissionFee": "Provisionsavgift",
+      "percentage": "8%",
+      "description": "av det totala bokningsvärdet när du får en bokning genom Event Logic",
+      "noHiddenFees": "Inga Dolda Avgifter",
+      "noFeesDescription": "Inga inställningsavgifter, inga månadsavgifter, ingen prenumeration krävs. Du betalar bara när du får affärer.",
+      "joinAsSupplier": "Gå Med Som Leverantör"
+    }
+  },
+  "addOns": {
+    "title": "Valfria Tillägg",
+    "eventCoach": {
+      "title": "Event Coach",
+      "description": "Få experthjälp och stöd för dina evenemang med våra erfarna Event Coaches.",
+      "price": "€95",
+      "period": "/timme",
+      "learnMore": "Läs Mer"
+    },
+    "customIntegration": {
+      "title": "Anpassad Integration",
+      "description": "Integrera Event Logic med dina befintliga system, såsom CRM, ERP eller bokföringsprogram.",
+      "price": "Anpassad",
+      "contactUs": "Kontakta Oss"
+    },
+    "whiteLabel": {
+      "title": "White Label-lösning",
+      "description": "Erbjud Event Logic som din egen märkta lösning till dina kunder, med din logotyp och färger.",
+      "price": "Anpassad",
+      "contactUs": "Kontakta Oss"
+    }
+  },
+  "faq": {
+    "title": "Vanliga Frågor",
+    "q1": {
+      "question": "Kan jag ändra abonnemang senare?",
+      "answer": "Ja, du kan uppgradera eller nedgradera ditt abonnemang när som helst. Ändringar kommer att återspeglas i din nästa faktureringscykel."
+    },
+    "q2": {
+      "question": "Finns det en gratis provperiod?",
+      "answer": "Ja, vi erbjuder en 14-dagars gratis provperiod för alla abonnemang. Inget kreditkort krävs för att starta din provperiod."
+    },
+    "q3": {
+      "question": "Vilka betalningsmetoder accepterar ni?",
+      "answer": "Vi accepterar alla större kreditkort (Visa, Mastercard, American Express) och kan också ordna fakturabetalning för årsprenumerationer."
+    },
+    "q4": {
+      "question": "Erbjuder ni rabatter för årlig fakturering?",
+      "answer": "Ja, du kan spara 15% genom att välja årlig fakturering istället för månadsfakturering."
+    },
+    "q5": {
+      "question": "Vilken typ av support ingår?",
+      "answer": "Alla abonnemang inkluderar e-postsupport. Professionella och Enterprise-abonnemang inkluderar prioriterad support med snabbare svarstider. Enterprise-abonnemang inkluderar också en dedikerad kontoansvarig."
+    }
+  },
+  "cta": {
+    "title": "Redo att komma igång?",
+    "description": "Gå med tusentals organisationer som använder Event Logic för att effektivisera sin eventplaneringsprocess.",
+    "signUpNow": "Registrera Dig Nu",
+    "bookDemo": "Boka en Demo"
+  }
+}
