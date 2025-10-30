@@ -1,0 +1,35 @@
+{
+  "title": "Decision-making",
+  "subtitle": "Take control of all parts of your event and simplify decision-making",
+  "metaTitle": "Simplify decision-making in the event planning process – Event Logic",
+  "metaDescription": "Take control of all parts of your event and simplify decision making with Event Logic. Create a free account!",
+
+  "sectionEasyDecisions": {
+    "title": "Event Logic helps you make easy but well-informed decisions",
+    "subtitle": "One of the most important parts in planning an event, conference or meeting is to find the very best suppliers at the right price. The idea with Event Logic is to gather all planning, suppliers and event management in a comprehensive platform that helps you and your organization take good decisions.",
+    "description": "All inquiries and offers that you collect are easily shared with colleagues and decision makers. All of you will get an overview of what is planned and, of course, what the spending will be."
+  },
+
+  "sectionBudget": {
+    "title": "Simplify your budget planning",
+    "subtitle": "When your inquiries have given a number of final finalists, the offers and quotes is easily shared with other decision makers within your organisation. Your colleagues see all prices, event schedules and supplier descriptions. Changes are updated straight in the tool, which means that you no longer need to keep track of which was the latest version of your Excel document.",
+    "description": "Never before has it been easier to get accurate and detailed statistics and an overview of the total budget spending per year for events, conferences and meetings."
+  },
+
+  "sectionInvoice": {
+    "title": "Many suppliers, one invoice",
+    "subtitle": "In Event Logic the suppliers send you the final charges for your booking, they specify all the costs of the booking and inform what may have been added from the agreed bid value. From Event Logic, you will then receive a single invoice per booking, specifying booking content and part charges. The single invoice gives an overview of what the booking has actually cost and what content in the booking that cost what."
+  },
+
+  "sectionReports": {
+    "title": "Statistics and reports",
+    "subtitle": "Companies and organizations often find it difficult to keep control of what is booked, the budgets and which expenditure centre to charge and is dependent on all employees registering correctly in the financial systems. With Event Logic you have full control at all stages, in one system."
+  },
+
+  "cta": {
+    "title": "Ready to simplify your decision-making?",
+    "description": "Join thousands of event planners who trust Event Logic to manage their events",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us"
+  }
+}

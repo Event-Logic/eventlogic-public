@@ -249,6 +249,14 @@ export const routing = defineRouting({
       sv: '/expressbokning',
     },
     '/booking': '/booking',
+    '/decision-making': {
+      en: '/decision-making',
+      sv: '/forenkla-beslutsprocessen',
+    },
+    '/forenkla-beslutsprocessen': {
+      en: '/decision-making',
+      sv: '/forenkla-beslutsprocessen',
+    },
     // About subpages
     '/about/career': {
       en: '/about/career',
@@ -283,7 +291,8 @@ export default getRequestConfig(async ({ locale }) => {
     meetingPlanners, travelAgencies, eventCoach, pricing, communication,
     compareOffers, findSuppliers, participantManagement, reports, schedule,
     strategicMeeting, strategicMeetingManagement, career, dataProtection,
-    negotiateBook, collectiveInvoice, designInvitation, nameBadges, eventTemplates
+    negotiateBook, collectiveInvoice, designInvitation, nameBadges, eventTemplates,
+    decisionMaking, expressBooking
   ] = await Promise.all([
     import(`./messages/${safeLocale}/common.json`).then(module => module.default).catch(() => ({})),
     import(`./messages/${safeLocale}/home.json`).then(module => module.default).catch(() => ({})),
@@ -312,7 +321,9 @@ export default getRequestConfig(async ({ locale }) => {
     import(`./messages/${safeLocale}/collective-invoice.json`).then(module => module.default).catch(() => ({})),
     import(`./messages/${safeLocale}/design-invitation.json`).then(module => module.default).catch(() => ({})),
     import(`./messages/${safeLocale}/name-badges.json`).then(module => module.default).catch(() => ({})),
-    import(`./messages/${safeLocale}/event-templates.json`).then(module => module.default).catch(() => ({}))
+    import(`./messages/${safeLocale}/event-templates.json`).then(module => module.default).catch(() => ({})),
+    import(`./messages/${safeLocale}/decision-making.json`).then(module => module.default).catch(() => ({})),
+    import(`./messages/${safeLocale}/express-booking.json`).then(module => module.default).catch(() => ({}))
   ]);
 
   // Merge all message files into namespaced structure
@@ -344,7 +355,9 @@ export default getRequestConfig(async ({ locale }) => {
     'collective-invoice': collectiveInvoice,
     'design-invitation': designInvitation,
     'name-badges': nameBadges,
-    'event-templates': eventTemplates
+    'event-templates': eventTemplates,
+    'decision-making': decisionMaking,
+    'express-booking': expressBooking
   };
 
   return {

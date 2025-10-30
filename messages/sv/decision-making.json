@@ -1,0 +1,35 @@
+{
+  "title": "Förenkla beslutsprocessen",
+  "subtitle": "Få kontroll över alla delar i ditt evenemang och förenkla beslutsprocessen",
+  "metaTitle": "Förenkla beslutsprocessen i eventhanteringen – Event Logic",
+  "metaDescription": "Ta kontroll över alla delar i ditt evenemang och förenkla beslutsprocessen med hjälp av Event Logics smarta verktyg.",
+
+  "sectionEasyDecisions": {
+    "title": "Event Logic hjälper dig ta lätta men välgrundade beslut",
+    "subtitle": "En av de viktigaste delarna i planering av ett event, konferens eller möte är att hitta de allra bästa leverantörerna och det till rätt pris. Idén med Event Logic är att samla all planering, leverantörer och eventhantering på ett så lättöverskådligt sätt som möjligt så att du och din organisation kan ta bra beslut.",
+    "description": "Alla förfrågningar och offerter som du samlar in delas enkelt med kollegor och beslutsfattare, så att de direkt får en överblick över vad som planeras och såklart vad prislappen landar på."
+  },
+
+  "sectionBudget": {
+    "title": "Förenkla din budgetplanering",
+    "subtitle": "När planeringen kommit en bit och förfrågningarna har givit ett antal slutfinalister, delas underlaget enkelt med övriga beslutsfattare som ser alla priser, körschema och leverantörsbeskrivningar. Ändringar uppdateras i verktyget vilket innebär att ni inte längre behöver hålla reda på den senaste versionen av Excel som skickats runt.",
+    "description": "Aldrig förr har det varit lättare att få korrekt statistik på detaljnivå och få överblick på sin totala budget per år för event, konferens och möten."
+  },
+
+  "sectionInvoice": {
+    "title": "Många upplevelser och leverantörer – endast en samlingsfaktura",
+    "subtitle": "I Event Logic skickar leverantörerna de totala slutgiltiga priserna för bokningen till dig, specificerar bokningens alla kostnader samt informerar vad som eventuellt tillkommit från det överenskomna offertvärdet. Från oss skickas sedan samlingsfakturor per bokning, specificerad per bokningsinnehåll och delbelopp. Detta underlättar överblicken av vad bokningen faktiskt har kostat och vilket innehåll i bokningen som kostat vad."
+  },
+
+  "sectionReports": {
+    "title": "Statistik och rapporter",
+    "subtitle": "Statistik och rapporter är en av de största utmaningarna inom evenemangsbranschen. Företag och organisationer har ofta svårt att hålla kontroll över vad som bokas, vilka budgetar och kostnadsställen som ska belastas och är beroende av att alla anställda registrerar korrekt i ekonomisystemen. Med Event Logic har du full kontroll i alla led, i ett system."
+  },
+
+  "cta": {
+    "title": "Redo att förenkla din beslutsprocess?",
+    "description": "Anslut dig till tusentals eventplanerare som litar på Event Logic för att hantera sina evenemang",
+    "getStarted": "Kom igång",
+    "contactUs": "Kontakta oss"
+  }
+}

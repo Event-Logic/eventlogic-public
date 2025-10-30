@@ -29,7 +29,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function SchedulePage({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "schedule" });
-  const commonT = await getTranslations({ locale, namespace: "common" });
   const dict = await getDictionary(locale);
 
   return (
@@ -227,7 +226,7 @@ export default async function SchedulePage({ params }: Props) {
                 href={`/${locale}/demo`}
                 className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-medium text-lg hover:bg-white hover:bg-opacity-10 transition-colors"
               >
-                {commonT("navigation.demo")}
+                {dict.navigation.demo}
               </Link>
             </div>
           </div>

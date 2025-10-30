@@ -190,6 +190,16 @@ export default function Navigation({ lang, dictionary }: NavigationProps) {
                         </div>
                       </Link>
 
+                      <Link href={`/${lang}/${lang === 'sv' ? 'forenkla-beslutsprocessen' : 'decision-making'}`} className="flex items-start gap-2 group/item">
+                        <div className="mt-1">
+                          <img src="/images/el/header-icon/compare.svg" alt="Decision Making" className="w-5 h-5 menu-icon" />
+                        </div>
+                        <div>
+                          <h4 className="font-medium text-gray-900 group-hover/item:text-purple-600">{lang === 'en' ? 'Decision Making' : 'Förenkla beslutsprocessen'}</h4>
+                          <p className="text-xs text-gray-600">{lang === 'en' ? 'Make well-informed decisions easily' : 'Ta välgrundade beslut enkelt'}</p>
+                        </div>
+                      </Link>
+
                       <Link href={`/${lang}/reports`} className="flex items-start gap-2 group/item">
                         <div className="mt-1">
                           <img src="/images/el/header-icon/reporting.svg" alt="Reports & Statistics" className="w-5 h-5 menu-icon" />
@@ -197,6 +207,16 @@ export default function Navigation({ lang, dictionary }: NavigationProps) {
                         <div>
                           <h4 className="font-medium text-gray-900 group-hover/item:text-purple-600">{navigation.reports}</h4>
                           <p className="text-xs text-gray-600">{navigation.reports_desc}</p>
+                        </div>
+                      </Link>
+
+                      <Link href={`/${lang}/collective-invoice`} className="flex items-start gap-2 group/item">
+                        <div className="mt-1">
+                          <img src="/images/el/header-icon/invoice.svg" alt="Collective Invoice" className="w-5 h-5 menu-icon" />
+                        </div>
+                        <div>
+                          <h4 className="font-medium text-gray-900 group-hover/item:text-purple-600">{lang === 'en' ? 'Collective Invoice' : 'Samlingsfaktura'}</h4>
+                          <p className="text-xs text-gray-600">{lang === 'en' ? 'Consolidate all event expenses in one invoice' : 'Samla alla eventkostnader i en faktura'}</p>
                         </div>
                       </Link>
                     </div>
@@ -360,6 +380,63 @@ export default function Navigation({ lang, dictionary }: NavigationProps) {
             >
               {navigation.pricing}
             </Link>
+
+            {/* Resources Dropdown */}
+            <div className="relative group">
+              <button className="text-white hover:text-gray-300 transition-colors flex items-center dark:text-white dark:hover:text-gray-300">
+                {lang === 'en' ? 'Resources' : 'Resurser'}
+                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </button>
+              <div className="absolute left-0 mt-2 w-[300px] bg-white dark:bg-black rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                <div className="p-6">
+                  <div className="space-y-4">
+                    <a
+                      href="https://support.eventlogic.se/hc/sv"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-start gap-3 group/item bg-gray-50 dark:bg-gray-900 p-4 rounded-lg hover:shadow-md transition-all"
+                    >
+                      <div className="mt-1">
+                        <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                      </div>
+                      <div>
+                        <h4 className="font-medium text-gray-900 dark:text-gray-100 group-hover/item:text-purple-600">
+                          {lang === 'en' ? 'Knowledge Base' : 'Kunskapsbank'}
+                        </h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">
+                          {lang === 'en' ? 'Help articles and documentation' : 'Hjälpartiklar och dokumentation'}
+                        </p>
+                      </div>
+                    </a>
+
+                    <a
+                      href="https://blog.eventlogic.se/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-start gap-3 group/item bg-gray-50 dark:bg-gray-900 p-4 rounded-lg hover:shadow-md transition-all"
+                    >
+                      <div className="mt-1">
+                        <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path>
+                        </svg>
+                      </div>
+                      <div>
+                        <h4 className="font-medium text-gray-900 dark:text-gray-100 group-hover/item:text-purple-600">
+                          {lang === 'en' ? 'Blog' : 'Nyheter'}
+                        </h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">
+                          {lang === 'en' ? 'Latest news and updates' : 'Senaste nyheter och uppdateringar'}
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <Link
               href={`/${lang}/${lang === 'sv' ? 'kontakt' : 'contact'}`}
